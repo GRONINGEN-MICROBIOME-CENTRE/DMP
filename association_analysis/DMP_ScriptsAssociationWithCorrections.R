@@ -6,7 +6,7 @@
 ## =================================================
 library(data.table)
 library(foreach)
-library(doParallel)
+#library(doParallel)
 
 ## CLR transformation function 
 do_clr_externalWeighting = function(interest_matrix, core_matrix) {
@@ -56,7 +56,7 @@ dag3AssociationsWithCorrections <- function(dataType='taxa',
   workPWD = dataPath
   print ('  >> Taxa')
   # > taxa
-  taxa = read.delim(paste0(workPWD,"/../Mock_data/taxa.txt"),header=T,row.names=1)
+  taxa = read.delim(paste0(workPWD,"/Mock_data/taxa.txt"),header=T,row.names=1)
   if (!is.null(idsToKeep)) {
     taxa <- taxa[rownames(taxa) %in% idsToKeep,]
     if (nrow(taxa) == 0) {
@@ -70,7 +70,7 @@ dag3AssociationsWithCorrections <- function(dataType='taxa',
   
   # > pathways
   print ('  >> PWYs')
-  pathways = read.delim(paste0(workPWD,"/../Mock_data/pathways.txt"),header=T,row.names=1)
+  pathways = read.delim(paste0(workPWD,"/Mock_data/pathways.txt"),header=T,row.names=1)
   if (!is.null(idsToKeep)) {
     pathways <- pathways[rownames(pathways) %in% idsToKeep,]
     if (nrow(pathways) == 0) {
@@ -83,40 +83,40 @@ dag3AssociationsWithCorrections <- function(dataType='taxa',
   print ('    >> Done!')
   
   ## > CARD
-  #print ('  >> CARDs')
-  #CARD = read.table(paste0(workPWD,"/../Mock_data/DAG3_CARD_nofiltering.txt"),header=T,sep='\t',stringsAsFactors = F,row.names = 1)
-  #CARD = CARD[intersect(rownames(CARD),rownames(taxa)),]
-  #if (!is.null(idsToKeep)) {
-  #  CARD <- CARD[rownames(CARD) %in% idsToKeep,]
-  #  if (nrow(CARD) == 0) {
-  #    stop("ERROR: No samples kept after subsetting by idsToKeep, quitting!")
-  #  }
-  #}
-  ##  > do CLR
-  #CARD_transformed = do_clr_externalWeighting(CARD,CARD)
-  #  > filter by prevalence
-  #CARD_transformed = CARD_transformed[,colSums(CARD>0)>0.05 * nrow(CARD)]
-  #print ('    >> Done!')
-  
-  # VFs
-  #print ('  >> VFs')
-  #VFDB = read.table(paste0(workPWD,"/../Mock_data/DAG3_VFDB_VFs_nofiltering.txt"),header=T,sep='\t',stringsAsFactors = F,row.names = 1)
-  #VFDB = VFDB[intersect(rownames(taxa),rownames(VFDB)),]
-  #if (!is.null(idsToKeep)) {
-  #  VFDB <- VFDB[rownames(VFDB) %in% idsToKeep,]
-  #  if (nrow(VFDB) == 0) {
-  #    stop("ERROR: No samples kept after subsetting by idsToKeep, quitting!")
-  #  }
-  #}
+  print ('  >> CARDs')
+  CARD = read.table(paste0(workPWD,"/Mock_data/CARDs.txt"),header=T,sep=' ',stringsAsFactors = F,row.names = 1)
+  CARD = CARD[intersect(rownames(CARD),rownames(taxa)),]
+  if (!is.null(idsToKeep)) {
+    CARD <- CARD[rownames(CARD) %in% idsToKeep,]
+    if (nrow(CARD) == 0) {
+      stop("ERROR: No samples kept after subsetting by idsToKeep, quitting!")
+    }
+  }
   #  > do CLR
-  #VFDB_transformed = do_clr_externalWeighting(VFDB,VFDB)
+  CARD_transformed = do_clr_externalWeighting(CARD,CARD)
   #  > filter by prevalence
-  #VFDB_transformed = VFDB_transformed[,colSums(VFDB>0)>0.05 * nrow(VFDB)]
-  #print ('    >> Done!')
+  CARD_transformed = CARD_transformed[,colSums(CARD>0)>0.05 * nrow(CARD)]
+  print ('    >> Done!')
+
+  # VFs
+  print ('  >> VFs')
+  VFDB = read.table(paste0(workPWD,"/Mock_data/VFs.txt"),header=T,sep=' ',stringsAsFactors = F,row.names = 1)
+  VFDB = VFDB[intersect(rownames(taxa),rownames(VFDB)),]
+  if (!is.null(idsToKeep)) {
+    VFDB <- VFDB[rownames(VFDB) %in% idsToKeep,]
+    if (nrow(VFDB) == 0) {
+      stop("ERROR: No samples kept after subsetting by idsToKeep, quitting!")
+    }
+  }
+  #  > do CLR
+  VFDB_transformed = do_clr_externalWeighting(VFDB,VFDB)
+  #  > filter by prevalence
+  VFDB_transformed = VFDB_transformed[,colSums(VFDB>0)>0.05 * nrow(VFDB)]
+  print ('    >> Done!')
   
   # > load phenotypes. NOTE: only diseases are emulated for phenotype analysis!
   print ('  >> Phenotypes')
-  pheno27 = read.table(paste0(workPWD,"/../Mock_data/diseases.txt"),header=T,sep="\t") 
+  pheno27 = read.table(paste0(workPWD,"/Mock_data/diseases.txt"),header=T,sep="\t") 
   pheno = pheno27[rownames(taxa_transformed),]
   if (!is.null(idsToKeep)) {
     pheno <- pheno[rownames(pheno) %in% idsToKeep,]
@@ -135,8 +135,7 @@ dag3AssociationsWithCorrections <- function(dataType='taxa',
     print(paste0('WARNING: Covariates < ',paste(missingCovar,collapse=', '),' > missing from phenotype file!'))
   }
   # > technical covariates (these should always be included)
-  covar = read.table(paste0(workPWD,"/../Mock_data/covariates.txt"),sep='\t',header=T,row.names=1) 
-  # > TODO: allow retention of these
+  covar = read.table(paste0(workPWD,"/Mock_data/covariates.txt"),sep='\t',header=T,row.names=1) 
   # remove covariates from phenotypes
   #pheno$META.BATCH <- NULL
   #pheno$META.DNA.conc.ng.ul <- NULL
@@ -176,8 +175,8 @@ dag3AssociationsWithCorrections <- function(dataType='taxa',
   # Run multivariate models, multi-thread implementation
   # ======================================================
   # prep parallelization
-  #registerDoSEQ() # debug mode = single threaded
-  registerDoParallel(makeCluster(8))
+  registerDoSEQ() # debug mode = single threaded
+  #registerDoParallel(makeCluster(8))
   # debug: timer
   # t1 <- Sys.time()
   # loop over all phenotypes

@@ -1,24 +1,28 @@
 ## DMP microbiome-phenotype association analysis
 
-The folder contains scripts used to calculate associations between microbial features (taxa, pwys, virulence factors, antibiotic resistance genes) and phenotypes studied in DMP project
+The folder contains scripts used to calculate associations between microbial features (taxa, pwys, virulence factors, antibiotic resistance genes) and phenotypes studied in DMP project. 
 
 ### Notes:
 
-- mock_data folder contains *mock* data, this data is intended to be used only for testing of codes. It was designed to produce results similar to real data, but it is *not* real DMP data. 
-- real microbiome data used for DMP project can be obtained from EGA study EGAS00001005027, real kinship matrices, family information and cohousing data can be obtained from Lifelines Biobank
-- example results generated from mock data are provided (zipped) in mock_data_heritability_results. These results are expected output from DMP_heritability_v10_mockdata_taxa.R & DMP_heritability_v10_mockdata_pwy.R
-- results permutation runs are NOT provided due to github space constrains, these can be generated using DMP_heritability_v10_mockdata_taxa.R & DMP_heritability_v10_mockdata_pwy.R (see Instructions)
-- example consolidated results produced from mock data are provided in root folder. These are expected results from running DMP_heritability_v10_mockdata_collectdata.R on mock data heritability models
-- example plots generated from mock data results are provided in Plots folder. These are expected results from running DMP_heritability_v10_mockdata_plotresults.R
-- codes were developed & tested on R 3.6.0 (see R_session_info.txt for list of used packages)
+- real microbiome data used for DMP project can be obtained from EGA study EGAS00001005027, phenotypes used in DMP can be obtained from Lifelines biobank (see DMP manuscript for details)
+- DMP_association_analysis_plots_esizes.R uses DMP summary statistics and re-produces DMP manuscript figures
+- as DMP phenotypes could not be shared on EGA or github due to privacy regulations, the codes distributed here implement the workflow and analysis on the *Mock data* that is distributed with this repo for demonstration / testing purposes. Results of the analysis on the DMP data is provided in DMP supplementary material and results used in DMP figures are also provided in csv format in *data* folder (this data is sufficient to reproduce the figures).
+- codes were developed & tested on R 3.6.x (see R_session_info.txt for list of used packages)
 
 ### Dependancies:
 
-- R libraries: *plyr, pheatmap, ggplot2, coin, vegan*
-- these libs usually install correctly using: *install.packages('plyr','pheatmap', 'coin', 'ggplot2','pheatmap','vegan')*
-- Mock Data (distributed with this repo, see *mock_data* folder, data has to be unzipped)
-- Note: heritability analysis performed in DMP project used private data of participants which could not be shared on this repo or EGA to maintain privacy of participants. This data can be requested from Lifelines biobank (see manuscript for details)
+- R libraries: *plyr, pheatmap, ggplot2, coin, vegan, foreach, data.table*
+- these libs usually install correctly using: *install.packages(c('plyr','pheatmap', 'coin','ggplot2','pheatmap','vegan','foreach','data.table'))*
+- DMP Associations summary statistics and phenotype grouping (distributed in *data* folder) - these files are used to re-produce DMP Figures 3/b, 4/a and Supplementary Figures S7 - S10
+- Mock data (distributed in ../Mock_data) - these files are used for code testing / demonstration of association analysis (performed by DMP_runAssociations.R). 
 
 ### Files:
 
 - README.md : this readme file
+- DMP_association_analysis_plots_esizes.R : script for plotting microbiome-association heatmaps (DMP Figures 3/b, 4/a and Supplementary Figures S7 - S10)
+- R_sessionInfo_DMP_association_analysis_plots.txt : writedown of R environment used for testing of DMP_association_analysis_plots_esizes.R
+- DMP_Mockdata_runAssociations.R : script that performs microbiome-phenotype association analysis on *Mock data*. 
+- DMP_ScriptsAssociationWithCorrections.R : functions implementing microbiome-phenotype association analysis performed in the DMP project. For demonstration / code testing purposes, analysis is implemented on *Mock data* distributed with this github repo. NOTE: this file contains functions implementating the analysis and is not intended for direct execution - *DMP_Mockdata_runAssociations.R* is wrapped around these scripts that performs the analysis
+- *data* : summary statistics of DMP taxa-phenotype associations analysis (DAG3_v27d_supplementary_tables_S3B.txt), phenotype grouping file (phenotype_groups.csv), these files are used by *DMP_association_analysis_plots_esizes.R*
+- *plots* : plots produced by *DMP_association_analysis_plots_esizes.R*
+- *MockData.output* : expected results of *DMP_Mockdata_runAssociations.R*
