@@ -8,6 +8,7 @@
 library(glmnet)
 library(pROC)
 library(vegan)
+library(doSNOW)
 
 ## function do_clr_extrnalWeighting
 #
@@ -40,18 +41,25 @@ do_clr_externalWeighting = function(interest_matrix, core_matrix){
 # ===========================
 # ===========================
 
+print(' >> starting microbiome-disease prediction')
+# setwd: should be the root of github repo (DMP folder)
+# example: setwd('D:/Vbox/dag/DMP') 
+setwd('.')
+
+print(' >> loading data ...')
 # load all necessary data
-covar = read.table("../Mock_data/covariates.txt")
+covar = read.table("Mock_data/covariates.txt")
 Ncovar = ncol(covar)
 
-taxa = read.table("../Mock_data/taxa.txt")
+taxa = read.table("Mock_data/taxa.txt")
 shannon.div = diversity(taxa[,grep("[.]s__",colnames(taxa))],index = "shannon")
-pathways = read.table("../Mock_data/pathways.txt")
+pathways = read.table("Mock_data/pathways.txt")
 
 # select diseases
-pheno_disease = read.table("../Mock_data/diseases.txt")
+pheno_disease = read.table("Mock_data/diseases.txt")
 Ndisease = ncol(pheno_disease) - 1 # the last disease is 'no disease' phenotype
 
+print(' >> normalizing microbiome data')
 # transform data using CLR
 taxa_transformed = do_clr_externalWeighting(taxa,taxa[,grep("[.]s__",colnames(taxa))])
 taxa_transformed = taxa_transformed[,colSums(taxa>0)>nrow(taxa) * 0.05]
@@ -59,6 +67,7 @@ pathways_transformed = do_clr_externalWeighting(pathways,pathways)
 pathways_transformed = pathways_transformed[,colSums(pathways>0)>nrow(pathways) * 0.05]
 
 ## split data into training and test sets
+print(' >> prepping training and test sets')
 set.seed(12348)
 data.pred = data.frame(covar,shannon = shannon.div,taxa_transformed,pathways_transformed)
 train.set = sample(1:nrow(data.pred),size = round(0.9 * nrow(data.pred)))
@@ -80,6 +89,7 @@ test.y = pheno_disease[-train.set,]
 ## use cross-validated glmnet for training and parameter selection
 # =================================================================
 
+print(' >> training model for health (no diseases)')
 # (prediction of health == no diseases)
 # ==============================================
 model.health = cv.glmnet(x=train.x,
@@ -89,6 +99,7 @@ model.health = cv.glmnet(x=train.x,
                          penalty.factor = c(0,0,0,rep(1,ncol(train.x)-3)),
                          family = "binomial")
 
+print('   >> testing the model')
 # use models to predict results on training and test sets
 train.prediction.full.min = predict(model.health,newx = train.x,s= "lambda.min")
 train.prediction.full.1se = predict(model.health,newx = train.x,s= "lambda.1se")
@@ -124,6 +135,10 @@ predictions.test = cbind(test.prediction.microb.min,
                     test.prediction.full.min,
                     test.prediction.full.1se
                     )
+write.table(predictions.test,'health_disease_prediction/Mockdata.out/predictions.test.csv',sep=',')
+write.table(predictions.train,'health_disease_prediction/Mockdata.out/predictions.train.csv',sep=',')
+
+print ('   >> calculating AUCs ')
 
 # calculate AUCs for no-disease (healthy) phenotype
 aucs.train = apply(predictions.train,2,
@@ -133,21 +148,22 @@ aucs.test = apply(predictions.test,2,
 
 names(aucs.train) = c("microbes.min","microbes.1se","clin.min","clin.1se","full.min","full.1se")
 names(aucs.test) = c("microbes.min","microbes.1se","clin.min","clin.1se","full.min","full.1se")
+write.table(aucs.train,'health_disease_prediction/Mockdata.out/nodisease_preds_aucs.train.csv',sep=',')
+write.table(aucs.test,'health_disease_prediction/Mockdata.out/nodisease_preds_aucs.test.csv',sep=',')
 
 ##calculate AUCs for prediction of diseases, parallel implementation
-library(doSNOW)
 cl = makeCluster(8)
 registerDoSNOW(cl)
 disease_pred_models = foreach(i = 1:Ndisease) %dopar% {
   complete.x = train.x[!is.na(train.y[,i]),]
   complete.y = train.y[!is.na(train.y[,i]),]
   cv1 = glmnet::cv.glmnet(complete.x,complete.y[,i],alpha = 0.5,nfolds = 5, family = "binomial")
-  
 }
 
 disease_preds_microbes_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;s[,1:Ncovar] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
 disease_preds_clin_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;s[,(Ncovar+1):ncol(train.x)] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
 disease_preds_full_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;predict(x,newx = s,s = "lambda.min")[,1]}))
+
 disease_preds_microbes_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;s[,1:Ncovar] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
 disease_preds_clin_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;s[,(Ncovar+1):ncol(train.x)] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
 disease_preds_full_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;predict(x,newx = s,s = "lambda.min")[,1]}))
@@ -162,6 +178,7 @@ disease_aucs = foreach(i = 1:Ndisease,.combine = rbind)%do%{
   )
              
 };rownames(disease_aucs) = colnames(pheno_disease)[1:Ndisease]
+write.table(disease_aucs,'health_disease_prediction/Mockdata.out/disease_aucs.csv',sep=',')
 
 aucs_byHealth_lambdaMin = foreach(i = 1:Ndisease,.combine = rbind)%do%{
   data.frame(train.microbes = auc(train.y[,i],predictions.train[,1]),
@@ -173,6 +190,7 @@ aucs_byHealth_lambdaMin = foreach(i = 1:Ndisease,.combine = rbind)%do%{
   )
   
 };rownames(aucs_byHealth_lambdaMin) = colnames(pheno_disease)[1:Ndisease]
+write.table(aucs_byHealth_lambdaMin,'health_disease_prediction/Mockdata.out/aucs_byHealth_lambdaMin.csv',sep=',')
 
 aucs_byHealth_lambda1se = foreach(i = 1:Ndisease,.combine = rbind)%do%{
   data.frame(train.microbes = auc(train.y[,i],predictions.train[,2]),
@@ -184,3 +202,8 @@ aucs_byHealth_lambda1se = foreach(i = 1:Ndisease,.combine = rbind)%do%{
   )
   
 };rownames(aucs_byHealth_lambda1se) = colnames(pheno_disease)[1:Ndisease]
+write.table(aucs_byHealth_lambda1se,'health_disease_prediction/Mockdata.out/aucs_byHealth_lambda1se.csv',sep=',')
+
+print (' >> DONE! << ')
+
+#sessionInfo()
