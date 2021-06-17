@@ -1,0 +1,35 @@
+R version 3.6.3 (2020-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=it_IT.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=it_IT.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=it_IT.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=it_IT.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] coin_1.4-1        survival_3.2-11   ggplot2_3.3.4     vegan_2.5-7      
+[5] lattice_0.20-44   permute_0.9-5     viridis_0.6.1     viridisLite_0.4.0
+
+loaded via a namespace (and not attached):
+ [1] pillar_1.6.1       compiler_3.6.3     tools_3.6.3        digest_0.6.27     
+ [5] lifecycle_1.0.0    tibble_3.1.2       gtable_0.3.0       nlme_3.1-152      
+ [9] mgcv_1.8-36        pkgconfig_2.0.3    rlang_0.4.11       Matrix_1.3-4      
+[13] parallel_3.6.3     mvtnorm_1.1-2      libcoin_1.0-8      gridExtra_2.3     
+[17] withr_2.4.2        cluster_2.1.2      vctrs_0.3.8        stats4_3.6.3      
+[21] grid_3.6.3         glue_1.4.2         R6_2.5.0           fansi_0.5.0       
+[25] multcomp_1.4-17    TH.data_1.0-10     farver_2.1.0       magrittr_2.0.1    
+[29] codetools_0.2-18   scales_1.1.1       ellipsis_0.3.2     matrixStats_0.59.0
+[33] modeltools_0.2-23  MASS_7.3-54        splines_3.6.3      colorspace_2.0-1  
+[37] labeling_0.4.2     sandwich_3.0-1     utf8_1.2.1         munsell_0.5.0     
+[41] crayon_1.4.1       zoo_1.8-9
