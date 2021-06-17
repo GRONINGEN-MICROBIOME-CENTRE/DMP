@@ -435,3 +435,5 @@ save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_S10
 # save data table for plot
 write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
 write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+
+sessionInfo()
