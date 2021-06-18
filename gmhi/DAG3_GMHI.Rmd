@@ -1,0 +1,324 @@
+---
+title: "DAG3_GMHI.R"
+output: html_document
+---
+
+This folder contains scripts used to calculate Gut Microbiome Health Index (GMHI) on the DMP data. GMHI was introduced in study by Gupta et al. (Nature Comm. 2020; https://www.nature.com/articles/s41467-020-18476-8 & https://github.com/jaeyunsung/GMHI_2020)
+
+Briefly, the GMHI classifier is first applied on the discovery cohort to find the parameters which optimizes the balanced accuracy, i.e. the prevalence fold change (theta_f) and the prevalence difference (theta_d). Then the same classifier is run on the validation cohort, and from these results, the balanced accuracy corresponding to the optimized parameters (theta_f and theta_d found on the discovery cohort) is extracted.
+
+ANALYSIS 1: Run the GMHI classifier to predict disease status ("healthy" vs "unhealthy") based on our samples. We used a 90-10 training-testing split to generate a discovery (training data) and validation (testing data) cohort.
+    Testing step 1a: Calculate GMHI using the optimized parameters found in the training step for each stool metagenome in the        validation cohort to investigate whether the distributions of GMHI differ between healthy" and "unhealthy" disease status
+    Testing step 1b: Find the balance accuracy in the validation cohort that corresponds to the optimized theta_f and theta_d         found in the training step  
+
+ANALYSIS 2: Run the GMHI classifier on all samples for which we have species-level information using the optimized parameters found in Gupta et al. (2020).
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+```
+
+```{r}
+run_gmhi_classifier <- function(input_data = input_data) {
+  
+  training <- t(input_data) # taxa need to be on rows
+  Healthy <- training[,colnames(training) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 1,]$sampleid]
+  Nonhealthy <- training[,colnames(training) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 0,]$sampleid]
+  
+  n_samples_H <- ncol(Healthy)
+  n_samples_NH <- ncol(Nonhealthy)
+  n_samples_tot <- ncol(training)
+  n_samples_H+n_samples_NH==n_samples_tot
+  
+  # PH: species prevalence among healthy
+  # PNH: species prevalence among non-healthy
+  PH <- apply(Healthy, 1, function(i) (sum(i > 0))*100/n_samples_H) 
+  PNH <- apply(Nonhealthy, 1, function(i) (sum(i > 0))*100/n_samples_NH) 
+  
+  PH_diff <- (PH-PNH)
+  PH_fold <- (PH/PNH)
+  PNH_fold <- (PNH/PH)
+  all_matrix<-data.frame(cbind(training,PH_diff,PH_fold,PNH_fold))
+  
+  range(PH_diff)
+  range(PH_fold)
+  # range(PH_fold[!is.na(PH_fold)][!is.infinite(PH_fold[!is.na(PH_fold)])])
+  
+  # For the mock data, we had to adjust the values of theta_d and theta_f that we are testing 
+  theta_d <- c(-5,1,5) # difference
+  theta_f <- seq(0, 4, by=0.1) # fold change 
+  
+  # Gupta et al. (2020)
+  # As it is common in microbiome data to have discrepancies between species’ relative abundances to span several orders of magnitude, the geometric mean, rather than the arithmetic mean, is more appropriate to represent the mean relative abundance of MH species. More specifically, the Shannon’s diversity index, which is a weighted geometric mean (by definition) and commonly applied in ecological contexts, is used.
+
+  alpha <- function(x){sum((log(x[x>0]))*(x[x>0]))*(-1)}
+  
+  report <- list()
+  
+  for(i in 1:length(theta_f)) {
+    
+    H_signature_sublist <- list()
+    NH_signature_sublist <- list()
+    report_sublist <- list()
+    GMHI_list <- list()
+    
+    for(j in 1:length(theta_d)) {
+      
+      H_signature_sublist[[j]] <- data.frame(subset(as.matrix(all_matrix), all_matrix$PH_fold >= theta_f[i] & all_matrix$PH_diff >= theta_d[j]))
+      NH_signature_sublist[[j]] <- data.frame(subset(as.matrix(all_matrix), all_matrix$PNH_fold >= theta_f[i] & all_matrix$PH_diff <= -theta_d[j]))
+      
+      H_shannon <- apply((H_signature_sublist[[j]][,-c(n_samples_tot:(n_samples_tot+3))]/100), 2, alpha)
+      NH_shannon <- apply((NH_signature_sublist[[j]][,-c(n_samples_tot:(n_samples_tot+3))]/100), 2, alpha)
+      
+      H_sig_count <- apply(H_signature_sublist[[j]][,-c(n_samples_tot:(n_samples_tot+3))], 2, function(i) (sum(i > 0)))
+      NH_sig_count <- apply(NH_signature_sublist[[j]][,-c(n_samples_tot:(n_samples_tot+3))], 2, function(i) (sum(i > 0)))
+      
+      constant <- data.frame(cbind(H_sig_count, NH_sig_count))
+      
+      HC1 <- constant[with(constant, order(-H_sig_count, NH_sig_count)), ]
+      H_constant <- median(HC1$H_sig_count[1:floor(n_samples_H*0.01)])
+      
+      NHC1 <- constant[with(constant, order(H_sig_count, -NH_sig_count)), ]
+      NH_constant <- median(NHC1$NH_sig_count[1:floor(n_samples_NH*0.01)])
+      
+      H_GMHI <- ((H_sig_count/H_constant)*H_shannon)
+      NH_GMHI <- ((NH_sig_count/NH_constant)*NH_shannon)
+      
+      GMHI <- data.frame(log10((H_GMHI + 0.00001) / (NH_GMHI + 0.00001)))
+      
+      # Join our metadata
+      GMHI <- GMHI %>% 
+        rownames_to_column("sampleid") %>%
+        left_join(select(dat, sampleid, MED.DISEASES.None.No.Diseases), by="sampleid")
+      
+      Healthy_GMHI <- GMHI %>% 
+        filter(MED.DISEASES.None.No.Diseases==1) %>% 
+        column_to_rownames("sampleid") %>% 
+        rename(GMHI=1)
+      
+      Nonhealthy_GMHI <- GMHI %>% 
+        filter(MED.DISEASES.None.No.Diseases==0) %>% 
+        column_to_rownames("sampleid") %>% 
+        rename(GMHI=1)
+      
+      Healthy_accuracy <- sum(Healthy_GMHI$GMHI > 0) * 100 / n_samples_H
+      Nonhealthy_accuracy <- sum(Nonhealthy_GMHI$GMHI < 0) * 100 / n_samples_NH
+      
+      total_accuracy <- (Healthy_accuracy + Nonhealthy_accuracy)
+      total_average_accuracy <- (Healthy_accuracy + Nonhealthy_accuracy) / 2
+      
+      report_sublist[[j]] <- cbind(theta_f[i], theta_d[j], 
+                                   nrow(H_signature_sublist[[j]]), nrow(NH_signature_sublist[[j]]), 
+                                   H_constant, NH_constant, 
+                                   Healthy_accuracy, Nonhealthy_accuracy,
+                                   total_accuracy, total_average_accuracy)
+      report[[i]] <- report_sublist
+    }
+  }
+  
+  accuracy_table <- matrix(unlist(report), ncol=10, byrow=TRUE)
+  colnames(accuracy_table) <- c("Fold change", "Difference",
+                                "H_count","NH_count",
+                                "H_constant", "NH_constant", 
+                                "Healthy accuracy", "Non-healthy accuracy",
+                                "Total accuracy","Balanced accuracy")
+  accuracy_table <- data.frame(accuracy_table) %>% 
+    arrange(desc(Balanced.accuracy))
+  
+  write.csv(accuracy_table, paste0("Balanced_accuracy_", deparse(substitute(training_set)), ".csv"), row.names=F)
+  
+  return(accuracy_table)
+}
+```
+
+
+```{r}
+# define train/test splits based on mock data available in the GitHub repository
+
+dat <- read.table("diseases.txt") %>% 
+  rownames_to_column("sampleid")
+
+taxa <- read.table("taxa.txt")
+taxa[taxa < 0.00001] <- 0
+
+# Train split: 90% of the sample size
+smp_size <- floor(0.9 * nrow(dat))
+
+set.seed(123)
+train_ind <- sample(seq_len(nrow(dat)), size = smp_size)
+
+training_set <- taxa[train_ind,]
+testing_set <- taxa[-train_ind,]
+
+```
+
+## ANALYSIS 1
+```{r}
+# Training step
+discovery <- run_gmhi_classifier(input_data = training_set)
+
+fold.change_optim <- discovery[1,]$Fold.change
+difference_optim <- discovery[1,]$Difference
+
+H_constant <- discovery[1,]$H_constant
+NH_constant <- discovery[1,]$NH_constant
+
+H_signature <- data.frame(subset(all_matrix, all_matrix$PH_fold >= fold.change_optim & all_matrix$PH_diff >= difference_optim))
+NH_signature <- data.frame(subset(all_matrix, all_matrix$PNH_fold >= fold.change_optim & all_matrix$PH_diff <= -difference_optim))
+
+H_species <- row.names(H_signature)
+NH_species <- row.names(NH_signature)
+```
+
+```{r}
+# Testing step 1a
+# Calculate GMHI using the optimized parameters found in the training step for each stool metagenome in the validation cohort to investigate whether the distributions of GMHI differ between healthy" and "unhealthy" disease status. 
+
+# taxa has to be on rows
+training <- t(training_set) # not used in this step
+testing <- t(testing_set) 
+    
+sp_H <- testing[row.names(testing) %in% H_species, ]
+sp_NH <- testing[row.names(testing) %in% NH_species, ]
+
+H_shannon <- apply((sp_H/100), 2, alpha)
+NH_shannon <- apply((sp_NH/100), 2, alpha)
+
+H_sig_count <- apply(sp_H, 2, function(i) (sum(i > 0)))
+NH_sig_count <- apply(sp_NH, 2, function(i) (sum(i > 0)))
+
+H_GMHI <- ((H_sig_count/H_constant)*H_shannon)
+NH_GMHI <- ((NH_sig_count/NH_constant)*NH_shannon)
+
+GMHI <- data.frame(GMHI=log10((H_GMHI + 0.00001) / (NH_GMHI + 0.00001)))
+
+# GMHI classification
+result <- data.frame(cbind(GMHI, H_sig_count, NH_sig_count, H_shannon, NH_shannon, H_GMHI, NH_GMHI))
+
+result <- result %>%
+  rownames_to_column("sampleid") %>% 
+  left_join(select(dat, sampleid, MED.DISEASES.None.No.Diseases), by="sampleid")
+
+# Plot the prediction
+result %>% 
+  mutate(MED.DISEASES.None.No.Diseases=factor(MED.DISEASES.None.No.Diseases)) %>% 
+  ggplot(aes(x = MED.DISEASES.None.No.Diseases, y = GMHI, fill = MED.DISEASES.None.No.Diseases, color = MED.DISEASES.None.No.Diseases)) + 
+  geom_boxplot(outlier.size = 2,
+               fill = "black",
+               na.rm = TRUE,
+               width = .1,
+               notch = F) +
+  geom_violin(alpha = .2,
+              fill = "lightseagreen",
+              colour = NA,
+              na.rm = TRUE) +
+  scale_color_brewer(palette = "Set1") + 
+  theme(legend.position = "none",
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_rect(colour="black", fill = NA, size = 0.5),
+        axis.text = element_text(size=12, color = "black")) + 
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  stat_compare_means()
+
+write.csv(result, paste0("GMHI_result_", "train_", deparse(substitute(training_set)), "_test_", deparse(substitute(testing_set)),".csv"), row.names=F)
+    
+# output a table with microbial species in the H-prevalent and NH-prevalent groups
+prevalence_input <- data.frame(cbind(PH, PNH, PH_diff, PH_fold, PNH_fold))
+
+H_plus_species <- prevalence_input[row.names(prevalence_input) %in% H_species,]
+H_plus_species$PNH_fold <- NULL
+colnames(H_plus_species)[4] <- "Fold-change (PH/PNH or PNH/PH)"
+H_minus_species <- prevalence_input[row.names(prevalence_input) %in% NH_species,]
+H_minus_species$PH_fold <- NULL
+colnames(H_minus_species)[4] <- "Fold-change (PH/PNH or PNH/PH)"
+
+prevalence_table <- data.frame(rbind(H_plus_species, H_minus_species)) %>% 
+  rownames_to_column("Species") %>% 
+  mutate(group=c(rep("H", nrow(H_plus_species)), rep("NH", nrow(H_minus_species)))) %>% 
+  select(group, Species, PH, PNH, PH_diff, Fold.change..PH.PNH.or.PNH.PH.) %>% 
+  mutate(group=relevel(factor(group, ordered=FALSE), ref="H")) %>% 
+  group_by(group, PH) %>% 
+  arrange(group, desc(PH), PNH)
+
+colnames(prevalence_table) <- c("Group","Species","Prevalence in Healthy samples (%)","Prevalence in Nohealthy samples (%)",
+                                "Difference (PH-PNH)","Fold-change (PH/PNH or PNH/PH)")
+
+write.csv(prevalence_table, paste0("prevalence_table_result_", "train_", deparse(substitute(training_set)), "_test_", deparse(substitute(testing_set)),".csv"), row.names=F)
+```
+
+```{r}
+# Testing step 1b
+# Find the balance accuracy in the validation cohort that corresponds to optimized theta_f and theta_d found in the training step  
+validation <- run_gmhi_classifier(input_data = testing_set)
+
+validation %>% filter(Fold.change==fold.change_optim & Difference==difference_optim)
+```
+
+## ANALYSIS 2
+```{r}
+# Optimized parameters identified in Gupta et al. (2020).
+MH_species <- c("s__Alistipes_senegalensis","s__Bacteroidales_bacterium_ph8","s__Bifidobacterium_adolescentis","s__Bifidobacterium_angulatum","s__Bifidobacterium_catenulatum","s__Lachnospiraceae_bacterium_8_1_57FAA","s__Sutterella_wadsworthensis")
+
+MN_species <- c("s__Anaerotruncus_colihominis","s__Atopobium_parvulum","s__Bifidobacterium_dentium","s__Blautia_producta","s__candidate_division_TM7_single_cell_isolate_TM7c","s__Clostridiales_bacterium_1_7_47FAA","s__Clostridium_asparagiforme","s__Clostridium_bolteae","s__Clostridium_citroniae","s__Clostridium_clostridioforme","s__Clostridium_hathewayi","s__Clostridium_nexile","s__Clostridium_ramosum","s__Clostridium_symbiosum","s__Eggerthella_lenta","s__Erysipelotrichaceae_bacterium_2_2_44A","s__Flavonifractor_plautii","s__Fusobacterium_nucleatum","s__Gemella_morbillorum","s__Gemella_sanguinis","s__Granulicatella_adiacens","s__Holdemania_filiformis","s__Klebsiella_pneumoniae","s__Lachnospiraceae_bacterium_1_4_56FAA","s__Lachnospiraceae_bacterium_2_1_58FAA","s__Lachnospiraceae_bacterium_3_1_57FAA_CT1","s__Lachnospiraceae_bacterium_5_1_57FAA","s__Lachnospiraceae_bacterium_9_1_43BFAA","s__Lactobacillus_salivarius", "s__Peptostreptococcus_stomatis","s__Ruminococcaceae_bacterium_D16","s__Ruminococcus_gnavus","s__Solobacterium_moorei","s__Streptococcus_anginosus","s__Streptococcus_australis","s__Streptococcus_gordonii","s__Streptococcus_infantis","s__Streptococcus_mitis_oralis_pneumoniae","s__Streptococcus_sanguinis","s__Streptococcus_vestibularis","s__Subdoligranulum_sp_4_3_54A2FAA","s__Subdoligranulum_variabile","s__Veillonella_atypica")
+
+abun <- t(taxa[,grep(x=colnames(taxa), pattern="s__")])
+rownames(abun) <- stringr::str_split_fixed(rownames(abun), "\\.", 7)[,7] 
+
+# Extracting Health-prevalent species present in metagenome
+# Extracting Health-scarce species present in metagenome
+MH_species_metagenome <- abun[row.names(abun) %in% MH_species, ]
+MN_species_metagenome <- abun[row.names(abun) %in% MN_species, ]
+
+# Diversity among Health-prevalent species
+# Diversity among Health-scarce species
+alpha <- function(x){sum((log(x[x>0]))*(x[x>0]))*(-1)}
+MH_shannon <- apply((MH_species_metagenome), 2, alpha)
+MN_shannon <- apply((MN_species_metagenome), 2, alpha) 
+
+# Richness of Health-prevalent species
+# Richness of Health-scarce species
+R_MH <- apply(MH_species_metagenome, 2, function(i) (sum(i > 0)))
+R_MN <- apply(MN_species_metagenome, 2, function(i) (sum(i > 0)))
+
+# Median RMH from 1% of the top-ranked samples (see Methods of Gupta et al. (2020))
+# Median RMN from 1% of the bottom-ranked samples (see Methods of Gupta et al. (2020))
+MH_prime <- 7
+MN_prime <- 31
+
+# Collective abundance of Health-prevalent species
+# Collective abundance of Health-scarce species
+psi_MH <- ((R_MH/MH_prime)*MH_shannon)
+psi_MN <- ((R_MN/MN_prime)*MN_shannon)
+
+GMHI <- data.frame(log10((psi_MH+0.00001)/(psi_MN+0.00001))) # 0.00001 added to avoid having the denominator as 0
+colnames(GMHI) <- c("GMHI")
+
+GMHI <- GMHI %>%
+     	rownames_to_column("sampleid") %>%
+        left_join(select(dat, sampleid, MED.DISEASES.None.No.Diseases), by="sampleid")
+
+GMHI %>% 
+mutate(MED.DISEASES.None.No.Diseases=factor(MED.DISEASES.None.No.Diseases)) %>% 
+  ggplot(aes(x = MED.DISEASES.None.No.Diseases, y = GMHI, fill = MED.DISEASES.None.No.Diseases, color = MED.DISEASES.None.No.Diseases)) + 
+  geom_boxplot(outlier.size = 2,
+               fill = "black",
+               na.rm = TRUE,
+               width = .1,
+               notch = F) +
+  geom_violin(alpha = .2,
+              fill = "lightseagreen",
+              colour = NA,
+              na.rm = TRUE) +
+  scale_color_brewer(palette = "Set1") + 
+  theme(legend.position = "none",
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_rect(colour="black", fill = NA, size = 0.5),
+        axis.text = element_text(size=12, color = "black")) + 
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  stat_compare_means()
+```
+
+
+
