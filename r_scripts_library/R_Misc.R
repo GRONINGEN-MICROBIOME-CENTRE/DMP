@@ -2008,7 +2008,7 @@ plotAssociationsDag3HeatmapV2 <- function(phenosToPlot,
   # ================================================
   # ERROR CHECK:
   # =================================================
-  print ('>> Function plotTaxaAssociationsHeatmap started ...')
+  print ('>> Function plotTaxaAssociationsHeatmap (V2) started ...')
   if (!sigStat %in% c("Pvalue",	"PadjBH","PadjBonferroni") ) {
     stop("ERROR: sigStat parameter MUST BE one of [Pvalue, PadjBH, PadjBonferroni]")
   }
@@ -2387,7 +2387,7 @@ plotAssociationsDag3HeatmapV2 <- function(phenosToPlot,
                 fontsize_number = textSize,border_color = "#EEEEEE",na_col = "white",fontsize = legendTextSize,
                 treeheight_row = 0, treeheight_col = 0,legend_labels = "sig*log(p-value)",color = myColor,
                 fontsize_col = colTextSize,fontsize_row = rowTextSize,display_numbers = plotDFText,breaks = myBreaks,
-                cellwidth = cellWidth,cellheight = cellHeight)
+                cellwidth = cellWidth,cellheight = cellHeight,filename = NA)
   if (retData) {
     list(plotDFValues,plotDFText,p)
   } else {

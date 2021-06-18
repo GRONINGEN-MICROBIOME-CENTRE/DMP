@@ -139,8 +139,8 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      retData = T) 
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_4a_healthy_microbiome_species_',statToPlot,'.png'),width = 1400+70*nrPhenos,height = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_4a_healthy_microbiome_species_',statToPlot,'_datatable_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_4a_healthy_microbiome_species_',statToPlot,'_datatable_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_4a_healthy_microbiome_species_',statToPlot,'_datatable_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_4a_healthy_microbiome_species_',statToPlot,'_datatable_directions.csv'),sep=',',row.names = T)
 
 # ======================================
 # JOINED EXPOSOME PLOTS, Fig 3/b
@@ -217,8 +217,8 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      flipCoords = F) # do not cluster phenotypes
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig3b_Exposome_vs_Species_',statToPlot,'.png'),height = 1400+70*nrPhenos,width = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig3b_Exposome_vs_Species_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig3b_Exposome_vs_Species_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig3b_Exposome_vs_Species_',statToPlot,'_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig3b_Exposome_vs_Species_',statToPlot,'_directions.csv'),sep=',',row.names = T)
 
 # =========================================================================================
 # =================== HEALTHY MICROBIOME + DRUGS PLOTS [Fig S/7] ======================
@@ -306,8 +306,8 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      retData = T) # do not cluster phenotypes
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_S7_microbiome_drug_diseases_species_',statToPlot,'.png'),width = 1400+70*nrPhenos,height = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S7_microbiome_drug_diseases_species_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S7_microbiome_drug_diseases_species_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S7_microbiome_drug_diseases_species_',statToPlot,'_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S7_microbiome_drug_diseases_species_',statToPlot,'_directions.csv'),sep=',',row.names = T)
 
 # =========================================================================
 # =================== Early-life exposome & health (Supplement S8) ==
@@ -346,8 +346,8 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      retData = T) # do not cluster phenotypes
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_S8_Earlylife_exposome_microbiome_',statToPlot,'.png'),width = 1400+70*nrPhenos,height = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S8_Earlylife_exposome_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S8_Earlylife_exposome_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S8_Earlylife_exposome_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S8_Earlylife_exposome_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = T)
 
 
 # =========================================================================
@@ -384,8 +384,8 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      retData = T) # do not cluster phenotypes
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_S9_Exposome_microbiome_',statToPlot,'.png'),width = 1400+70*nrPhenos,height = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S9_Exposome_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S9_Exposome_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S9_Exposome_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S9_Exposome_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = T)
 
 
 # =========================================================================
@@ -433,7 +433,7 @@ phm <- plotAssociationsDag3HeatmapV2(inData = inDF, # data
                                      retData = T) # do not cluster phenotypes
 save_pheatmap_png(phm[[3]],filename = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'.png'),width = 1400+70*nrPhenos,height = 70*nrFeatures+1800,res = 300)
 # save data table for plot
-write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = F)
-write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = F)
+write.table(phm[[1]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_numbers.csv'),sep=',',row.names = T)
+write.table(phm[[2]],file = paste0('association_analysis/plots/Fig_S10_Diet_microbiome_',statToPlot,'_directions.csv'),sep=',',row.names = T)
 
-sessionInfo()
+#sessionInfo()
