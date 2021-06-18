@@ -1,0 +1,81 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"g__Sutterellaceae_unclassified","*",0,0.25,"Additive genetics",0.105018582
+"g__Haemophilus","*",0,0.22,"Additive genetics",0.113802941
+"g__Catenibacterium","*",0,0.25,"Additive genetics",0.1171775
+"g__Ruminococcus","*",0.02,0.27,"Additive genetics",0.119417542
+"g__Faecalibacterium","*",0,0.25,"Additive genetics",0.131472941
+"g__Dialister","*",0,0.27,"Additive genetics",0.134491719
+"g__Mitsuokella","*",0,0.27,"Additive genetics",0.139728208
+"g__Paraprevotella","*",0,0.28,"Additive genetics",0.144754723
+"g__Eggerthella","*",0,0.3,"Additive genetics",0.153847332
+"g__Escherichia","*",0.03,0.29,"Additive genetics",0.160727089
+"g__Sutterella","*",0.02,0.29,"Additive genetics",0.161376178
+"g__Holdemania","*",0.01,0.32,"Additive genetics",0.16450384
+"g__Anaerotruncus","*",0.05,0.3,"Additive genetics",0.164658801
+"g__Oxalobacter","*",0.03,0.29,"Additive genetics",0.165603085
+"g__Flavonifractor","*",0.02,0.32,"Additive genetics",0.173480095
+"g__Bifidobacterium","*",0.07,0.34,"Additive genetics",0.20734555
+"g__Clostridiales_noname","**",0.11,0.36,"Additive genetics",0.236567536
+"g__Phascolarctobacterium","**",0.1,0.38,"Additive genetics",0.245006857
+"g__Bacteroides","**",0.15,0.43,"Additive genetics",0.299470864
+"g__Akkermansia","**",0.17,0.43,"Additive genetics",0.301827117
+"g__Sutterellaceae_unclassified","*",0,0.25,"Cohousing",0.174946789
+"g__Haemophilus","*",0,0.22,"Cohousing",0.068216235
+"g__Catenibacterium","*",0,0.25,"Cohousing",0.108477878
+"g__Ruminococcus","*",0.02,0.27,"Cohousing",0.046551566
+"g__Faecalibacterium","*",0,0.25,"Cohousing",0.084148225
+"g__Dialister","*",0,0.27,"Cohousing",0.15671509
+"g__Mitsuokella","*",0,0.27,"Cohousing",0.329242433
+"g__Paraprevotella","*",0,0.28,"Cohousing",0.293194169
+"g__Eggerthella","*",0,0.3,"Cohousing",0.121295156
+"g__Escherichia","*",0.03,0.29,"Cohousing",0.026083993
+"g__Sutterella","*",0.02,0.29,"Cohousing",0.239049955
+"g__Holdemania","*",0.01,0.32,"Cohousing",0.01525183
+"g__Anaerotruncus","*",0.05,0.3,"Cohousing",0.050724919
+"g__Oxalobacter","*",0.03,0.29,"Cohousing",0.103638627
+"g__Flavonifractor","*",0.02,0.32,"Cohousing",0.024820893
+"g__Bifidobacterium","*",0.07,0.34,"Cohousing",0.156784981
+"g__Clostridiales_noname","**",0.11,0.36,"Cohousing",0.100843104
+"g__Phascolarctobacterium","**",0.1,0.38,"Cohousing",0.243946964
+"g__Bacteroides","**",0.15,0.43,"Cohousing",0.094703903
+"g__Akkermansia","**",0.17,0.43,"Cohousing",0.024619948
+"g__Sutterellaceae_unclassified","*",0,0.25,"Family",0.021365085
+"g__Haemophilus","*",0,0.22,"Family",3.76e-09
+"g__Catenibacterium","*",0,0.25,"Family",1.08e-10
+"g__Ruminococcus","*",0.02,0.27,"Family",0.014060495
+"g__Faecalibacterium","*",0,0.25,"Family",0
+"g__Dialister","*",0,0.27,"Family",0.003878013
+"g__Mitsuokella","*",0,0.27,"Family",0
+"g__Paraprevotella","*",0,0.28,"Family",0.022993831
+"g__Eggerthella","*",0,0.3,"Family",0.014105738
+"g__Escherichia","*",0.03,0.29,"Family",0
+"g__Sutterella","*",0.02,0.29,"Family",0.007483495
+"g__Holdemania","*",0.01,0.32,"Family",0.037310308
+"g__Anaerotruncus","*",0.05,0.3,"Family",0.008176472
+"g__Oxalobacter","*",0.03,0.29,"Family",7.77e-11
+"g__Flavonifractor","*",0.02,0.32,"Family",0.064957153
+"g__Bifidobacterium","*",0.07,0.34,"Family",0
+"g__Clostridiales_noname","**",0.11,0.36,"Family",0
+"g__Phascolarctobacterium","**",0.1,0.38,"Family",0.03084238
+"g__Bacteroides","**",0.15,0.43,"Family",1.24e-08
+"g__Akkermansia","**",0.17,0.43,"Family",4.3e-14
+"g__Sutterellaceae_unclassified","*",0,0.25,"Environment",0.698669544
+"g__Haemophilus","*",0,0.22,"Environment",0.81798082
+"g__Catenibacterium","*",0,0.25,"Environment",0.774344622
+"g__Ruminococcus","*",0.02,0.27,"Environment",0.819970397
+"g__Faecalibacterium","*",0,0.25,"Environment",0.784378834
+"g__Dialister","*",0,0.27,"Environment",0.704915178
+"g__Mitsuokella","*",0,0.27,"Environment",0.531029359
+"g__Paraprevotella","*",0,0.28,"Environment",0.539057277
+"g__Eggerthella","*",0,0.3,"Environment",0.710751774
+"g__Escherichia","*",0.03,0.29,"Environment",0.813188918
+"g__Sutterella","*",0.02,0.29,"Environment",0.592090372
+"g__Holdemania","*",0.01,0.32,"Environment",0.782934021
+"g__Anaerotruncus","*",0.05,0.3,"Environment",0.776439808
+"g__Oxalobacter","*",0.03,0.29,"Environment",0.730758287
+"g__Flavonifractor","*",0.02,0.32,"Environment",0.736741859
+"g__Bifidobacterium","*",0.07,0.34,"Environment",0.635869468
+"g__Clostridiales_noname","**",0.11,0.36,"Environment",0.66258936
+"g__Phascolarctobacterium","**",0.1,0.38,"Environment",0.480203799
+"g__Bacteroides","**",0.15,0.43,"Environment",0.605825221
+"g__Akkermansia","**",0.17,0.43,"Environment",0.673552935

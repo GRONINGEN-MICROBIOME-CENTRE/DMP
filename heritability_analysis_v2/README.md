@@ -36,6 +36,7 @@ The folder contains R scripts used to execute heritability analysis for DMP proj
 
 - README.md : this readme file
 - bacpaths.txt : list of bacterial pathways used in DMP project (required by DMP_heritability_v10_mockdata_collectdata.R script)
+- DMP_heritability_v10_realdata_plotresults.R : script uses summary statistics of heritability analysis to plot results (DMP Fig. 2a-b)
 - DMP_heritability_v10_mockdata_taxa.R : script for heritability analysis of microbiome taxa, requires unzipped mock data
 - DMP_heritability_v10_mockdata_pwys.R : script for heritability analysis of microbiome pathways, requires unzipped mock data
 - DMP_heritability_v10_mockdata_collectdata.R : script for collecting results and study-wide FDR analysis using permutation runs. Requires results of DMP_heritability_v10_mockdata_taxa.R & DMP_heritability_v10_mockdata_pwys.R

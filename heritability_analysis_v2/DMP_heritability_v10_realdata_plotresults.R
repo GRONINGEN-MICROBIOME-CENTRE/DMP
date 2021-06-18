@@ -134,7 +134,7 @@ for (oneType in fTypes) {
     topFeatures <- inDFs[order(inDFs$VE_ID,decreasing = T),]$Trait.short[1:topN]
     inDFtoPlotLs <- inDFtoPlotL[inDFtoPlotL$Taxon_Shortname %in% topFeatures,]
     # save data
-    write.table(inDFtoPlotLs,paste0('real_data_plots/plot_data_heritability_v2_taxa_',oneType,'_top.csv'),sep=',',row.names = F)
+    write.table(inDFtoPlotLs,paste0('heritability_analysis_v2/real_data_plots/plot_data_heritability_v2_taxa_',oneType,'_top.csv'),sep=',',row.names = F)
     # make plot
     g <- ggplot(inDFtoPlotLs,aes(x=Taxon_Shortname,y=Var.Exp.NR,fill=Var.Exp)) + 
       scale_fill_manual(values = cbPalette) +
@@ -226,7 +226,7 @@ topN <- 20
 topFeatures <- inDFm[order(inDFm$VE_ID,decreasing = T),]$Trait[1:topN]
 inDFtoPlotLs <- inDFtoPlotL[inDFtoPlotL$Taxon_Shortname %in% topFeatures,]
 
-write.table(inDFtoPlotLs,paste0('real_data_plots/plot_data_heritability_v2_pwys_top.csv'),sep=',',row.names = F)
+write.table(inDFtoPlotLs,paste0('heritability_analysis_v2/real_data_plots/plot_data_heritability_v2_pwys_top.csv'),sep=',',row.names = F)
 g <- ggplot(inDFtoPlotLs,aes(x=Taxon_Shortname,y=Var.Exp.NR,fill=Var.Exp)) + 
   scale_fill_manual(values = cbPalette) +
   geom_col(col="black", width=1,size=0.75) + 

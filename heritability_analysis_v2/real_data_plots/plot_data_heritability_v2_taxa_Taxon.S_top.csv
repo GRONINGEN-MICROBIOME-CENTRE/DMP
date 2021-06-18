@@ -1,0 +1,81 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Additive genetics",0.165813758
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Additive genetics",0.16807024
+"s__Parabacteroides_merdae","*",0.04,0.3,"Additive genetics",0.170356668
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Additive genetics",0.170443515
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Additive genetics",0.17130314
+"s__Flavonifractor_plautii","*",0.02,0.32,"Additive genetics",0.173503727
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Additive genetics",0.175140801
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Additive genetics",0.181794328
+"s__Bacteroides_faecis","*",0.05,0.33,"Additive genetics",0.192843616
+"s__Ruminococcus_bromii","*",0.08,0.33,"Additive genetics",0.203975071
+"s__Dialister_invisus","*",0.08,0.34,"Additive genetics",0.207980225
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Additive genetics",0.212797086
+"s__Mitsuokella_multacida","*",0.07,0.35,"Additive genetics",0.218485358
+"s__Bacteroides_uniformis","*",0.08,0.36,"Additive genetics",0.219857132
+"s__Clostridium_citroniae","*",0.09,0.35,"Additive genetics",0.220584303
+"s__Bacteroides_coprocola","**",0.1,0.34,"Additive genetics",0.228361343
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Additive genetics",0.244838681
+"s__Bifidobacterium_longum","**",0.11,0.38,"Additive genetics",0.247421213
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Additive genetics",0.266308275
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Additive genetics",0.302239011
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Cohousing",0.103450903
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Cohousing",0.24015689
+"s__Parabacteroides_merdae","*",0.04,0.3,"Cohousing",0.206222752
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Cohousing",0.270107351
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Cohousing",0.264756183
+"s__Flavonifractor_plautii","*",0.02,0.32,"Cohousing",0.024703029
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Cohousing",1.53e-08
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Cohousing",0.203448829
+"s__Bacteroides_faecis","*",0.05,0.33,"Cohousing",0.258781827
+"s__Ruminococcus_bromii","*",0.08,0.33,"Cohousing",0.018997894
+"s__Dialister_invisus","*",0.08,0.34,"Cohousing",0.136571788
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Cohousing",0.255283219
+"s__Mitsuokella_multacida","*",0.07,0.35,"Cohousing",0.312437663
+"s__Bacteroides_uniformis","*",0.08,0.36,"Cohousing",0.05324761
+"s__Clostridium_citroniae","*",0.09,0.35,"Cohousing",0.028896767
+"s__Bacteroides_coprocola","**",0.1,0.34,"Cohousing",0.269370861
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Cohousing",0.243566947
+"s__Bifidobacterium_longum","**",0.11,0.38,"Cohousing",0.071035962
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Cohousing",0.252038729
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Cohousing",0.024743307
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Family",0
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Family",0.011230574
+"s__Parabacteroides_merdae","*",0.04,0.3,"Family",1.68e-10
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Family",0.069517092
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Family",0.059868297
+"s__Flavonifractor_plautii","*",0.02,0.32,"Family",0.065185225
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Family",0.030599936
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Family",0.024848713
+"s__Bacteroides_faecis","*",0.05,0.33,"Family",0.014800197
+"s__Ruminococcus_bromii","*",0.08,0.33,"Family",1.11e-10
+"s__Dialister_invisus","*",0.08,0.34,"Family",1.05e-10
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Family",0.050120653
+"s__Mitsuokella_multacida","*",0.07,0.35,"Family",0
+"s__Bacteroides_uniformis","*",0.08,0.36,"Family",0
+"s__Clostridium_citroniae","*",0.09,0.35,"Family",2.98e-09
+"s__Bacteroides_coprocola","**",0.1,0.34,"Family",0
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Family",0.031027675
+"s__Bifidobacterium_longum","**",0.11,0.38,"Family",0
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Family",0
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Family",0
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Environment",0.730735339
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Environment",0.580542296
+"s__Parabacteroides_merdae","*",0.04,0.3,"Environment",0.623420579
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Environment",0.489932042
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Environment",0.504072381
+"s__Flavonifractor_plautii","*",0.02,0.32,"Environment",0.736608018
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Environment",0.794259247
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Environment",0.58990813
+"s__Bacteroides_faecis","*",0.05,0.33,"Environment",0.53357436
+"s__Ruminococcus_bromii","*",0.08,0.33,"Environment",0.777027035
+"s__Dialister_invisus","*",0.08,0.34,"Environment",0.655447987
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Environment",0.481799041
+"s__Mitsuokella_multacida","*",0.07,0.35,"Environment",0.469076979
+"s__Bacteroides_uniformis","*",0.08,0.36,"Environment",0.726895258
+"s__Clostridium_citroniae","*",0.09,0.35,"Environment",0.750518928
+"s__Bacteroides_coprocola","**",0.1,0.34,"Environment",0.502267796
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Environment",0.480566697
+"s__Bifidobacterium_longum","**",0.11,0.38,"Environment",0.681542825
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Environment",0.481652997
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Environment",0.673017682

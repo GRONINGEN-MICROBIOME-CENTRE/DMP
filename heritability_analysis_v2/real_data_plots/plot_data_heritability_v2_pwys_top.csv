@@ -1,0 +1,81 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Additive genetics",0.182728932997368
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Additive genetics",0.182763208836185
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Additive genetics",0.185652042518772
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Additive genetics",0.187225407325465
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Additive genetics",0.18812773983948
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Additive genetics",0.191260009262869
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Additive genetics",0.191985687351951
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Additive genetics",0.196446467840388
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Additive genetics",0.197197917086644
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Additive genetics",0.199561750551441
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Additive genetics",0.204104145506598
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Additive genetics",0.204139144068373
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Additive genetics",0.204179689438268
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Additive genetics",0.207522876057182
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Additive genetics",0.215832525405113
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Additive genetics",0.229610768801535
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Additive genetics",0.240430172621247
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Additive genetics",0.26629737003522
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Additive genetics",0.267328419040388
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Additive genetics",0.272497299557521
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Cohousing",0.0609768138648733
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Cohousing",0.059016187280641
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Cohousing",0.0584924116942752
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Cohousing",0.0623495447932703
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Cohousing",0.0624375916653543
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Cohousing",0.039666046345987
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Cohousing",0.0592466329997935
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Cohousing",0.0595579581606432
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Cohousing",0.0411249851511861
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Cohousing",0.0311013705212821
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Cohousing",0.0342750834294869
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Cohousing",0.0291190254942842
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Cohousing",0.0291361230494595
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Cohousing",0.0395258812885265
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Cohousing",0.0392855722194036
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Cohousing",0.107902486888557
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Cohousing",0.0487551076571192
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Cohousing",0.0478897959688579
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Cohousing",0.100077235274235
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Cohousing",0.104658489291673
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Family",0
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Family",0
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Family",0
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Family",0.00174714177927948
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Family",0
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Family",0.00504847067875711
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Family",0
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Family",0
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Family",0.0057449450595524
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Family",0.0110816198751565
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Family",1.04533759270947e-08
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Family",9.02153627192551e-11
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Family",1.69981297309809e-09
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Family",6.35782894022613e-10
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Family",2.08291555131889e-10
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Family",0
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Family",0.0120363957583706
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Family",0
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Family",0.00954422803528872
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Family",1.30529812777787e-06
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Environment",0.756294253137758
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Environment",0.758220603883174
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Environment",0.755855545786953
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Environment",0.748677906101985
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Environment",0.749434668495166
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Environment",0.764025473712387
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Environment",0.748767679648255
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Environment",0.743995573998969
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Environment",0.755932152702618
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Environment",0.75825525905212
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Environment",0.761620760610539
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Environment",0.766741830347128
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Environment",0.76668418581246
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Environment",0.752951242018509
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Environment",0.744881902167192
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Environment",0.662486744309909
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Environment",0.698778323963263
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Environment",0.685812833995922
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Environment",0.623050117650089
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Environment",0.622842905852678
