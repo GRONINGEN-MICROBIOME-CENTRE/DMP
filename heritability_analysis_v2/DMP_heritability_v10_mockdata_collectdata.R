@@ -11,11 +11,12 @@ library(plyr)
 # 1/a) collect results for individual taxa / pwy runs
 # ===================================================
 # NOTE: set the path to appropriate location
-# example: inF <- "D:/Vbox/shared/dag/git_14_05/DMP/heritability_analysis_v2/"
-inF <- "."
+# example: inF <- "D:/Vbox/shared/dag/git_16_06/DMP"
+
+#inF <- "."
 setwd(inF)
 
-inFolder <- paste0(inF,'/mock_data_heritability_results/')
+inFolder <- paste0(inF,'/heritability_analysis_v2/mock_data_heritability_results/')
 print(paste0('> collecting taxonomy jobs from ',inFolder))
 # collect taxa jobs
 inFiles = list.files(inFolder,pattern="*.csv")
@@ -30,12 +31,12 @@ for (i in inFiles) {
 if ("Pv_ID" %in% colnames(res)) {
   res <- res[order(res$Pv_ID),]
 }
-write.table(res,paste0('results_mockdata_taxa.csv'),sep=',',row.names=F)
+write.table(res,paste0('heritability_analysis_v2/results_mockdata_taxa.csv'),sep=',',row.names=F)
 
 # 1/b) collect pwy jobs
 # ====================================
 # NOTE: only collect bacterial pathways (drop eukaryia, plants...)
-inBacPath <- read.table('bacpaths.txt',header=F,stringsAsFactors = F)
+inBacPath <- read.table('heritability_analysis_v2/bacpaths.txt',header=F,stringsAsFactors = F)
 
 print(paste0('> collecting pathway jobs from ',inFolder))
 inFiles = list.files(inFolder,pattern="*.csv")
@@ -55,12 +56,12 @@ for (i in inFiles) {
 if ("Pv_ID" %in% colnames(res)) {
   res <- res[order(res$Pv_ID),]
 }
-write.table(res,paste0('results_pwys_mockdata.csv'),sep=',',row.names=F)
+write.table(res,paste0('heritability_analysis_v2/results_pwys_mockdata.csv'),sep=',',row.names=F)
 print (' ====================== DONE ====================')
 
 # 2) collect permutation runs
 # ==============================================
-inFolder <- paste0(inF,'/mock_data_permutation_runs')
+inFolder <- paste0(inF,'/heritability_analysis_v2/mock_data_permutation_runs')
 print(paste0('> collecting permutation results from ',inFolder))
 # collect taxa jobs
 inFiles = list.files(inFolder,pattern="*.RDS")
@@ -84,7 +85,7 @@ resAll <- rbind.data.frame(resPwy,resTax)
 # 3/a) load results & calculate empirical study-wise p-values for Taxa
 # ==================================================
 # > main results
-inRes <- read.table('results_mockdata_taxa.csv',sep=',',header = T)
+inRes <- read.table('heritability_analysis_v2/results_mockdata_taxa.csv',sep=',',header = T)
 inRes$SW_PV_ID <- NA
 inRes$SW_PV_COHOUSING.ID_DMP <- NA
 inRes$SW_PV_famID <- NA
@@ -135,14 +136,14 @@ inRes3 <- inRes2[,c("Trait","Trait.short","N","Nz","Prev",
                     "Est_META.POOP.Freq","SE_META.POOP.Freq","P.Chisq_META.POOP.Freq"
                     )] 
 
-write.table(x = inRes3,file = 'results_mockdata_withFDRs_and_CIs_taxa.csv',sep=',',row.names = F)
+write.table(x = inRes3,file = 'heritability_analysis_v2/results_mockdata_withFDRs_and_CIs_taxa.csv',sep=',',row.names = F)
 
 # =======================================================
 # =======================================================
 # load results (PWYs)
 # =======================================================
 # =======================================================
-inRes <- read.table('results_pwys_mockdata.csv',sep=',',header=T)
+inRes <- read.table('heritability_analysis_v2/results_pwys_mockdata.csv',sep=',',header=T)
 inRes$SW_PV_ID <- NA
 inRes$SW_PV_COHOUSING.ID_DMP <- NA
 inRes$SW_PV_famID <- NA
@@ -191,4 +192,4 @@ inRes3 <- inRes2[,c("Trait","Trait.short","N","Nz","Prev",
                     "Est_META.DNA.postclean.reads","SE_META.DNA.postclean.reads","P.Chisq_META.DNA.postclean.reads",
                     "Est_META.POOP.Freq","SE_META.POOP.Freq","P.Chisq_META.POOP.Freq"
 )] 
-write.table(x = inRes3,file = 'results_mockdata_withFDRs_and_CIs_pwys.csv',sep=',',row.names = F)
+write.table(x = inRes3,file = 'heritability_analysis_v2/results_mockdata_withFDRs_and_CIs_pwys.csv',sep=',',row.names = F)

@@ -1,0 +1,25 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"p__Firmicutes","",0,0.18,"Additive genetics",0.025949221
+"p__Euryarchaeota","",0,0.2,"Additive genetics",0.070815
+"p__Actinobacteria","*",0.08,0.31,"Additive genetics",0.196980855
+"p__Bacteroidetes","*",0.03,0.36,"Additive genetics",0.203841156
+"p__Verrucomicrobia","**",0.17,0.43,"Additive genetics",0.301827116
+"p__Proteobacteria","**",0.12,0.45,"Additive genetics",0.307513348
+"p__Firmicutes","",0,0.18,"Cohousing",0.005773824
+"p__Euryarchaeota","",0,0.2,"Cohousing",0.035107199
+"p__Actinobacteria","*",0.08,0.31,"Cohousing",0.147329442
+"p__Bacteroidetes","*",0.03,0.36,"Cohousing",0.04032763
+"p__Verrucomicrobia","**",0.17,0.43,"Cohousing",0.024619949
+"p__Proteobacteria","**",0.12,0.45,"Cohousing",0.118679131
+"p__Firmicutes","",0,0.18,"Family",0.056851258
+"p__Euryarchaeota","",0,0.2,"Family",0
+"p__Actinobacteria","*",0.08,0.31,"Family",0
+"p__Bacteroidetes","*",0.03,0.36,"Family",0
+"p__Verrucomicrobia","**",0.17,0.43,"Family",5.19e-14
+"p__Proteobacteria","**",0.12,0.45,"Family",0
+"p__Firmicutes","",0,0.18,"Environment",0.911425697
+"p__Euryarchaeota","",0,0.2,"Environment",0.894077802
+"p__Actinobacteria","*",0.08,0.31,"Environment",0.655689703
+"p__Bacteroidetes","*",0.03,0.36,"Environment",0.755831213
+"p__Verrucomicrobia","**",0.17,0.43,"Environment",0.673552935
+"p__Proteobacteria","**",0.12,0.45,"Environment",0.573807521

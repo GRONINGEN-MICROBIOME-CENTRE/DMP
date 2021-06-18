@@ -39,7 +39,7 @@ library(tidyr)
 # ======================
 # set working directory: NOTE this has to be set to appropriate path!
 # example:
-#setwd('D:/Vbox/shared/dag/git_14_05/DMP/heritability_analysis_v2/')
+#setwd('D:/Vbox/shared/dag/git_14_05/DMP/')
 setwd('.')
 
 # initalize folder for storing plots
@@ -48,7 +48,7 @@ if (!dir.exists('Plots')) {
 }
 
 # input: heritability results (taxa)
-inDFm <- read.table('results_mockdata_withFDRs_and_CIs_taxa.csv',sep=',',header=T,quote = '"',fill = T,stringsAsFactors = F)
+inDFm <- read.table('heritability_analysis_v2/results_mockdata_withFDRs_and_CIs_taxa.csv',sep=',',header=T,quote = '"',fill = T,stringsAsFactors = F)
 
 # make plots (taxa)
 inDFm$FTYPE <- NA
@@ -125,7 +125,7 @@ for (oneType in fTypes)
     theme(text = element_text(size = 14)) + 
     coord_flip()
   print(g)
-  ggsave(paste0('Plots/mockdata_heritability_',oneType,'.png'),height = 1.25+8/50*nrow(inDFs),width = 9,limitsize = F)
+  ggsave(paste0('heritability_analysis_v2/Plots/mockdata_heritability_',oneType,'.png'),height = 1.25+8/50*nrow(inDFs),width = 9,limitsize = F)
   
   # smaller plot
   if (nrow(inDFs) > 20) {
@@ -147,7 +147,7 @@ for (oneType in fTypes)
       theme(text = element_text(size = 14)) + 
       coord_flip()
     print(g)
-    ggsave(paste0('Plots/mockdata_heritability_',oneType,'_topsignals.png'),height = 1.25+8/50*topN,width = 9,limitsize = F)
+    ggsave(paste0('heritability_analysis_v2/Plots/mockdata_heritability_',oneType,'_topsignals.png'),height = 1.25+8/50*topN,width = 9,limitsize = F)
   }
 }
 
@@ -155,7 +155,7 @@ for (oneType in fTypes)
 # PATHWAY PLOTS
 # ================================
 # input: heritability results (taxa)
-inDFm <- read.table('results_mockdata_withFDRs_and_CIs_pwys.csv',sep=',',header=T,quote = '"',fill = T,stringsAsFactors = F)
+inDFm <- read.table('heritability_analysis_v2/results_mockdata_withFDRs_and_CIs_pwys.csv',sep=',',header=T,quote = '"',fill = T,stringsAsFactors = F)
 
 # make plots (pwys)
 inDFm$FTYPE <- "PWYS"
@@ -208,7 +208,7 @@ g <- ggplot(inDFtoPlotL,aes(x=Taxon_Shortname,y=Var.Exp.NR,fill=Var.Exp)) +
   theme(text = element_text(size = 14)) + 
   coord_flip()
 print(g)
-ggsave(paste0('Plots/mockdata_heritability_PWYS.png'),height = 1.25+8/50*nrow(inDFs),width = 20,limitsize = F)
+ggsave(paste0('heritability_analysis_v2/Plots/mockdata_heritability_PWYS.png'),height = 1.25+8/50*nrow(inDFs),width = 20,limitsize = F)
 
 # smaller plot (top 20)
 topN <- 20
@@ -229,4 +229,4 @@ g <- ggplot(inDFtoPlotLs,aes(x=Taxon_Shortname,y=Var.Exp.NR,fill=Var.Exp)) +
   theme(text = element_text(size = 14)) + 
   coord_flip()
 print(g)
-ggsave(paste0('Plots/mockdata_heritability_PWYS_top20.png'),height = 1.25+8/50*topN,width = 20,limitsize = F)
+ggsave(paste0('heritability_analysis_v2/Plots/mockdata_heritability_PWYS_top20.png'),height = 1.25+8/50*topN,width = 20,limitsize = F)

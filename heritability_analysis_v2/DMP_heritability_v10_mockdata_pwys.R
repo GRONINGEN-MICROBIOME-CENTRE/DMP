@@ -66,7 +66,7 @@ library(plyr)
 # === INITIALIZATION ===
 # =================================
 # NOTE: inFld should be changed to appropriate path on the hard drive
-# example: #inFld <- "D:/Vbox/shared/dag/git_14_05/DMP/heritability_analysis_v2/"
+# example: #inFld <- "D:/Vbox/shared/dag/git_14_05/DMP/"
 inFld <- "."
 
 setwd(inFld)
@@ -91,24 +91,24 @@ dropSingletFams = T
 # Load Data
 # =======================
 # >> phenotypes
-inPhenos3 <- read.table('mock_data/DMP_heritability_phenos_mock.csv', sep=',',header=T, stringsAsFactors = F)
+inPhenos3 <- read.table('heritability_analysis_v2/mock_data/DMP_heritability_phenos_mock.csv', sep=',',header=T, stringsAsFactors = F)
 # shuffle IDs for merging
 rownames(inPhenos3) <- inPhenos3$PSEUDOIDEXT
 inPhenos3$PSEUDOIDEXT <- NULL; inPhenos3$ID <- NULL; inPhenos3$ID <- rownames(inPhenos3)
 
 # >> microbiome (untransformed)
-inMBmfraw <- read.table('mock_data/DMP_mock_microbiome_pwys_filtered.csv',sep=',',header=T,row.names = 1)
+inMBmfraw <- read.table('heritability_analysis_v2/mock_data/DMP_mock_microbiome_pwys_filtered.csv',sep=',',header=T,row.names = 1)
 
 # >> microbiome (CLR transformed)
-inMBmfclr <- read.table('mock_data/DMP_mock_microbiome_pwys_CLR_filtered.csv',sep=',',header=T,row.names = 1)
+inMBmfclr <- read.table('heritability_analysis_v2/mock_data/DMP_mock_microbiome_pwys_CLR_filtered.csv',sep=',',header=T,row.names = 1)
 
 # >> kinship matrix
 # NOTE: x 2 multiplication is to turn it into actual genetics shared matrix from kinship implementation
-kinMat <- readRDS('mock_data/DMP_heritability_kinmatrix_mock.RDS')*2
+kinMat <- readRDS('heritability_analysis_v2/mock_data/DMP_heritability_kinmatrix_mock.RDS')*2
 
 # >> load seeds (if using fixed seeds)
 if (useFixedSeeds) {
-  fixedSeeds <- read.table('mock_data/seeds.txt',header=T)
+  fixedSeeds <- read.table('heritability_analysis_v2/mock_data/seeds.txt',header=T)
 }
 # >> merge everything
 # =======================
@@ -417,7 +417,7 @@ for (taxNR in c(173:ncol(inMBmfclr))) {
     permRun[["realFittedMdl"]] <- fittedMdl
     permRun[["rndEffProp"]] <- rndEffProp2
     permRun[["permutations"]] <- permRndEff
-    saveRDS(permRun,file=paste0('mock_data_permutation_runs/','permrun_pwy_',taxNR,'.RDS'))
+    saveRDS(permRun,file=paste0('heritability_analysis_v2/mock_data_permutation_runs/','permrun_pwy_',taxNR,'.RDS'))
   } else {
     rndEffProp3 <- rndEffProp2
   }
@@ -504,5 +504,5 @@ for (taxNR in c(173:ncol(inMBmfclr))) {
   print('========================================')
   
   #saveRDS(resList,paste0('mock_data_heritability_results/results_pwys_',taxNR,'.RDS'))
-  write.table(res,paste0('mock_data_heritability_results/results_pwys_',taxNR,'.csv'),sep=',',row.names = F)
+  write.table(res,paste0('heritability_analysis_v2/mock_data_heritability_results/results_pwys_',taxNR,'.csv'),sep=',',row.names = F)
 }

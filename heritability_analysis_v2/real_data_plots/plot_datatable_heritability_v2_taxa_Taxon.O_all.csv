@@ -1,0 +1,61 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"o__Pseudomonadales","",0,0.09,"Additive genetics",8.51e-10
+"o__Desulfovibrionales","",0,0.16,"Additive genetics",6.2e-08
+"o__Erysipelotrichales","",0,0.2,"Additive genetics",0.059209949
+"o__Actinomycetales","",0,0.22,"Additive genetics",0.074383733
+"o__Lactobacillales","",0,0.23,"Additive genetics",0.074415949
+"o__Clostridiales","",0,0.23,"Additive genetics",0.080674545
+"o__Methanobacteriales","",0,0.21,"Additive genetics",0.081233446
+"o__Pasteurellales","*",0,0.23,"Additive genetics",0.12240679
+"o__Coriobacteriales","*",0,0.25,"Additive genetics",0.123061272
+"o__Burkholderiales","*",0,0.29,"Additive genetics",0.128719176
+"o__Selenomonadales","*",0,0.31,"Additive genetics",0.146593727
+"o__Enterobacteriales","*",0.04,0.3,"Additive genetics",0.170139674
+"o__Bacteroidales","*",0.05,0.36,"Additive genetics",0.203841051
+"o__Bifidobacteriales","*",0.07,0.35,"Additive genetics",0.214497475
+"o__Verrucomicrobiales","**",0.17,0.43,"Additive genetics",0.30182712
+"o__Pseudomonadales","",0,0.09,"Cohousing",0.074839211
+"o__Desulfovibrionales","",0,0.16,"Cohousing",0.114739862
+"o__Erysipelotrichales","",0,0.2,"Cohousing",0.046885868
+"o__Actinomycetales","",0,0.22,"Cohousing",0.055194575
+"o__Lactobacillales","",0,0.23,"Cohousing",0.121676884
+"o__Clostridiales","",0,0.23,"Cohousing",0.017323461
+"o__Methanobacteriales","",0,0.21,"Cohousing",0.040422801
+"o__Pasteurellales","*",0,0.23,"Cohousing",0.066626194
+"o__Coriobacteriales","*",0,0.25,"Cohousing",0.155221356
+"o__Burkholderiales","*",0,0.29,"Cohousing",0.044050079
+"o__Selenomonadales","*",0,0.31,"Cohousing",0.125770866
+"o__Enterobacteriales","*",0.04,0.3,"Cohousing",0.025358087
+"o__Bacteroidales","*",0.05,0.36,"Cohousing",0.040330477
+"o__Bifidobacteriales","*",0.07,0.35,"Cohousing",0.156879826
+"o__Verrucomicrobiales","**",0.17,0.43,"Cohousing",0.02461995
+"o__Pseudomonadales","",0,0.09,"Family",0.000953116
+"o__Desulfovibrionales","",0,0.16,"Family",0.016385731
+"o__Erysipelotrichales","",0,0.2,"Family",0
+"o__Actinomycetales","",0,0.22,"Family",0.045048993
+"o__Lactobacillales","",0,0.23,"Family",0.022872835
+"o__Clostridiales","",0,0.23,"Family",0.038613225
+"o__Methanobacteriales","",0,0.21,"Family",1.11e-10
+"o__Pasteurellales","*",0,0.23,"Family",3.63e-10
+"o__Coriobacteriales","*",0,0.25,"Family",0.010320312
+"o__Burkholderiales","*",0,0.29,"Family",0.055315603
+"o__Selenomonadales","*",0,0.31,"Family",0.033236155
+"o__Enterobacteriales","*",0.04,0.3,"Family",0
+"o__Bacteroidales","*",0.05,0.36,"Family",1.85e-10
+"o__Bifidobacteriales","*",0.07,0.35,"Family",0
+"o__Verrucomicrobiales","**",0.17,0.43,"Family",4.35e-14
+"o__Pseudomonadales","",0,0.09,"Environment",0.924207672
+"o__Desulfovibrionales","",0,0.16,"Environment",0.868874345
+"o__Erysipelotrichales","",0,0.2,"Environment",0.893904183
+"o__Actinomycetales","",0,0.22,"Environment",0.825372698
+"o__Lactobacillales","",0,0.23,"Environment",0.781034332
+"o__Clostridiales","",0,0.23,"Environment",0.863388769
+"o__Methanobacteriales","",0,0.21,"Environment",0.878343753
+"o__Pasteurellales","*",0,0.23,"Environment",0.810967015
+"o__Coriobacteriales","*",0,0.25,"Environment",0.71139706
+"o__Burkholderiales","*",0,0.29,"Environment",0.771915142
+"o__Selenomonadales","*",0,0.31,"Environment",0.694399252
+"o__Enterobacteriales","*",0.04,0.3,"Environment",0.804502239
+"o__Bacteroidales","*",0.05,0.36,"Environment",0.755828472
+"o__Bifidobacteriales","*",0.07,0.35,"Environment",0.6286227
+"o__Verrucomicrobiales","**",0.17,0.43,"Environment",0.67355293

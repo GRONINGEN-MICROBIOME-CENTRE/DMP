@@ -15,7 +15,7 @@ The folder contains R scripts used to execute heritability analysis for DMP proj
 ### Dependancies:
 
 - R libraries compositions,coxme, lme4qtl, RLRsim, lmerTest, foreach, plyr, ggplot2, tidyr
-- the majority of R libraries can be installed from CRAN with install.packages() function, but lme4qtl does require additional steps (see https://github.com/variani/lme4qtl for details) 
+- the majority of R libraries can be installed from CRAN with *install.packages(c("compositions","coxme", "RLRsim", "lmerTest", "foreach", "plyr", "ggplot2", "tidyr"))*, but lme4qtl does require additional steps (see https://github.com/variani/lme4qtl for details) 
 - Mock Data (distributed with this repo, see *mock_data* folder, data has to be unzipped)
 - Note: heritability analysis performed in DMP project used private data of participants which could not be shared on this repo or EGA to maintain privacy of participants. This data can be requested from Lifelines biobank (see manuscript for details)
 
@@ -23,7 +23,7 @@ The folder contains R scripts used to execute heritability analysis for DMP proj
 
 - download the codes and data
 - unzip the mock data (mock_data/*.zip)
-- Set working directories to correct locations in the scripts (correct location is the root of this repo - DMP folder). Following lines of code should be edited: DMP_heritability_v10_mockdata_taxa.R [line 70]; DMP_heritability_v10_mockdata_pwy.R [line 70]; DMP_heritability_v10_mockdata_plotresults.R [line 42]; DMP_heritability_v10_mockdata_collectdata.R [line 15]
+- Run these scripts form root folder of this repo (example: *Rscript heritability_analysis_v2/DMP_heritability_v10_mockdata_taxa.R*) or set working directories to the root of this repo (DMP folder) - following lines of code should be edited: DMP_heritability_v10_mockdata_taxa.R [line 70]; DMP_heritability_v10_mockdata_pwy.R [line 70]; DMP_heritability_v10_mockdata_plotresults.R [line 42]; DMP_heritability_v10_mockdata_collectdata.R [line 15]
 - run DMP_heritability_v10_mockdata_taxa.R to calculate heritability models for taxa and DMP_heritability_v10_mockdata_pwy.R for pathways
 - run DMP_heritability_v10_mockdata_collectdata.R to consolidate data and calculate study-wide FDRs from permutation runs
 - run DMP_heritability_v10_mockdata_plotresults.R to generate heritability plots

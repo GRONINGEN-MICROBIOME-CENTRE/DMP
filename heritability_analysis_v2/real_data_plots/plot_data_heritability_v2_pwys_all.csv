@@ -1,0 +1,1109 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"PWY.7392..taxadiene.biosynthesis..engineered.","",0,0.12,"Additive genetics",0
+"P162.PWY..L.glutamate.degradation.V..via.hydroxyglutarate.","",0,0.06,"Additive genetics",0
+"PWY.5747..2.methylcitrate.cycle.II","",0,0.14,"Additive genetics",0
+"GLUTORN.PWY..L.ornithine.biosynthesis","",0,0.1,"Additive genetics",0
+"PWY.5121..superpathway.of.geranylgeranyl.diphosphate.biosynthesis.II..via.MEP.","",0,0.1,"Additive genetics",0
+"PWY.6588..pyruvate.fermentation.to.acetone","",0,0.1,"Additive genetics",0
+"PWY0.1298..superpathway.of.pyrimidine.deoxyribonucleosides.degradation","",0,0.11,"Additive genetics",0
+"PWY.7003..glycerol.degradation.to.butanol","",0,0.1,"Additive genetics",0
+"PWY.6901..superpathway.of.glucose.and.xylose.degradation","",0,0.16,"Additive genetics",0
+"PWY.5941..glycogen.degradation.II..eukaryotic.","",0,0.06,"Additive genetics",0
+"PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II","",0,0.1,"Additive genetics",0
+"PWY.6823..molybdenum.cofactor.biosynthesis","",0,0.07,"Additive genetics",0
+"PWY.6590..superpathway.of.Clostridium.acetobutylicum.acidogenic.fermentation","",0,0.12,"Additive genetics",0
+"ARGORNPROST.PWY..arginine..ornithine.and.proline.interconversion","",0,0.12,"Additive genetics",0
+"PYRIDNUCSAL.PWY..NAD.salvage.pathway.I","",0,0.12,"Additive genetics",0
+"ENTBACSYN.PWY..enterobactin.biosynthesis","",0,0.1,"Additive genetics",0
+"PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis","",0,0.1,"Additive genetics",0
+"PWY.1269..CMP.3.deoxy.D.manno.octulosonate.biosynthesis.I","",0,0.1,"Additive genetics",0
+"PWY.1861..formaldehyde.assimilation.II..RuMP.Cycle.","",0,0.05,"Additive genetics",0
+"PWY.3781..aerobic.respiration.I..cytochrome.c.","",0,0.09,"Additive genetics",0
+"PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.","",0,0.06,"Additive genetics",0
+"PWY.6147..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.I","",0,0.09,"Additive genetics",0
+"X3.HYDROXYPHENYLACETATE.DEGRADATION.PWY..4.hydroxyphenylacetate.degradation","",0,0.12,"Additive genetics",0
+"PWY.6612..superpathway.of.tetrahydrofolate.biosynthesis","",0,0.16,"Additive genetics",0
+"PWY.6731..starch.degradation.III","",0,0.13,"Additive genetics",0
+"PWY.6895..superpathway.of.thiamin.diphosphate.biosynthesis.II","",0,NA,"Additive genetics",0
+"PWY.7328..superpathway.of.UDP.glucose.derived.O.antigen.building.blocks.biosynthesis","",0,0.07,"Additive genetics",0
+"PWY0.781..aspartate.superpathway","",0,0.1,"Additive genetics",0
+"PWY_REDCITCYC..TCA.cycle.VIII..helicobacter.","",0,0.11,"Additive genetics",0
+"PWY_TCA..TCA.cycle.I..prokaryotic.","",0,0.11,"Additive genetics",0
+"GLUCONEO.PWY..gluconeogenesis.I","",0,NA,"Additive genetics",0
+"LPSSYN.PWY..superpathway.of.lipopolysaccharide.biosynthesis","",0,0.08,"Additive genetics",0
+"P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.","",0,0.1,"Additive genetics",0
+"P124.PWY..Bifidobacterium.shunt","",0,0.17,"Additive genetics",0
+"P164.PWY..purine.nucleobases.degradation.I..anaerobic.","",0,0.05,"Additive genetics",0
+"P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I","",0,0.1,"Additive genetics",0
+"P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate","",0,0.06,"Additive genetics",0
+"PENTOSE.P.PWY..pentose.phosphate.pathway","",0,0.14,"Additive genetics",0
+"ECASYN.PWY..enterobacterial.common.antigen.biosynthesis","",0,0.1,"Additive genetics",1.01280610026755e-10
+"PWY.5676..acetyl.CoA.fermentation.to.butanoate.II","",0,0.06,"Additive genetics",1.08758814838967e-10
+"CENTFERM.PWY..pyruvate.fermentation.to.butanoate","",NA,NA,"Additive genetics",4.39276086697599e-10
+"PWY0.42..2.methylcitrate.cycle.I","",0,0.17,"Additive genetics",4.41357330190254e-10
+"THISYN.PWY..superpathway.of.thiamin.diphosphate.biosynthesis.I","",0,0.17,"Additive genetics",5.80166207294084e-10
+"PWY.6969..TCA.cycle.V..2.oxoglutarate.ferredoxin.oxidoreductase.","",0,0.1,"Additive genetics",6.281297964125e-10
+"ALL.CHORISMATE.PWY..superpathway.of.chorismate.metabolism","",0,0.14,"Additive genetics",8.65722701908658e-10
+"PWY_ARG.POLYAMINE.SYN..superpathway.of.arginine.and.polyamine.biosynthesis","",0,0.13,"Additive genetics",8.67070210432038e-10
+"PWY.7254..TCA.cycle.VII..acetate.producers.","",0,0.08,"Additive genetics",1.02543757849962e-09
+"PWY0.862...5Z..dodec.5.enoate.biosynthesis","",0,0.16,"Additive genetics",1.15800166397302e-09
+"PWY.6629..superpathway.of.L.tryptophan.biosynthesis","",0,0.14,"Additive genetics",1.43682885965362e-09
+"KDO.NAGLIPASYN.PWY..superpathway.of..Kdo.2.lipid.A.biosynthesis","",0,0.11,"Additive genetics",1.9713046028825e-09
+"FOLSYN.PWY..superpathway.of.tetrahydrofolate.biosynthesis.and.salvage","",0,0.2,"Additive genetics",2.80595414674797e-09
+"PWY.5989..stearate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Additive genetics",5.52484183799343e-09
+"PWY0.41..allantoin.degradation.IV..anaerobic.","",0,0.12,"Additive genetics",5.61700466988237e-09
+"AEROBACTINSYN.PWY..aerobactin.biosynthesis","",0,0.11,"Additive genetics",6.92482097547219e-09
+"HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.","",0,0.06,"Additive genetics",7.497361111502e-09
+"FAO.PWY..fatty.acid..beta..oxidation.I","",0,0.13,"Additive genetics",7.5447791021363e-09
+"PWY.5918..superpathay.of.heme.biosynthesis.from.glutamate","",0,0.15,"Additive genetics",1.08637237889995e-08
+"CRNFORCAT.PWY..creatinine.degradation.I","",0,0.08,"Additive genetics",1.92146566853424e-08
+"FASYN.INITIAL.PWY..superpathway.of.fatty.acid.biosynthesis.initiation..E..coli.","",0,0.16,"Additive genetics",0.000707220430496339
+"PWY.6263..superpathway.of.menaquinol.8.biosynthesis.II","",0,0.16,"Additive genetics",0.00368533711742883
+"PWY.6282..palmitoleate.biosynthesis.I..from..5Z..dodec.5.enoate.","",0,0.16,"Additive genetics",0.00388964200978622
+"PWY.6471..peptidoglycan.biosynthesis.IV..Enterococcus.faecium.","",0,0.13,"Additive genetics",0.00462227105273158
+"FASYN.ELONG.PWY..fatty.acid.elongation....saturated","",0,0.16,"Additive genetics",0.00479977835849539
+"METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation","",0,0.14,"Additive genetics",0.00517847326270693
+"PWY.7664..oleate.biosynthesis.IV..anaerobic.","",0,0.17,"Additive genetics",0.00850489746756134
+"PWY.7199..pyrimidine.deoxyribonucleosides.salvage","",0,0.15,"Additive genetics",0.00899113333580442
+"ARGSYN.PWY..L.arginine.biosynthesis.I..via.L.ornithine.","",0,0.13,"Additive genetics",0.00934190985077176
+"PWY.7400..L.arginine.biosynthesis.IV..archaebacteria.","",0,0.13,"Additive genetics",0.0100698963391115
+"PWY.6519..8.amino.7.oxononanoate.biosynthesis.I","",0,0.16,"Additive genetics",0.0103973826589224
+"P441.PWY..superpathway.of.N.acetylneuraminate.degradation","",0,0.16,"Additive genetics",0.010652622842996
+"PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis","",0,0.15,"Additive genetics",0.0123954928262765
+"PWY.6891..thiazole.biosynthesis.II..Bacillus.","",0,0.14,"Additive genetics",0.0125384773680197
+"PWY.5845..superpathway.of.menaquinol.9.biosynthesis","",0,0.15,"Additive genetics",0.0128605302378401
+"PWY.5896..superpathway.of.menaquinol.10.biosynthesis","",0,0.15,"Additive genetics",0.0128605302378401
+"PWY.6892..thiazole.biosynthesis.I..E..coli.","",0,0.17,"Additive genetics",0.0133086009231837
+"PWY0.1338..polymyxin.resistance","",0,0.14,"Additive genetics",0.013455173661545
+"P23.PWY..reductive.TCA.cycle.I","",0,0.14,"Additive genetics",0.014175427133228
+"BIOTIN.BIOSYNTHESIS.PWY..biotin.biosynthesis.I","",0,0.17,"Additive genetics",0.0149034466758821
+"PWY.922..mevalonate.pathway.I","",0,0.16,"Additive genetics",0.0166035737268048
+"PWY_GLYCOLYSIS.E.D..superpathway.of.glycolysis.and.Entner.Doudoroff","",0,0.17,"Additive genetics",0.0166882728784876
+"PWY.6628..superpathway.of.L.phenylalanine.biosynthesis","",0,0.15,"Additive genetics",0.018641841322358
+"PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.","",0,0.16,"Additive genetics",0.0191327904936696
+"AST.PWY..L.arginine.degradation.II..AST.pathway.","",0,0.16,"Additive genetics",0.0199847275519449
+"PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.","",0,0.14,"Additive genetics",0.0210568739950265
+"MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis","",0,0.16,"Additive genetics",0.0221159918867182
+"PWY_TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA","",0,0.16,"Additive genetics",0.0227898383450885
+"PWY.5656..mannosylglycerate.biosynthesis.I","",0,0.16,"Additive genetics",0.0249566303447719
+"PWY_GLYCOLYSIS.TCA.GLYOX.BYPASS..superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass","",0,0.15,"Additive genetics",0.0257311634933252
+"SO4ASSIM.PWY..sulfate.reduction.I..assimilatory.","",0,0.21,"Additive genetics",0.0263951258005039
+"GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation","",0,0.16,"Additive genetics",0.0267737936892218
+"HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I","",0,0.17,"Additive genetics",0.0269083756768426
+"UBISYN.PWY..superpathway.of.ubiquinol.8.biosynthesis..prokaryotic.","",0,0.17,"Additive genetics",0.0302948044145708
+"PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.","",0,0.16,"Additive genetics",0.031866353832061
+"PWY.5971..palmitate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Additive genetics",0.0327925751825613
+"SULFATE.CYS.PWY..superpathway.of.sulfate.assimilation.and.cysteine.biosynthesis","",0,0.18,"Additive genetics",0.0335327333116675
+"HISDEG.PWY..L.histidine.degradation.I","",0,0.2,"Additive genetics",0.0336460456156999
+"GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation","",0,0.17,"Additive genetics",0.033721514226685
+"METSYN.PWY..L.homoserine.and.L.methionine.biosynthesis","",0,0.18,"Additive genetics",0.0337981537071605
+"RIBOSYN2.PWY..flavin.biosynthesis.I..bacteria.and.plants.","",0,0.18,"Additive genetics",0.0359761984769604
+"DAPLYSINESYN.PWY..L.lysine.biosynthesis.I","",0,0.17,"Additive genetics",0.0362513839409443
+"PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis","",0,1,"Additive genetics",0.0382171859550912
+"PWY.5860..superpathway.of.demethylmenaquinol.6.biosynthesis.I","",0,0.18,"Additive genetics",0.0395549991944754
+"PWY.5850..superpathway.of.menaquinol.6.biosynthesis.I","",0,0.18,"Additive genetics",0.0402365647960126
+"GLYCOGENSYNTH.PWY..glycogen.biosynthesis.I..from.ADP.D.Glucose.","",0,0.18,"Additive genetics",0.0411450241315192
+"PWY.5173..superpathway.of.acetyl.CoA.biosynthesis","",0,0.16,"Additive genetics",0.0450012291301851
+"PWY.5675..nitrate.reduction.V..assimilatory.","",0,0.19,"Additive genetics",0.045141382470284
+"LACTOSECAT.PWY..lactose.and.galactose.degradation.I","",0,0.2,"Additive genetics",0.045402317896851
+"PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I","",0,0.19,"Additive genetics",0.0472847763371471
+"PWY0.1297..superpathway.of.purine.deoxyribonucleosides.degradation","",0,0.17,"Additive genetics",0.048538755017723
+"PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis","",0,0.2,"Additive genetics",0.0485621507391915
+"PWY_GLYOXYLATE.BYPASS..glyoxylate.cycle","",0,0.19,"Additive genetics",0.0511692709570023
+"PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.","",0,0.17,"Additive genetics",0.0514775833173983
+"POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.","",0,0.19,"Additive genetics",0.0518602428732637
+"PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III","",0,0.23,"Additive genetics",0.0519517193896959
+"HSERMETANA.PWY..L.methionine.biosynthesis.III","",NA,NA,"Additive genetics",0.0541855694356425
+"PWY_NAD.BIOSYNTHESIS.II..NAD.salvage.pathway.II","",0,0.17,"Additive genetics",0.0544046400871959
+"PWY_HEME.BIOSYNTHESIS.II..heme.biosynthesis.I..aerobic.","",0,0.18,"Additive genetics",0.0553008874971227
+"PWY.5088..L.glutamate.degradation.VIII..to.propanoate.","",0,0.2,"Additive genetics",0.0570942446942451
+"PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Additive genetics",0.0586201061890159
+"HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Additive genetics",0.0586201061890159
+"POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I","",0,0.21,"Additive genetics",0.0592451608188023
+"ARGSYNBSUB.PWY..L.arginine.biosynthesis.II..acetyl.cycle.","",0,0.18,"Additive genetics",0.0594280502653504
+"PWY.7237..myo...chiro..and.scillo.inositol.degradation","",0,0.2,"Additive genetics",0.0595289439576459
+"P161.PWY..acetylene.degradation","",0,0.19,"Additive genetics",0.062129947848215
+"PWY.7315..dTDP.N.acetylthomosamine.biosynthesis","",0,0.2,"Additive genetics",0.0624701240722029
+"PWY.7456..mannan.degradation","",0,0.21,"Additive genetics",0.063545410558754
+"PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP","",0,0.2,"Additive genetics",0.0644878083599881
+"COLANSYN.PWY..colanic.acid.building.blocks.biosynthesis","",0,0.2,"Additive genetics",0.0664670471045606
+"PWY.6608..guanosine.nucleotides.degradation.III","",0,0.22,"Additive genetics",0.06653009118869
+"COA.PWY..coenzyme.A.biosynthesis.I","",0,0.25,"Additive genetics",0.0671351527232938
+"PWY0.1261..anhydromuropeptides.recycling","",0,0.2,"Additive genetics",0.067705135598536
+"PWY.6353..purine.nucleotides.degradation.II..aerobic.","",0,0.22,"Additive genetics",0.0682925223315285
+"PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation","",0,0.2,"Additive genetics",0.068657261546101
+"SER.GLYSYN.PWY..superpathway.of.L.serine.and.glycine.biosynthesis.I","",0,0.23,"Additive genetics",0.0708359803736121
+"SALVADEHYPOX.PWY..adenosine.nucleotides.degradation.II","",0,0.22,"Additive genetics",0.0712122277038786
+"KETOGLUCONMET.PWY..ketogluconate.metabolism","",0,0.2,"Additive genetics",0.0715941649000682
+"FUC.RHAMCAT.PWY..superpathway.of.fucose.and.rhamnose.degradation","",0,0.22,"Additive genetics",0.0719506357064703
+"GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol","",0,0.2,"Additive genetics",0.0731253523351324
+"PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage","",0,0.2,"Additive genetics",0.076761930248998
+"PWY0.1533..methylphosphonate.degradation.I","",0,0.22,"Additive genetics",0.0781851632038938
+"PWY0.1061..superpathway.of.L.alanine.biosynthesis","",0,0.22,"Additive genetics",0.0793199308526987
+"TRPSYN.PWY..L.tryptophan.biosynthesis","",0,0.21,"Additive genetics",0.0803195725553737
+"PWY.5705..allantoin.degradation.to.glyoxylate.III","",0,0.22,"Additive genetics",0.0812166669969377
+"P122.PWY..heterolactic.fermentation","",0,0.2,"Additive genetics",0.0816685194381058
+"PWY.5855..ubiquinol.7.biosynthesis..prokaryotic.","",0,0.21,"Additive genetics",0.0830884889503176
+"PWY.5856..ubiquinol.9.biosynthesis..prokaryotic.","",0,0.21,"Additive genetics",0.0830884889503176
+"PWY.5857..ubiquinol.10.biosynthesis..prokaryotic.","",0,0.21,"Additive genetics",0.0830884889503176
+"PWY.6708..ubiquinol.8.biosynthesis..prokaryotic.","",0,0.21,"Additive genetics",0.0830884889503176
+"PWY.7198..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.IV","",0,0.22,"Additive genetics",0.0842515297690552
+"PWY0.1241..ADP.L.glycero..beta..D.manno.heptose.biosynthesis","",0,0.21,"Additive genetics",0.0846671983757353
+"PWY.4984..urea.cycle","",0,0.24,"Additive genetics",0.0853101637925419
+"PWY.5384..sucrose.degradation.IV..sucrose.phosphorylase.","",0,0.24,"Additive genetics",0.0873532439926236
+"FUCCAT.PWY..fucose.degradation","",0,0.21,"Additive genetics",0.0876793894032096
+"PYRIDNUCSYN.PWY..NAD.biosynthesis.I..from.aspartate.","*",0,0.22,"Additive genetics",0.0894153832113881
+"GLYCOCAT.PWY..glycogen.degradation.I..bacterial.","*",0,0.23,"Additive genetics",0.0912429032495283
+"PWY0.1296..purine.ribonucleosides.degradation","*",0,0.23,"Additive genetics",0.0914428742020186
+"PWY.5920..superpathway.of.heme.biosynthesis.from.glycine","*",0,0.23,"Additive genetics",0.091638290155736
+"ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.","*",0,0.24,"Additive genetics",0.0923214272362141
+"PWY.2941..L.lysine.biosynthesis.II","*",0,0.24,"Additive genetics",0.0929115769710512
+"P42.PWY..incomplete.reductive.TCA.cycle","*",0,0.23,"Additive genetics",0.0931414707081828
+"PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation","*",0,0.24,"Additive genetics",0.0937108661221815
+"ARO.PWY..chorismate.biosynthesis.I","*",0,0.22,"Additive genetics",0.0948370584344624
+"PWY0.1586..peptidoglycan.maturation..meso.diaminopimelate.containing.","*",0,0.25,"Additive genetics",0.0951414753136011
+"FERMENTATION.PWY..mixed.acid.fermentation","*",0,0.22,"Additive genetics",0.0960660823052135
+"PWY.5791..1.4.dihydroxy.2.naphthoate.biosynthesis.II..plants.","*",0,0.23,"Additive genetics",0.0985698741982434
+"PWY.5837..1.4.dihydroxy.2.naphthoate.biosynthesis.I","*",0,0.23,"Additive genetics",0.0985698741982434
+"PWY.5913..TCA.cycle.VI..obligate.autotrophs.","*",0,0.23,"Additive genetics",0.10026428375186
+"DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II","*",0,0.24,"Additive genetics",0.101046418422403
+"NONOXIPENT.PWY..pentose.phosphate.pathway..non.oxidative.branch.","*",0,0.25,"Additive genetics",0.101066054078137
+"PWY.5897..superpathway.of.menaquinol.11.biosynthesis","*",0,0.23,"Additive genetics",0.101872676912239
+"PWY.5898..superpathway.of.menaquinol.12.biosynthesis","*",0,0.23,"Additive genetics",0.101872676912239
+"PWY.5899..superpathway.of.menaquinol.13.biosynthesis","*",0,0.23,"Additive genetics",0.101872676912239
+"PWY.6163..chorismate.biosynthesis.from.3.dehydroquinate","*",0,0.26,"Additive genetics",0.102520033284761
+"ASPASN.PWY..superpathway.of.L.aspartate.and.L.asparagine.biosynthesis","*",0,0.22,"Additive genetics",0.103326032486719
+"GLUCARDEG.PWY..D.glucarate.degradation.I","*",0,0.24,"Additive genetics",0.103632164638506
+"PWY.7234..inosine.5..phosphate.biosynthesis.III","*",0,0.25,"Additive genetics",0.105872631540845
+"PWY.5022..4.aminobutanoate.degradation.V","*",0,0.23,"Additive genetics",0.106755133586505
+"THRESYN.PWY..superpathway.of.L.threonine.biosynthesis","*",0,0.26,"Additive genetics",0.111321399487774
+"PWY.6737..starch.degradation.V","*",0,0.27,"Additive genetics",0.111791217271585
+"DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I","*",0,0.27,"Additive genetics",0.112042108924431
+"PWY.7323..superpathway.of.GDP.mannose.derived.O.antigen.building.blocks.biosynthesis","*",0,0.25,"Additive genetics",0.113453222280226
+"PWY.841..superpathway.of.purine.nucleotides.de.novo.biosynthesis.I","*",0,0.25,"Additive genetics",0.115740573276447
+"PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I","*",0,0.27,"Additive genetics",0.115974273529758
+"PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0,0.25,"Additive genetics",0.116023297138813
+"PWY.5103..L.isoleucine.biosynthesis.III","*",0.01,0.29,"Additive genetics",0.116051216318458
+"COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis","*",0,0.27,"Additive genetics",0.116430028361028
+"PWY.7013..L.1.2.propanediol.degradation","*",0,0.25,"Additive genetics",0.116485204711315
+"TRNA.CHARGING.PWY..tRNA.charging","*",0,0.25,"Additive genetics",0.116602439719385
+"PWY0.321..phenylacetate.degradation.I..aerobic.","*",0,0.26,"Additive genetics",0.116818158989362
+"GALACTUROCAT.PWY..D.galacturonate.degradation.I","*",0,0.26,"Additive genetics",0.118779090482518
+"BRANCHED.CHAIN.AA.SYN.PWY..superpathway.of.branched.amino.acid.biosynthesis","*",0.01,0.29,"Additive genetics",0.11898648617729
+"PWY.5005..biotin.biosynthesis.II","*",0,0.26,"Additive genetics",0.122552690645228
+"PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I","*",0.01,0.28,"Additive genetics",0.123767572190208
+"PWY.6630..superpathway.of.L.tyrosine.biosynthesis","*",0,0.26,"Additive genetics",0.123784346981351
+"PWY.5840..superpathway.of.menaquinol.7.biosynthesis","*",0,0.25,"Additive genetics",0.123892471633578
+"PWY.6609..adenine.and.adenosine.salvage.III","*",0,0.26,"Additive genetics",0.123906696658607
+"PWY.6121..5.aminoimidazole.ribonucleotide.biosynthesis.I","*",0.01,0.3,"Additive genetics",0.124416168317251
+"PPGPPMET.PWY..ppGpp.biosynthesis","*",0,0.26,"Additive genetics",0.124430003369271
+"PWY.6122..5.aminoimidazole.ribonucleotide.biosynthesis.II","*",0.02,0.3,"Additive genetics",0.125344628045871
+"PWY.6277..superpathway.of.5.aminoimidazole.ribonucleotide.biosynthesis","*",0.02,0.3,"Additive genetics",0.125344628045871
+"POLYAMINSYN3.PWY..superpathway.of.polyamine.biosynthesis.II","*",0,0.27,"Additive genetics",0.126731665813121
+"GALACTARDEG.PWY..D.galactarate.degradation.I","*",0,0.26,"Additive genetics",0.128456664266246
+"GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation","*",0,0.26,"Additive genetics",0.128456664266246
+"PWY.7221..guanosine.ribonucleotides.de.novo.biosynthesis","*",0,0.27,"Additive genetics",0.129066006904351
+"PWY.5104..L.isoleucine.biosynthesis.IV","*",0,0.28,"Additive genetics",0.130196847714525
+"PWY.6700..queuosine.biosynthesis","*",0,0.26,"Additive genetics",0.131184805549698
+"PWY.6317..galactose.degradation.I..Leloir.pathway.","*",0,0.27,"Additive genetics",0.131830832510176
+"ORNDEG.PWY..superpathway.of.ornithine.degradation","*",0,0.27,"Additive genetics",0.133507813463306
+"PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III","*",0.01,0.28,"Additive genetics",0.135293279297528
+"PWY.6897..thiamin.salvage.II","*",0,0.3,"Additive genetics",0.135704858192665
+"ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation","*",0,0.28,"Additive genetics",0.137300907233368
+"ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation","*",0,0.28,"Additive genetics",0.137300907233368
+"PWY.5659..GDP.mannose.biosynthesis","*",0,0.27,"Additive genetics",0.137805900511276
+"PWY.5686..UMP.biosynthesis","*",0,0.28,"Additive genetics",0.138919032317095
+"PWY.7219..adenosine.ribonucleotides.de.novo.biosynthesis","*",0,0.28,"Additive genetics",0.139110530890256
+"NONMEVIPP.PWY..methylerythritol.phosphate.pathway.I","*",0,0.28,"Additive genetics",0.139118711803867
+"PWY.5100..pyruvate.fermentation.to.acetate.and.lactate.II","*",0,0.29,"Additive genetics",0.141308043779213
+"PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.","*",0.01,0.27,"Additive genetics",0.141501236015347
+"PWY0.1479..tRNA.processing","*",0,0.29,"Additive genetics",0.141941960469861
+"PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.","*",0.02,0.29,"Additive genetics",0.142069033005271
+"GLCMANNANAUT.PWY..superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation","*",0,0.28,"Additive genetics",0.143784171164473
+"PWY.7446..sulfoglycolysis","*",0.01,0.28,"Additive genetics",0.143934407660673
+"PWY.6387..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.I..meso.diaminopimelate.containing.","*",0,0.27,"Additive genetics",0.144483121766307
+"GALACT.GLUCUROCAT.PWY..superpathway.of.hexuronide.and.hexuronate.degradation","*",0.02,0.3,"Additive genetics",0.145880008748151
+"PWY.6386..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.II..lysine.containing.","*",0.02,0.29,"Additive genetics",0.147969119757499
+"PWY.2942..L.lysine.biosynthesis.III","*",0,0.28,"Additive genetics",0.148057219176762
+"PWY.6151..S.adenosyl.L.methionine.cycle.I","*",0.02,0.28,"Additive genetics",0.148765233316142
+"PWY0.1415..superpathway.of.heme.biosynthesis.from.uroporphyrinogen.III","*",0.01,0.28,"Additive genetics",0.148930044638653
+"GLUCUROCAT.PWY..superpathway.of..beta..D.glucuronide.and.D.glucuronate.degradation","*",0,0.31,"Additive genetics",0.149147827073389
+"UDPNAGSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.I","*",0.02,0.27,"Additive genetics",0.149878076377505
+"PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.","*",0,0.29,"Additive genetics",0.151482265858098
+"PWY.5097..L.lysine.biosynthesis.VI","*",0,1,"Additive genetics",0.151781119432673
+"PWY.724..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.II","*",0,0.29,"Additive genetics",0.151971137614278
+"HISTSYN.PWY..L.histidine.biosynthesis","*",0.04,0.31,"Additive genetics",0.152620790218224
+"HEMESYN2.PWY..heme.biosynthesis.II..anaerobic.","*",0.01,0.3,"Additive genetics",0.158740400712263
+"P108.PWY..pyruvate.fermentation.to.propanoate.I","*",0.01,0.3,"Additive genetics",0.158938265008263
+"PWY.7229..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.I","*",0.02,0.29,"Additive genetics",0.15905295622247
+"PWY.5345..superpathway.of.L.methionine.biosynthesis..by.sulfhydrylation.","*",0.08,0.34,"Additive genetics",0.160765597879265
+"PWY.7111..pyruvate.fermentation.to.isobutanol..engineered.","*",0.03,0.3,"Additive genetics",0.161219218709947
+"PWY.6123..inosine.5..phosphate.biosynthesis.I","*",0.03,0.3,"Additive genetics",0.162197553045094
+"PWY66.422..D.galactose.degradation.V..Leloir.pathway.","*",0.01,0.3,"Additive genetics",0.162218278904944
+"PWY.5505..L.glutamate.and.L.glutamine.biosynthesis","*",0.03,0.29,"Additive genetics",0.162771399792998
+"PWY.6126..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Additive genetics",0.165238188967389
+"PWY.6507..4.deoxy.L.threo.hex.4.enopyranuronate.degradation","*",0,0.31,"Additive genetics",0.16532371141999
+"PWY4FS.8..phosphatidylglycerol.biosynthesis.II..non.plastidic.","*",0,0.32,"Additive genetics",0.165706673718271
+"PWY4FS.7..phosphatidylglycerol.biosynthesis.I..plastidic.","*",0,0.33,"Additive genetics",0.165742575377027
+"PWY.5695..urate.biosynthesis.inosine.5..phosphate.degradation","*",0.03,0.3,"Additive genetics",0.165926424863056
+"PWY.7220..adenosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Additive genetics",0.166452763486069
+"PWY.7222..guanosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Additive genetics",0.166452763486069
+"PWY0.162..superpathway.of.pyrimidine.ribonucleotides.de.novo.biosynthesis","*",0.03,0.3,"Additive genetics",0.166631859396679
+"VALSYN.PWY..L.valine.biosynthesis","*",0,0.31,"Additive genetics",0.166947981341172
+"ILEUSYN.PWY..L.isoleucine.biosynthesis.I..from.threonine.","*",0,0.31,"Additive genetics",0.166947981341172
+"PWY.5177..glutaryl.CoA.degradation","*",0.03,0.31,"Additive genetics",0.170651488140813
+"OANTIGEN.PWY..O.antigen.building.blocks.biosynthesis..E..coli.","*",0.04,0.3,"Additive genetics",0.170671491126297
+"PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.","*",0.04,0.31,"Additive genetics",0.179330160813545
+"PWY.7184..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Additive genetics",0.181810504629838
+"PWY.7208..superpathway.of.pyrimidine.nucleobases.salvage","*",0.05,0.32,"Additive genetics",0.182193570907186
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Additive genetics",0.182728932997368
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Additive genetics",0.182763208836185
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Additive genetics",0.185652042518772
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Additive genetics",0.187225407325465
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Additive genetics",0.18812773983948
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Additive genetics",0.191260009262869
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Additive genetics",0.191985687351951
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Additive genetics",0.196446467840388
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Additive genetics",0.197197917086644
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Additive genetics",0.199561750551441
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Additive genetics",0.204104145506598
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Additive genetics",0.204139144068373
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Additive genetics",0.204179689438268
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Additive genetics",0.207522876057182
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Additive genetics",0.215832525405113
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Additive genetics",0.229610768801535
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Additive genetics",0.240430172621247
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Additive genetics",0.26629737003522
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Additive genetics",0.267328419040388
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Additive genetics",0.272497299557521
+"PWY.7392..taxadiene.biosynthesis..engineered.","",0,0.12,"Cohousing",0.0132678463893998
+"P162.PWY..L.glutamate.degradation.V..via.hydroxyglutarate.","",0,0.06,"Cohousing",0.0506930946489679
+"PWY.5747..2.methylcitrate.cycle.II","",0,0.14,"Cohousing",0.0601025784494252
+"GLUTORN.PWY..L.ornithine.biosynthesis","",0,0.1,"Cohousing",0.144369145045169
+"PWY.5121..superpathway.of.geranylgeranyl.diphosphate.biosynthesis.II..via.MEP.","",0,0.1,"Cohousing",0.0862464632610573
+"PWY.6588..pyruvate.fermentation.to.acetone","",0,0.1,"Cohousing",0.0434645783984542
+"PWY0.1298..superpathway.of.pyrimidine.deoxyribonucleosides.degradation","",0,0.11,"Cohousing",0.0570317321353065
+"PWY.7003..glycerol.degradation.to.butanol","",0,0.1,"Cohousing",0.0489488527492044
+"PWY.6901..superpathway.of.glucose.and.xylose.degradation","",0,0.16,"Cohousing",0
+"PWY.5941..glycogen.degradation.II..eukaryotic.","",0,0.06,"Cohousing",0.109421883361729
+"PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II","",0,0.1,"Cohousing",0.106330912149549
+"PWY.6823..molybdenum.cofactor.biosynthesis","",0,0.07,"Cohousing",0.0461507597662818
+"PWY.6590..superpathway.of.Clostridium.acetobutylicum.acidogenic.fermentation","",0,0.12,"Cohousing",0.0152449963366759
+"ARGORNPROST.PWY..arginine..ornithine.and.proline.interconversion","",0,0.12,"Cohousing",0.0489592603729298
+"PYRIDNUCSAL.PWY..NAD.salvage.pathway.I","",0,0.12,"Cohousing",0.128228539320335
+"ENTBACSYN.PWY..enterobactin.biosynthesis","",0,0.1,"Cohousing",0
+"PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis","",0,0.1,"Cohousing",0.0156167561951628
+"PWY.1269..CMP.3.deoxy.D.manno.octulosonate.biosynthesis.I","",0,0.1,"Cohousing",0.0958371158093025
+"PWY.1861..formaldehyde.assimilation.II..RuMP.Cycle.","",0,0.05,"Cohousing",0.0504126203839306
+"PWY.3781..aerobic.respiration.I..cytochrome.c.","",0,0.09,"Cohousing",0.0302531657508039
+"PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.","",0,0.06,"Cohousing",0.0769657453228381
+"PWY.6147..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.I","",0,0.09,"Cohousing",0.1260240834083
+"X3.HYDROXYPHENYLACETATE.DEGRADATION.PWY..4.hydroxyphenylacetate.degradation","",0,0.12,"Cohousing",2.80938292786841e-09
+"PWY.6612..superpathway.of.tetrahydrofolate.biosynthesis","",0,0.16,"Cohousing",0.0729409421244954
+"PWY.6731..starch.degradation.III","",0,0.13,"Cohousing",0
+"PWY.6895..superpathway.of.thiamin.diphosphate.biosynthesis.II","",0,NA,"Cohousing",0.0029819719964037
+"PWY.7328..superpathway.of.UDP.glucose.derived.O.antigen.building.blocks.biosynthesis","",0,0.07,"Cohousing",0.0749116762371895
+"PWY0.781..aspartate.superpathway","",0,0.1,"Cohousing",0.0939056100114179
+"PWY_REDCITCYC..TCA.cycle.VIII..helicobacter.","",0,0.11,"Cohousing",0.00830823602073804
+"PWY_TCA..TCA.cycle.I..prokaryotic.","",0,0.11,"Cohousing",0.0169563545487913
+"GLUCONEO.PWY..gluconeogenesis.I","",0,NA,"Cohousing",0
+"LPSSYN.PWY..superpathway.of.lipopolysaccharide.biosynthesis","",0,0.08,"Cohousing",0.0370945980029465
+"P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.","",0,0.1,"Cohousing",0.0622221307503649
+"P124.PWY..Bifidobacterium.shunt","",0,0.17,"Cohousing",1.28194170756581e-10
+"P164.PWY..purine.nucleobases.degradation.I..anaerobic.","",0,0.05,"Cohousing",0.05321966432794
+"P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I","",0,0.1,"Cohousing",0.0872475049036733
+"P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate","",0,0.06,"Cohousing",0
+"PENTOSE.P.PWY..pentose.phosphate.pathway","",0,0.14,"Cohousing",0.0152694964591441
+"ECASYN.PWY..enterobacterial.common.antigen.biosynthesis","",0,0.1,"Cohousing",0.0443925444896285
+"PWY.5676..acetyl.CoA.fermentation.to.butanoate.II","",0,0.06,"Cohousing",0.0535368050657272
+"CENTFERM.PWY..pyruvate.fermentation.to.butanoate","",NA,NA,"Cohousing",0.0153498120678374
+"PWY0.42..2.methylcitrate.cycle.I","",0,0.17,"Cohousing",0.04216703966282
+"THISYN.PWY..superpathway.of.thiamin.diphosphate.biosynthesis.I","",0,0.17,"Cohousing",0.00126768073960667
+"PWY.6969..TCA.cycle.V..2.oxoglutarate.ferredoxin.oxidoreductase.","",0,0.1,"Cohousing",0.0267846546414163
+"ALL.CHORISMATE.PWY..superpathway.of.chorismate.metabolism","",0,0.14,"Cohousing",0.0382178648057378
+"PWY_ARG.POLYAMINE.SYN..superpathway.of.arginine.and.polyamine.biosynthesis","",0,0.13,"Cohousing",0.133474599724144
+"PWY.7254..TCA.cycle.VII..acetate.producers.","",0,0.08,"Cohousing",0.0206845204514063
+"PWY0.862...5Z..dodec.5.enoate.biosynthesis","",0,0.16,"Cohousing",1.20134219635095e-09
+"PWY.6629..superpathway.of.L.tryptophan.biosynthesis","",0,0.14,"Cohousing",0.0132550090955453
+"KDO.NAGLIPASYN.PWY..superpathway.of..Kdo.2.lipid.A.biosynthesis","",0,0.11,"Cohousing",0.0228105713499454
+"FOLSYN.PWY..superpathway.of.tetrahydrofolate.biosynthesis.and.salvage","",0,0.2,"Cohousing",0.0711427726641493
+"PWY.5989..stearate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Cohousing",0
+"PWY0.41..allantoin.degradation.IV..anaerobic.","",0,0.12,"Cohousing",6.72180426215107e-08
+"AEROBACTINSYN.PWY..aerobactin.biosynthesis","",0,0.11,"Cohousing",0.0718084769863522
+"HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.","",0,0.06,"Cohousing",0.0191898503467818
+"FAO.PWY..fatty.acid..beta..oxidation.I","",0,0.13,"Cohousing",0
+"PWY.5918..superpathay.of.heme.biosynthesis.from.glutamate","",0,0.15,"Cohousing",0.0109612595126511
+"CRNFORCAT.PWY..creatinine.degradation.I","",0,0.08,"Cohousing",0.0242301810247036
+"FASYN.INITIAL.PWY..superpathway.of.fatty.acid.biosynthesis.initiation..E..coli.","",0,0.16,"Cohousing",0
+"PWY.6263..superpathway.of.menaquinol.8.biosynthesis.II","",0,0.16,"Cohousing",0.0416130166041713
+"PWY.6282..palmitoleate.biosynthesis.I..from..5Z..dodec.5.enoate.","",0,0.16,"Cohousing",1.09903193959716e-08
+"PWY.6471..peptidoglycan.biosynthesis.IV..Enterococcus.faecium.","",0,0.13,"Cohousing",8.73393227758579e-10
+"FASYN.ELONG.PWY..fatty.acid.elongation....saturated","",0,0.16,"Cohousing",8.67202388822869e-05
+"METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation","",0,0.14,"Cohousing",0.0252174540402571
+"PWY.7664..oleate.biosynthesis.IV..anaerobic.","",0,0.17,"Cohousing",3.29752163368778e-09
+"PWY.7199..pyrimidine.deoxyribonucleosides.salvage","",0,0.15,"Cohousing",0.0581069381228749
+"ARGSYN.PWY..L.arginine.biosynthesis.I..via.L.ornithine.","",0,0.13,"Cohousing",0.104276636160255
+"PWY.7400..L.arginine.biosynthesis.IV..archaebacteria.","",0,0.13,"Cohousing",0.0971071777809995
+"PWY.6519..8.amino.7.oxononanoate.biosynthesis.I","",0,0.16,"Cohousing",0.00559919715421556
+"P441.PWY..superpathway.of.N.acetylneuraminate.degradation","",0,0.16,"Cohousing",0
+"PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis","",0,0.15,"Cohousing",0.0214149768192781
+"PWY.6891..thiazole.biosynthesis.II..Bacillus.","",0,0.14,"Cohousing",0.00152881421289004
+"PWY.5845..superpathway.of.menaquinol.9.biosynthesis","",0,0.15,"Cohousing",0.0241244351521774
+"PWY.5896..superpathway.of.menaquinol.10.biosynthesis","",0,0.15,"Cohousing",0.0241244351521774
+"PWY.6892..thiazole.biosynthesis.I..E..coli.","",0,0.17,"Cohousing",2.89078710942607e-09
+"PWY0.1338..polymyxin.resistance","",0,0.14,"Cohousing",0.0273069569064043
+"P23.PWY..reductive.TCA.cycle.I","",0,0.14,"Cohousing",0
+"BIOTIN.BIOSYNTHESIS.PWY..biotin.biosynthesis.I","",0,0.17,"Cohousing",0.00300524769329159
+"PWY.922..mevalonate.pathway.I","",0,0.16,"Cohousing",0.0097641214264641
+"PWY_GLYCOLYSIS.E.D..superpathway.of.glycolysis.and.Entner.Doudoroff","",0,0.17,"Cohousing",0.00482175926790551
+"PWY.6628..superpathway.of.L.phenylalanine.biosynthesis","",0,0.15,"Cohousing",0.0617206262636472
+"PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.","",0,0.16,"Cohousing",0.0568104427083656
+"AST.PWY..L.arginine.degradation.II..AST.pathway.","",0,0.16,"Cohousing",0.0132208118843487
+"PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.","",0,0.14,"Cohousing",0.117371261319262
+"MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis","",0,0.16,"Cohousing",0.0588111306663724
+"PWY_TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA","",0,0.16,"Cohousing",0.0465667560917562
+"PWY.5656..mannosylglycerate.biosynthesis.I","",0,0.16,"Cohousing",0.0192264067301924
+"PWY_GLYCOLYSIS.TCA.GLYOX.BYPASS..superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass","",0,0.15,"Cohousing",0.0393837611787958
+"SO4ASSIM.PWY..sulfate.reduction.I..assimilatory.","",0,0.21,"Cohousing",0.0704025077529897
+"GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation","",0,0.16,"Cohousing",0.035919368920304
+"HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I","",0,0.17,"Cohousing",0.061250024986205
+"UBISYN.PWY..superpathway.of.ubiquinol.8.biosynthesis..prokaryotic.","",0,0.17,"Cohousing",0.029665874698198
+"PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.","",0,0.16,"Cohousing",0.0515847923554697
+"PWY.5971..palmitate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Cohousing",0.0502361018980947
+"SULFATE.CYS.PWY..superpathway.of.sulfate.assimilation.and.cysteine.biosynthesis","",0,0.18,"Cohousing",0.0696355715033068
+"HISDEG.PWY..L.histidine.degradation.I","",0,0.2,"Cohousing",0.0975652957994172
+"GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation","",0,0.17,"Cohousing",0.0494558091469384
+"METSYN.PWY..L.homoserine.and.L.methionine.biosynthesis","",0,0.18,"Cohousing",0.0592001796472573
+"RIBOSYN2.PWY..flavin.biosynthesis.I..bacteria.and.plants.","",0,0.18,"Cohousing",0.0644873769516291
+"DAPLYSINESYN.PWY..L.lysine.biosynthesis.I","",0,0.17,"Cohousing",0.0951614849763339
+"PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis","",0,1,"Cohousing",0.0859193448002725
+"PWY.5860..superpathway.of.demethylmenaquinol.6.biosynthesis.I","",0,0.18,"Cohousing",0.0268400161868904
+"PWY.5850..superpathway.of.menaquinol.6.biosynthesis.I","",0,0.18,"Cohousing",0.0292328663007464
+"GLYCOGENSYNTH.PWY..glycogen.biosynthesis.I..from.ADP.D.Glucose.","",0,0.18,"Cohousing",0
+"PWY.5173..superpathway.of.acetyl.CoA.biosynthesis","",0,0.16,"Cohousing",0.0347782893049861
+"PWY.5675..nitrate.reduction.V..assimilatory.","",0,0.19,"Cohousing",0
+"LACTOSECAT.PWY..lactose.and.galactose.degradation.I","",0,0.2,"Cohousing",0.0730573834915057
+"PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I","",0,0.19,"Cohousing",0.0185252417963562
+"PWY0.1297..superpathway.of.purine.deoxyribonucleosides.degradation","",0,0.17,"Cohousing",0.0461537697397577
+"PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis","",0,0.2,"Cohousing",0.0174950500043775
+"PWY_GLYOXYLATE.BYPASS..glyoxylate.cycle","",0,0.19,"Cohousing",0.0399461180768579
+"PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.","",0,0.17,"Cohousing",0.0448572787725571
+"POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.","",0,0.19,"Cohousing",0.0232432742700514
+"PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III","",0,0.23,"Cohousing",0.0805571119216903
+"HSERMETANA.PWY..L.methionine.biosynthesis.III","",NA,NA,"Cohousing",0.0602307039367747
+"PWY_NAD.BIOSYNTHESIS.II..NAD.salvage.pathway.II","",0,0.17,"Cohousing",0.0395109870832181
+"PWY_HEME.BIOSYNTHESIS.II..heme.biosynthesis.I..aerobic.","",0,0.18,"Cohousing",0.0148105297353561
+"PWY.5088..L.glutamate.degradation.VIII..to.propanoate.","",0,0.2,"Cohousing",0
+"PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Cohousing",0.0768774018476497
+"HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Cohousing",0.0768774018476497
+"POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I","",0,0.21,"Cohousing",0.0385861563280791
+"ARGSYNBSUB.PWY..L.arginine.biosynthesis.II..acetyl.cycle.","",0,0.18,"Cohousing",0.156655181339145
+"PWY.7237..myo...chiro..and.scillo.inositol.degradation","",0,0.2,"Cohousing",0.0438359621112204
+"P161.PWY..acetylene.degradation","",0,0.19,"Cohousing",0.0715318739109279
+"PWY.7315..dTDP.N.acetylthomosamine.biosynthesis","",0,0.2,"Cohousing",0.047701182364458
+"PWY.7456..mannan.degradation","",0,0.21,"Cohousing",0.0726383433087453
+"PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP","",0,0.2,"Cohousing",0.108910379407764
+"COLANSYN.PWY..colanic.acid.building.blocks.biosynthesis","",0,0.2,"Cohousing",0.00527684765626825
+"PWY.6608..guanosine.nucleotides.degradation.III","",0,0.22,"Cohousing",0.0562392002155471
+"COA.PWY..coenzyme.A.biosynthesis.I","",0,0.25,"Cohousing",0.0527458111491319
+"PWY0.1261..anhydromuropeptides.recycling","",0,0.2,"Cohousing",0.0467760317688113
+"PWY.6353..purine.nucleotides.degradation.II..aerobic.","",0,0.22,"Cohousing",0.0506422906146953
+"PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation","",0,0.2,"Cohousing",0.0867404361093964
+"SER.GLYSYN.PWY..superpathway.of.L.serine.and.glycine.biosynthesis.I","",0,0.23,"Cohousing",0.0554086627641305
+"SALVADEHYPOX.PWY..adenosine.nucleotides.degradation.II","",0,0.22,"Cohousing",0.0407632131994426
+"KETOGLUCONMET.PWY..ketogluconate.metabolism","",0,0.2,"Cohousing",0.0826419904213003
+"FUC.RHAMCAT.PWY..superpathway.of.fucose.and.rhamnose.degradation","",0,0.22,"Cohousing",0
+"GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol","",0,0.2,"Cohousing",0.0715797695351257
+"PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage","",0,0.2,"Cohousing",0.0297945055475577
+"PWY0.1533..methylphosphonate.degradation.I","",0,0.22,"Cohousing",0.0353242538908121
+"PWY0.1061..superpathway.of.L.alanine.biosynthesis","",0,0.22,"Cohousing",0.0467086468993633
+"TRPSYN.PWY..L.tryptophan.biosynthesis","",0,0.21,"Cohousing",0.0644537151483626
+"PWY.5705..allantoin.degradation.to.glyoxylate.III","",0,0.22,"Cohousing",0.0480768391143883
+"P122.PWY..heterolactic.fermentation","",0,0.2,"Cohousing",0.0752075119015458
+"PWY.5855..ubiquinol.7.biosynthesis..prokaryotic.","",0,0.21,"Cohousing",0.0273045116811948
+"PWY.5856..ubiquinol.9.biosynthesis..prokaryotic.","",0,0.21,"Cohousing",0.0273045116811948
+"PWY.5857..ubiquinol.10.biosynthesis..prokaryotic.","",0,0.21,"Cohousing",0.0273045116811948
+"PWY.6708..ubiquinol.8.biosynthesis..prokaryotic.","",0,0.21,"Cohousing",0.0273045116811948
+"PWY.7198..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.IV","",0,0.22,"Cohousing",0.108455984232975
+"PWY0.1241..ADP.L.glycero..beta..D.manno.heptose.biosynthesis","",0,0.21,"Cohousing",0.0567711362598686
+"PWY.4984..urea.cycle","",0,0.24,"Cohousing",0
+"PWY.5384..sucrose.degradation.IV..sucrose.phosphorylase.","",0,0.24,"Cohousing",0
+"FUCCAT.PWY..fucose.degradation","",0,0.21,"Cohousing",0.050779246838245
+"PYRIDNUCSYN.PWY..NAD.biosynthesis.I..from.aspartate.","*",0,0.22,"Cohousing",0.0451794223502106
+"GLYCOCAT.PWY..glycogen.degradation.I..bacterial.","*",0,0.23,"Cohousing",0.102841476373723
+"PWY0.1296..purine.ribonucleosides.degradation","*",0,0.23,"Cohousing",0.0578963807311547
+"PWY.5920..superpathway.of.heme.biosynthesis.from.glycine","*",0,0.23,"Cohousing",0.0497150020318909
+"ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.","*",0,0.24,"Cohousing",0.0282810198764768
+"PWY.2941..L.lysine.biosynthesis.II","*",0,0.24,"Cohousing",0.0492895863648951
+"P42.PWY..incomplete.reductive.TCA.cycle","*",0,0.23,"Cohousing",0.0700006945266727
+"PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation","*",0,0.24,"Cohousing",0.045196544009868
+"ARO.PWY..chorismate.biosynthesis.I","*",0,0.22,"Cohousing",0.0331793623535917
+"PWY0.1586..peptidoglycan.maturation..meso.diaminopimelate.containing.","*",0,0.25,"Cohousing",0.0416041672462217
+"FERMENTATION.PWY..mixed.acid.fermentation","*",0,0.22,"Cohousing",0.0362657761454483
+"PWY.5791..1.4.dihydroxy.2.naphthoate.biosynthesis.II..plants.","*",0,0.23,"Cohousing",0.0135877081340215
+"PWY.5837..1.4.dihydroxy.2.naphthoate.biosynthesis.I","*",0,0.23,"Cohousing",0.0135877081340215
+"PWY.5913..TCA.cycle.VI..obligate.autotrophs.","*",0,0.23,"Cohousing",0.0312737380319361
+"DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II","*",0,0.24,"Cohousing",0.0594498841051158
+"NONOXIPENT.PWY..pentose.phosphate.pathway..non.oxidative.branch.","*",0,0.25,"Cohousing",0.0497430326640003
+"PWY.5897..superpathway.of.menaquinol.11.biosynthesis","*",0,0.23,"Cohousing",0.0133415037224252
+"PWY.5898..superpathway.of.menaquinol.12.biosynthesis","*",0,0.23,"Cohousing",0.0133415037224252
+"PWY.5899..superpathway.of.menaquinol.13.biosynthesis","*",0,0.23,"Cohousing",0.0133415037224252
+"PWY.6163..chorismate.biosynthesis.from.3.dehydroquinate","*",0,0.26,"Cohousing",0.031780212275691
+"ASPASN.PWY..superpathway.of.L.aspartate.and.L.asparagine.biosynthesis","*",0,0.22,"Cohousing",0.0386691442342563
+"GLUCARDEG.PWY..D.glucarate.degradation.I","*",0,0.24,"Cohousing",0.0486217290522056
+"PWY.7234..inosine.5..phosphate.biosynthesis.III","*",0,0.25,"Cohousing",0.0614317082552196
+"PWY.5022..4.aminobutanoate.degradation.V","*",0,0.23,"Cohousing",0.069554539715571
+"THRESYN.PWY..superpathway.of.L.threonine.biosynthesis","*",0,0.26,"Cohousing",0.0595454939674992
+"PWY.6737..starch.degradation.V","*",0,0.27,"Cohousing",0.0488949719554204
+"DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I","*",0,0.27,"Cohousing",0.0272614890149517
+"PWY.7323..superpathway.of.GDP.mannose.derived.O.antigen.building.blocks.biosynthesis","*",0,0.25,"Cohousing",0.0166940429497814
+"PWY.841..superpathway.of.purine.nucleotides.de.novo.biosynthesis.I","*",0,0.25,"Cohousing",0.0679443763127942
+"PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I","*",0,0.27,"Cohousing",0.0606583793869468
+"PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0,0.25,"Cohousing",0.063183951155522
+"PWY.5103..L.isoleucine.biosynthesis.III","*",0.01,0.29,"Cohousing",0.0478867649186302
+"COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis","*",0,0.27,"Cohousing",0.0332815144186384
+"PWY.7013..L.1.2.propanediol.degradation","*",0,0.25,"Cohousing",0.0369500016477279
+"TRNA.CHARGING.PWY..tRNA.charging","*",0,0.25,"Cohousing",0.061723650052043
+"PWY0.321..phenylacetate.degradation.I..aerobic.","*",0,0.26,"Cohousing",0
+"GALACTUROCAT.PWY..D.galacturonate.degradation.I","*",0,0.26,"Cohousing",0.0814798894628358
+"BRANCHED.CHAIN.AA.SYN.PWY..superpathway.of.branched.amino.acid.biosynthesis","*",0.01,0.29,"Cohousing",0.0476095968587656
+"PWY.5005..biotin.biosynthesis.II","*",0,0.26,"Cohousing",0.150045862618073
+"PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I","*",0.01,0.28,"Cohousing",0.0452197693950364
+"PWY.6630..superpathway.of.L.tyrosine.biosynthesis","*",0,0.26,"Cohousing",0.0311703628552338
+"PWY.5840..superpathway.of.menaquinol.7.biosynthesis","*",0,0.25,"Cohousing",0.0289047681106298
+"PWY.6609..adenine.and.adenosine.salvage.III","*",0,0.26,"Cohousing",0.0449027024409309
+"PWY.6121..5.aminoimidazole.ribonucleotide.biosynthesis.I","*",0.01,0.3,"Cohousing",0.0310063107027774
+"PPGPPMET.PWY..ppGpp.biosynthesis","*",0,0.26,"Cohousing",0.101493732523016
+"PWY.6122..5.aminoimidazole.ribonucleotide.biosynthesis.II","*",0.02,0.3,"Cohousing",0.0298908917825614
+"PWY.6277..superpathway.of.5.aminoimidazole.ribonucleotide.biosynthesis","*",0.02,0.3,"Cohousing",0.0298908917825614
+"POLYAMINSYN3.PWY..superpathway.of.polyamine.biosynthesis.II","*",0,0.27,"Cohousing",0.178727614782333
+"GALACTARDEG.PWY..D.galactarate.degradation.I","*",0,0.26,"Cohousing",0.0601333163692169
+"GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation","*",0,0.26,"Cohousing",0.0601333163692169
+"PWY.7221..guanosine.ribonucleotides.de.novo.biosynthesis","*",0,0.27,"Cohousing",0.0351084490224452
+"PWY.5104..L.isoleucine.biosynthesis.IV","*",0,0.28,"Cohousing",0.0682350365136999
+"PWY.6700..queuosine.biosynthesis","*",0,0.26,"Cohousing",0.043243966316857
+"PWY.6317..galactose.degradation.I..Leloir.pathway.","*",0,0.27,"Cohousing",0.0313333403426487
+"ORNDEG.PWY..superpathway.of.ornithine.degradation","*",0,0.27,"Cohousing",0.0362440781871195
+"PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III","*",0.01,0.28,"Cohousing",0.048827292094238
+"PWY.6897..thiamin.salvage.II","*",0,0.3,"Cohousing",0.0473583910176288
+"ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation","*",0,0.28,"Cohousing",0.025504648686925
+"ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation","*",0,0.28,"Cohousing",0.025504648686925
+"PWY.5659..GDP.mannose.biosynthesis","*",0,0.27,"Cohousing",0.0640197752958152
+"PWY.5686..UMP.biosynthesis","*",0,0.28,"Cohousing",0.0365785130250358
+"PWY.7219..adenosine.ribonucleotides.de.novo.biosynthesis","*",0,0.28,"Cohousing",0.0369282772389096
+"NONMEVIPP.PWY..methylerythritol.phosphate.pathway.I","*",0,0.28,"Cohousing",0.0350664803687881
+"PWY.5100..pyruvate.fermentation.to.acetate.and.lactate.II","*",0,0.29,"Cohousing",0.0921050791079544
+"PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.","*",0.01,0.27,"Cohousing",0.0646307545249923
+"PWY0.1479..tRNA.processing","*",0,0.29,"Cohousing",0.110397037511576
+"PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.","*",0.02,0.29,"Cohousing",0.0317594774113138
+"GLCMANNANAUT.PWY..superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation","*",0,0.28,"Cohousing",0.0783831972073756
+"PWY.7446..sulfoglycolysis","*",0.01,0.28,"Cohousing",0.0687369527864158
+"PWY.6387..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.I..meso.diaminopimelate.containing.","*",0,0.27,"Cohousing",0.0339729461039735
+"GALACT.GLUCUROCAT.PWY..superpathway.of.hexuronide.and.hexuronate.degradation","*",0.02,0.3,"Cohousing",0.0795775425589625
+"PWY.6386..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.II..lysine.containing.","*",0.02,0.29,"Cohousing",0.0354778969784849
+"PWY.2942..L.lysine.biosynthesis.III","*",0,0.28,"Cohousing",0.0334093736666594
+"PWY.6151..S.adenosyl.L.methionine.cycle.I","*",0.02,0.28,"Cohousing",0.0471566550132577
+"PWY0.1415..superpathway.of.heme.biosynthesis.from.uroporphyrinogen.III","*",0.01,0.28,"Cohousing",0.000331062679387214
+"GLUCUROCAT.PWY..superpathway.of..beta..D.glucuronide.and.D.glucuronate.degradation","*",0,0.31,"Cohousing",0.0749028861192902
+"UDPNAGSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.I","*",0.02,0.27,"Cohousing",0.064186129649951
+"PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.","*",0,0.29,"Cohousing",0.0508660920921144
+"PWY.5097..L.lysine.biosynthesis.VI","*",0,1,"Cohousing",0.0388257857314831
+"PWY.724..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.II","*",0,0.29,"Cohousing",0.0385070849682001
+"HISTSYN.PWY..L.histidine.biosynthesis","*",0.04,0.31,"Cohousing",0.0329550431346114
+"HEMESYN2.PWY..heme.biosynthesis.II..anaerobic.","*",0.01,0.3,"Cohousing",0.028479085162807
+"P108.PWY..pyruvate.fermentation.to.propanoate.I","*",0.01,0.3,"Cohousing",0.0113922537989781
+"PWY.7229..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.I","*",0.02,0.29,"Cohousing",0.0551877190252798
+"PWY.5345..superpathway.of.L.methionine.biosynthesis..by.sulfhydrylation.","*",0.08,0.34,"Cohousing",0.037357877444647
+"PWY.7111..pyruvate.fermentation.to.isobutanol..engineered.","*",0.03,0.3,"Cohousing",0.0594799258773116
+"PWY.6123..inosine.5..phosphate.biosynthesis.I","*",0.03,0.3,"Cohousing",0.049920172448667
+"PWY66.422..D.galactose.degradation.V..Leloir.pathway.","*",0.01,0.3,"Cohousing",0.0326204578311239
+"PWY.5505..L.glutamate.and.L.glutamine.biosynthesis","*",0.03,0.29,"Cohousing",0.158824553223693
+"PWY.6126..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Cohousing",0.0566099787212938
+"PWY.6507..4.deoxy.L.threo.hex.4.enopyranuronate.degradation","*",0,0.31,"Cohousing",0.0943888232878938
+"PWY4FS.8..phosphatidylglycerol.biosynthesis.II..non.plastidic.","*",0,0.32,"Cohousing",0.00461134901146419
+"PWY4FS.7..phosphatidylglycerol.biosynthesis.I..plastidic.","*",0,0.33,"Cohousing",0.00461045626701352
+"PWY.5695..urate.biosynthesis.inosine.5..phosphate.degradation","*",0.03,0.3,"Cohousing",0.0277608883788048
+"PWY.7220..adenosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Cohousing",0.0606550736484815
+"PWY.7222..guanosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Cohousing",0.0606550736484815
+"PWY0.162..superpathway.of.pyrimidine.ribonucleotides.de.novo.biosynthesis","*",0.03,0.3,"Cohousing",0.0699877528770402
+"VALSYN.PWY..L.valine.biosynthesis","*",0,0.31,"Cohousing",0.0584219209743173
+"ILEUSYN.PWY..L.isoleucine.biosynthesis.I..from.threonine.","*",0,0.31,"Cohousing",0.0584219209743173
+"PWY.5177..glutaryl.CoA.degradation","*",0.03,0.31,"Cohousing",0.0822385114923794
+"OANTIGEN.PWY..O.antigen.building.blocks.biosynthesis..E..coli.","*",0.04,0.3,"Cohousing",0.0592012269021466
+"PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.","*",0.04,0.31,"Cohousing",0.0550894755027787
+"PWY.7184..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Cohousing",0.0540740490170185
+"PWY.7208..superpathway.of.pyrimidine.nucleobases.salvage","*",0.05,0.32,"Cohousing",0.0593377043395377
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Cohousing",0.0609768138648733
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Cohousing",0.059016187280641
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Cohousing",0.0584924116942752
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Cohousing",0.0623495447932703
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Cohousing",0.0624375916653543
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Cohousing",0.039666046345987
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Cohousing",0.0592466329997935
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Cohousing",0.0595579581606432
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Cohousing",0.0411249851511861
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Cohousing",0.0311013705212821
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Cohousing",0.0342750834294869
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Cohousing",0.0291190254942842
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Cohousing",0.0291361230494595
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Cohousing",0.0395258812885265
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Cohousing",0.0392855722194036
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Cohousing",0.107902486888557
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Cohousing",0.0487551076571192
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Cohousing",0.0478897959688579
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Cohousing",0.100077235274235
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Cohousing",0.104658489291673
+"PWY.7392..taxadiene.biosynthesis..engineered.","",0,0.12,"Family",7.23855154442103e-09
+"P162.PWY..L.glutamate.degradation.V..via.hydroxyglutarate.","",0,0.06,"Family",1.69751780083055e-10
+"PWY.5747..2.methylcitrate.cycle.II","",0,0.14,"Family",0.0168046271336197
+"GLUTORN.PWY..L.ornithine.biosynthesis","",0,0.1,"Family",4.62421660477408e-10
+"PWY.5121..superpathway.of.geranylgeranyl.diphosphate.biosynthesis.II..via.MEP.","",0,0.1,"Family",0.00757509862777251
+"PWY.6588..pyruvate.fermentation.to.acetone","",0,0.1,"Family",0
+"PWY0.1298..superpathway.of.pyrimidine.deoxyribonucleosides.degradation","",0,0.11,"Family",0
+"PWY.7003..glycerol.degradation.to.butanol","",0,0.1,"Family",0.00951314504890272
+"PWY.6901..superpathway.of.glucose.and.xylose.degradation","",0,0.16,"Family",0.0364596398753538
+"PWY.5941..glycogen.degradation.II..eukaryotic.","",0,0.06,"Family",0
+"PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II","",0,0.1,"Family",0.0231408025556078
+"PWY.6823..molybdenum.cofactor.biosynthesis","",0,0.07,"Family",0
+"PWY.6590..superpathway.of.Clostridium.acetobutylicum.acidogenic.fermentation","",0,0.12,"Family",0
+"ARGORNPROST.PWY..arginine..ornithine.and.proline.interconversion","",0,0.12,"Family",0.01882845187538
+"PYRIDNUCSAL.PWY..NAD.salvage.pathway.I","",0,0.12,"Family",0
+"ENTBACSYN.PWY..enterobactin.biosynthesis","",0,0.1,"Family",0.0112045831596698
+"PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis","",0,0.1,"Family",0
+"PWY.1269..CMP.3.deoxy.D.manno.octulosonate.biosynthesis.I","",0,0.1,"Family",0.00251124317864648
+"PWY.1861..formaldehyde.assimilation.II..RuMP.Cycle.","",0,0.05,"Family",1.19323818904231e-10
+"PWY.3781..aerobic.respiration.I..cytochrome.c.","",0,0.09,"Family",0.0138857828322207
+"PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.","",0,0.06,"Family",0
+"PWY.6147..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.I","",0,0.09,"Family",0
+"X3.HYDROXYPHENYLACETATE.DEGRADATION.PWY..4.hydroxyphenylacetate.degradation","",0,0.12,"Family",0.00059986594609392
+"PWY.6612..superpathway.of.tetrahydrofolate.biosynthesis","",0,0.16,"Family",0.0405033090575341
+"PWY.6731..starch.degradation.III","",0,0.13,"Family",0.0137343513306081
+"PWY.6895..superpathway.of.thiamin.diphosphate.biosynthesis.II","",0,NA,"Family",0
+"PWY.7328..superpathway.of.UDP.glucose.derived.O.antigen.building.blocks.biosynthesis","",0,0.07,"Family",1.34447115194932e-09
+"PWY0.781..aspartate.superpathway","",0,0.1,"Family",0.0168161677011793
+"PWY_REDCITCYC..TCA.cycle.VIII..helicobacter.","",0,0.11,"Family",0
+"PWY_TCA..TCA.cycle.I..prokaryotic.","",0,0.11,"Family",0.00208309695881045
+"GLUCONEO.PWY..gluconeogenesis.I","",0,NA,"Family",0.0479420947432131
+"LPSSYN.PWY..superpathway.of.lipopolysaccharide.biosynthesis","",0,0.08,"Family",1.16695726463463e-08
+"P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.","",0,0.1,"Family",0.00022679576288617
+"P124.PWY..Bifidobacterium.shunt","",0,0.17,"Family",0.0417963124809457
+"P164.PWY..purine.nucleobases.degradation.I..anaerobic.","",0,0.05,"Family",0
+"P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I","",0,0.1,"Family",0.0161160716416216
+"P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate","",0,0.06,"Family",0.036489166064372
+"PENTOSE.P.PWY..pentose.phosphate.pathway","",0,0.14,"Family",0.0416174267421999
+"ECASYN.PWY..enterobacterial.common.antigen.biosynthesis","",0,0.1,"Family",0
+"PWY.5676..acetyl.CoA.fermentation.to.butanoate.II","",0,0.06,"Family",0
+"CENTFERM.PWY..pyruvate.fermentation.to.butanoate","",NA,NA,"Family",0
+"PWY0.42..2.methylcitrate.cycle.I","",0,0.17,"Family",0.0295669908562959
+"THISYN.PWY..superpathway.of.thiamin.diphosphate.biosynthesis.I","",0,0.17,"Family",0.0223542793307229
+"PWY.6969..TCA.cycle.V..2.oxoglutarate.ferredoxin.oxidoreductase.","",0,0.1,"Family",0.000172220128858817
+"ALL.CHORISMATE.PWY..superpathway.of.chorismate.metabolism","",0,0.14,"Family",0
+"PWY_ARG.POLYAMINE.SYN..superpathway.of.arginine.and.polyamine.biosynthesis","",0,0.13,"Family",0.0162639850178458
+"PWY.7254..TCA.cycle.VII..acetate.producers.","",0,0.08,"Family",0
+"PWY0.862...5Z..dodec.5.enoate.biosynthesis","",0,0.16,"Family",0.0349153048770471
+"PWY.6629..superpathway.of.L.tryptophan.biosynthesis","",0,0.14,"Family",0.0131064723032707
+"KDO.NAGLIPASYN.PWY..superpathway.of..Kdo.2.lipid.A.biosynthesis","",0,0.11,"Family",0.0037588166240019
+"FOLSYN.PWY..superpathway.of.tetrahydrofolate.biosynthesis.and.salvage","",0,0.2,"Family",0.041242641735412
+"PWY.5989..stearate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Family",0.0173894442827265
+"PWY0.41..allantoin.degradation.IV..anaerobic.","",0,0.12,"Family",0
+"AEROBACTINSYN.PWY..aerobactin.biosynthesis","",0,0.11,"Family",0
+"HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.","",0,0.06,"Family",3.00500136691508e-09
+"FAO.PWY..fatty.acid..beta..oxidation.I","",0,0.13,"Family",0
+"PWY.5918..superpathay.of.heme.biosynthesis.from.glutamate","",0,0.15,"Family",0
+"CRNFORCAT.PWY..creatinine.degradation.I","",0,0.08,"Family",1.475101156653e-09
+"FASYN.INITIAL.PWY..superpathway.of.fatty.acid.biosynthesis.initiation..E..coli.","",0,0.16,"Family",0.0393283958741612
+"PWY.6263..superpathway.of.menaquinol.8.biosynthesis.II","",0,0.16,"Family",0.0142478593872783
+"PWY.6282..palmitoleate.biosynthesis.I..from..5Z..dodec.5.enoate.","",0,0.16,"Family",0.0357132707188989
+"PWY.6471..peptidoglycan.biosynthesis.IV..Enterococcus.faecium.","",0,0.13,"Family",0.00463235325239766
+"FASYN.ELONG.PWY..fatty.acid.elongation....saturated","",0,0.16,"Family",0.0392805462483965
+"METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation","",0,0.14,"Family",1.2947133140678e-10
+"PWY.7664..oleate.biosynthesis.IV..anaerobic.","",0,0.17,"Family",0.0353711649018325
+"PWY.7199..pyrimidine.deoxyribonucleosides.salvage","",0,0.15,"Family",0.0114983321377738
+"ARGSYN.PWY..L.arginine.biosynthesis.I..via.L.ornithine.","",0,0.13,"Family",0.00146858765592518
+"PWY.7400..L.arginine.biosynthesis.IV..archaebacteria.","",0,0.13,"Family",0.00303428453797939
+"PWY.6519..8.amino.7.oxononanoate.biosynthesis.I","",0,0.16,"Family",0.0329547657635413
+"P441.PWY..superpathway.of.N.acetylneuraminate.degradation","",0,0.16,"Family",0.0320284524978837
+"PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis","",0,0.15,"Family",0.00631448495052537
+"PWY.6891..thiazole.biosynthesis.II..Bacillus.","",0,0.14,"Family",0
+"PWY.5845..superpathway.of.menaquinol.9.biosynthesis","",0,0.15,"Family",0.00554739528361046
+"PWY.5896..superpathway.of.menaquinol.10.biosynthesis","",0,0.15,"Family",0.00554739528361046
+"PWY.6892..thiazole.biosynthesis.I..E..coli.","",0,0.17,"Family",0.0242676969005024
+"PWY0.1338..polymyxin.resistance","",0,0.14,"Family",5.29168104308142e-10
+"P23.PWY..reductive.TCA.cycle.I","",0,0.14,"Family",0.00214355003890836
+"BIOTIN.BIOSYNTHESIS.PWY..biotin.biosynthesis.I","",0,0.17,"Family",0.0332571458331553
+"PWY.922..mevalonate.pathway.I","",0,0.16,"Family",0
+"PWY_GLYCOLYSIS.E.D..superpathway.of.glycolysis.and.Entner.Doudoroff","",0,0.17,"Family",0.0153456524330192
+"PWY.6628..superpathway.of.L.phenylalanine.biosynthesis","",0,0.15,"Family",0
+"PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.","",0,0.16,"Family",0.0167175196164147
+"AST.PWY..L.arginine.degradation.II..AST.pathway.","",0,0.16,"Family",0.00462672009137408
+"PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.","",0,0.14,"Family",0.000395390880181782
+"MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis","",0,0.16,"Family",0.0216698728320869
+"PWY_TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA","",0,0.16,"Family",0
+"PWY.5656..mannosylglycerate.biosynthesis.I","",0,0.16,"Family",0
+"PWY_GLYCOLYSIS.TCA.GLYOX.BYPASS..superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass","",0,0.15,"Family",0
+"SO4ASSIM.PWY..sulfate.reduction.I..assimilatory.","",0,0.21,"Family",0.0292917296459466
+"GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation","",0,0.16,"Family",0.00190941511264801
+"HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I","",0,0.17,"Family",0.0150574924294656
+"UBISYN.PWY..superpathway.of.ubiquinol.8.biosynthesis..prokaryotic.","",0,0.17,"Family",0
+"PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.","",0,0.16,"Family",0
+"PWY.5971..palmitate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Family",0
+"SULFATE.CYS.PWY..superpathway.of.sulfate.assimilation.and.cysteine.biosynthesis","",0,0.18,"Family",0.0136357605704182
+"HISDEG.PWY..L.histidine.degradation.I","",0,0.2,"Family",0.0174610251296069
+"GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation","",0,0.17,"Family",0
+"METSYN.PWY..L.homoserine.and.L.methionine.biosynthesis","",0,0.18,"Family",0.0157398790892207
+"RIBOSYN2.PWY..flavin.biosynthesis.I..bacteria.and.plants.","",0,0.18,"Family",2.58164216965434e-05
+"DAPLYSINESYN.PWY..L.lysine.biosynthesis.I","",0,0.17,"Family",4.36291908356763e-09
+"PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis","",0,1,"Family",0.00492339253990367
+"PWY.5860..superpathway.of.demethylmenaquinol.6.biosynthesis.I","",0,0.18,"Family",0.00524856430248925
+"PWY.5850..superpathway.of.menaquinol.6.biosynthesis.I","",0,0.18,"Family",0.00459279378219141
+"GLYCOGENSYNTH.PWY..glycogen.biosynthesis.I..from.ADP.D.Glucose.","",0,0.18,"Family",0.016818161092443
+"PWY.5173..superpathway.of.acetyl.CoA.biosynthesis","",0,0.16,"Family",0
+"PWY.5675..nitrate.reduction.V..assimilatory.","",0,0.19,"Family",0
+"LACTOSECAT.PWY..lactose.and.galactose.degradation.I","",0,0.2,"Family",0.0236711507825573
+"PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I","",0,0.19,"Family",0.0127222466006626
+"PWY0.1297..superpathway.of.purine.deoxyribonucleosides.degradation","",0,0.17,"Family",0
+"PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis","",0,0.2,"Family",0.0125370650754009
+"PWY_GLYOXYLATE.BYPASS..glyoxylate.cycle","",0,0.19,"Family",0
+"PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.","",0,0.17,"Family",0
+"POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.","",0,0.19,"Family",0.00422803782550102
+"PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III","",0,0.23,"Family",0.0297806470963587
+"HSERMETANA.PWY..L.methionine.biosynthesis.III","",NA,NA,"Family",0
+"PWY_NAD.BIOSYNTHESIS.II..NAD.salvage.pathway.II","",0,0.17,"Family",0
+"PWY_HEME.BIOSYNTHESIS.II..heme.biosynthesis.I..aerobic.","",0,0.18,"Family",6.6558458276549e-10
+"PWY.5088..L.glutamate.degradation.VIII..to.propanoate.","",0,0.2,"Family",0.0163632213388404
+"PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Family",1.20885641097344e-08
+"HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Family",1.20885641097344e-08
+"POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I","",0,0.21,"Family",0.0181157343767281
+"ARGSYNBSUB.PWY..L.arginine.biosynthesis.II..acetyl.cycle.","",0,0.18,"Family",8.05031982867536e-11
+"PWY.7237..myo...chiro..and.scillo.inositol.degradation","",0,0.2,"Family",0.00138655251299255
+"P161.PWY..acetylene.degradation","",0,0.19,"Family",1.19602647034183e-10
+"PWY.7315..dTDP.N.acetylthomosamine.biosynthesis","",0,0.2,"Family",0
+"PWY.7456..mannan.degradation","",0,0.21,"Family",0.0185812533508067
+"PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP","",0,0.2,"Family",0
+"COLANSYN.PWY..colanic.acid.building.blocks.biosynthesis","",0,0.2,"Family",5.2979787345337e-09
+"PWY.6608..guanosine.nucleotides.degradation.III","",0,0.22,"Family",0.0149957408164109
+"COA.PWY..coenzyme.A.biosynthesis.I","",0,0.25,"Family",0.0266845358187454
+"PWY0.1261..anhydromuropeptides.recycling","",0,0.2,"Family",0
+"PWY.6353..purine.nucleotides.degradation.II..aerobic.","",0,0.22,"Family",0
+"PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation","",0,0.2,"Family",0
+"SER.GLYSYN.PWY..superpathway.of.L.serine.and.glycine.biosynthesis.I","",0,0.23,"Family",0.011549894356083
+"SALVADEHYPOX.PWY..adenosine.nucleotides.degradation.II","",0,0.22,"Family",0.0386645746726143
+"KETOGLUCONMET.PWY..ketogluconate.metabolism","",0,0.2,"Family",0
+"FUC.RHAMCAT.PWY..superpathway.of.fucose.and.rhamnose.degradation","",0,0.22,"Family",0.010525356559556
+"GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol","",0,0.2,"Family",0
+"PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage","",0,0.2,"Family",0
+"PWY0.1533..methylphosphonate.degradation.I","",0,0.22,"Family",0.00428898559882801
+"PWY0.1061..superpathway.of.L.alanine.biosynthesis","",0,0.22,"Family",0.0118780799865614
+"TRPSYN.PWY..L.tryptophan.biosynthesis","",0,0.21,"Family",0.000715747693501112
+"PWY.5705..allantoin.degradation.to.glyoxylate.III","",0,0.22,"Family",0
+"P122.PWY..heterolactic.fermentation","",0,0.2,"Family",0
+"PWY.5855..ubiquinol.7.biosynthesis..prokaryotic.","",0,0.21,"Family",0
+"PWY.5856..ubiquinol.9.biosynthesis..prokaryotic.","",0,0.21,"Family",0
+"PWY.5857..ubiquinol.10.biosynthesis..prokaryotic.","",0,0.21,"Family",0
+"PWY.6708..ubiquinol.8.biosynthesis..prokaryotic.","",0,0.21,"Family",0
+"PWY.7198..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.IV","",0,0.22,"Family",2.40826056420298e-08
+"PWY0.1241..ADP.L.glycero..beta..D.manno.heptose.biosynthesis","",0,0.21,"Family",1.24442028757354e-09
+"PWY.4984..urea.cycle","",0,0.24,"Family",0.0497321991910752
+"PWY.5384..sucrose.degradation.IV..sucrose.phosphorylase.","",0,0.24,"Family",0.0257223448402691
+"FUCCAT.PWY..fucose.degradation","",0,0.21,"Family",0
+"PYRIDNUCSYN.PWY..NAD.biosynthesis.I..from.aspartate.","*",0,0.22,"Family",0.00156370202674152
+"GLYCOCAT.PWY..glycogen.degradation.I..bacterial.","*",0,0.23,"Family",0
+"PWY0.1296..purine.ribonucleosides.degradation","*",0,0.23,"Family",3.01695577317066e-10
+"PWY.5920..superpathway.of.heme.biosynthesis.from.glycine","*",0,0.23,"Family",0
+"ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.","*",0,0.24,"Family",0.00747827508606172
+"PWY.2941..L.lysine.biosynthesis.II","*",0,0.24,"Family",0
+"P42.PWY..incomplete.reductive.TCA.cycle","*",0,0.23,"Family",1.81729169074126e-10
+"PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation","*",0,0.24,"Family",0.00987223855187326
+"ARO.PWY..chorismate.biosynthesis.I","*",0,0.22,"Family",0.0245325210527063
+"PWY0.1586..peptidoglycan.maturation..meso.diaminopimelate.containing.","*",0,0.25,"Family",0.0128971923787103
+"FERMENTATION.PWY..mixed.acid.fermentation","*",0,0.22,"Family",0
+"PWY.5791..1.4.dihydroxy.2.naphthoate.biosynthesis.II..plants.","*",0,0.23,"Family",7.67582293999207e-08
+"PWY.5837..1.4.dihydroxy.2.naphthoate.biosynthesis.I","*",0,0.23,"Family",7.67582293999207e-08
+"PWY.5913..TCA.cycle.VI..obligate.autotrophs.","*",0,0.23,"Family",0
+"DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II","*",0,0.24,"Family",0
+"NONOXIPENT.PWY..pentose.phosphate.pathway..non.oxidative.branch.","*",0,0.25,"Family",0.00758363289523368
+"PWY.5897..superpathway.of.menaquinol.11.biosynthesis","*",0,0.23,"Family",3.96146288472795e-10
+"PWY.5898..superpathway.of.menaquinol.12.biosynthesis","*",0,0.23,"Family",3.96146288472795e-10
+"PWY.5899..superpathway.of.menaquinol.13.biosynthesis","*",0,0.23,"Family",3.96146288472795e-10
+"PWY.6163..chorismate.biosynthesis.from.3.dehydroquinate","*",0,0.26,"Family",0.0202501086064815
+"ASPASN.PWY..superpathway.of.L.aspartate.and.L.asparagine.biosynthesis","*",0,0.22,"Family",0.00130296228400835
+"GLUCARDEG.PWY..D.glucarate.degradation.I","*",0,0.24,"Family",6.32839132479654e-09
+"PWY.7234..inosine.5..phosphate.biosynthesis.III","*",0,0.25,"Family",0.000510775330658905
+"PWY.5022..4.aminobutanoate.degradation.V","*",0,0.23,"Family",0
+"THRESYN.PWY..superpathway.of.L.threonine.biosynthesis","*",0,0.26,"Family",0.00858852188044777
+"PWY.6737..starch.degradation.V","*",0,0.27,"Family",0.0151904821863607
+"DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I","*",0,0.27,"Family",0.00997632742934104
+"PWY.7323..superpathway.of.GDP.mannose.derived.O.antigen.building.blocks.biosynthesis","*",0,0.25,"Family",0
+"PWY.841..superpathway.of.purine.nucleotides.de.novo.biosynthesis.I","*",0,0.25,"Family",4.50071852736316e-10
+"PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I","*",0,0.27,"Family",0.010528341259538
+"PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0,0.25,"Family",0
+"PWY.5103..L.isoleucine.biosynthesis.III","*",0.01,0.29,"Family",0.0235576448400591
+"COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis","*",0,0.27,"Family",0.0199980050437678
+"PWY.7013..L.1.2.propanediol.degradation","*",0,0.25,"Family",0
+"TRNA.CHARGING.PWY..tRNA.charging","*",0,0.25,"Family",0
+"PWY0.321..phenylacetate.degradation.I..aerobic.","*",0,0.26,"Family",0.00680187449205345
+"GALACTUROCAT.PWY..D.galacturonate.degradation.I","*",0,0.26,"Family",0
+"BRANCHED.CHAIN.AA.SYN.PWY..superpathway.of.branched.amino.acid.biosynthesis","*",0.01,0.29,"Family",0.0221058519622651
+"PWY.5005..biotin.biosynthesis.II","*",0,0.26,"Family",0
+"PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I","*",0.01,0.28,"Family",0.0152517381413298
+"PWY.6630..superpathway.of.L.tyrosine.biosynthesis","*",0,0.26,"Family",3.33677163006533e-08
+"PWY.5840..superpathway.of.menaquinol.7.biosynthesis","*",0,0.25,"Family",0
+"PWY.6609..adenine.and.adenosine.salvage.III","*",0,0.26,"Family",0.00153978457854891
+"PWY.6121..5.aminoimidazole.ribonucleotide.biosynthesis.I","*",0.01,0.3,"Family",0.0184045975078576
+"PPGPPMET.PWY..ppGpp.biosynthesis","*",0,0.26,"Family",0
+"PWY.6122..5.aminoimidazole.ribonucleotide.biosynthesis.II","*",0.02,0.3,"Family",0.0210105505844841
+"PWY.6277..superpathway.of.5.aminoimidazole.ribonucleotide.biosynthesis","*",0.02,0.3,"Family",0.0210105505844841
+"POLYAMINSYN3.PWY..superpathway.of.polyamine.biosynthesis.II","*",0,0.27,"Family",0.0206552501225262
+"GALACTARDEG.PWY..D.galactarate.degradation.I","*",0,0.26,"Family",0
+"GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation","*",0,0.26,"Family",0
+"PWY.7221..guanosine.ribonucleotides.de.novo.biosynthesis","*",0,0.27,"Family",0.00939374552917873
+"PWY.5104..L.isoleucine.biosynthesis.IV","*",0,0.28,"Family",0.00957694763413235
+"PWY.6700..queuosine.biosynthesis","*",0,0.26,"Family",0.00263386471350225
+"PWY.6317..galactose.degradation.I..Leloir.pathway.","*",0,0.27,"Family",0
+"ORNDEG.PWY..superpathway.of.ornithine.degradation","*",0,0.27,"Family",3.12272459860366e-10
+"PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III","*",0.01,0.28,"Family",0.0049712768877261
+"PWY.6897..thiamin.salvage.II","*",0,0.3,"Family",0.0196625226872362
+"ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation","*",0,0.28,"Family",0.00383710594116507
+"ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation","*",0,0.28,"Family",0.00383710594116507
+"PWY.5659..GDP.mannose.biosynthesis","*",0,0.27,"Family",0.00165752980994361
+"PWY.5686..UMP.biosynthesis","*",0,0.28,"Family",0.0049225847057465
+"PWY.7219..adenosine.ribonucleotides.de.novo.biosynthesis","*",0,0.28,"Family",0.0095200346517918
+"NONMEVIPP.PWY..methylerythritol.phosphate.pathway.I","*",0,0.28,"Family",0.0109147133577136
+"PWY.5100..pyruvate.fermentation.to.acetate.and.lactate.II","*",0,0.29,"Family",0.00489102179422769
+"PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.","*",0.01,0.27,"Family",0
+"PWY0.1479..tRNA.processing","*",0,0.29,"Family",0.0435016404206515
+"PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.","*",0.02,0.29,"Family",0.00782303850313511
+"GLCMANNANAUT.PWY..superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation","*",0,0.28,"Family",0
+"PWY.7446..sulfoglycolysis","*",0.01,0.28,"Family",0
+"PWY.6387..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.I..meso.diaminopimelate.containing.","*",0,0.27,"Family",0.00691151646917643
+"GALACT.GLUCUROCAT.PWY..superpathway.of.hexuronide.and.hexuronate.degradation","*",0.02,0.3,"Family",0.00932309133185071
+"PWY.6386..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.II..lysine.containing.","*",0.02,0.29,"Family",0.00663858276018874
+"PWY.2942..L.lysine.biosynthesis.III","*",0,0.28,"Family",0.00291958095608626
+"PWY.6151..S.adenosyl.L.methionine.cycle.I","*",0.02,0.28,"Family",0
+"PWY0.1415..superpathway.of.heme.biosynthesis.from.uroporphyrinogen.III","*",0.01,0.28,"Family",0
+"GLUCUROCAT.PWY..superpathway.of..beta..D.glucuronide.and.D.glucuronate.degradation","*",0,0.31,"Family",0.0182433082091356
+"UDPNAGSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.I","*",0.02,0.27,"Family",0
+"PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.","*",0,0.29,"Family",0.006531196620918
+"PWY.5097..L.lysine.biosynthesis.VI","*",0,1,"Family",0
+"PWY.724..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.II","*",0,0.29,"Family",0.00347486009276369
+"HISTSYN.PWY..L.histidine.biosynthesis","*",0.04,0.31,"Family",0.0169558636070447
+"HEMESYN2.PWY..heme.biosynthesis.II..anaerobic.","*",0.01,0.3,"Family",0.0258726590803406
+"P108.PWY..pyruvate.fermentation.to.propanoate.I","*",0.01,0.3,"Family",0.00609746547792526
+"PWY.7229..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.I","*",0.02,0.29,"Family",2.28704100490822e-09
+"PWY.5345..superpathway.of.L.methionine.biosynthesis..by.sulfhydrylation.","*",0.08,0.34,"Family",0.0306728139378662
+"PWY.7111..pyruvate.fermentation.to.isobutanol..engineered.","*",0.03,0.3,"Family",0.00294889883027067
+"PWY.6123..inosine.5..phosphate.biosynthesis.I","*",0.03,0.3,"Family",0.00100362315666747
+"PWY66.422..D.galactose.degradation.V..Leloir.pathway.","*",0.01,0.3,"Family",0
+"PWY.5505..L.glutamate.and.L.glutamine.biosynthesis","*",0.03,0.29,"Family",0
+"PWY.6126..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Family",1.18947965998356e-09
+"PWY.6507..4.deoxy.L.threo.hex.4.enopyranuronate.degradation","*",0,0.31,"Family",0.00525505188408745
+"PWY4FS.8..phosphatidylglycerol.biosynthesis.II..non.plastidic.","*",0,0.32,"Family",0.0310412797895035
+"PWY4FS.7..phosphatidylglycerol.biosynthesis.I..plastidic.","*",0,0.33,"Family",0.0310408468413597
+"PWY.5695..urate.biosynthesis.inosine.5..phosphate.degradation","*",0.03,0.3,"Family",4.05006235730006e-08
+"PWY.7220..adenosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Family",0
+"PWY.7222..guanosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Family",0
+"PWY0.162..superpathway.of.pyrimidine.ribonucleotides.de.novo.biosynthesis","*",0.03,0.3,"Family",0
+"VALSYN.PWY..L.valine.biosynthesis","*",0,0.31,"Family",0.002760328624253
+"ILEUSYN.PWY..L.isoleucine.biosynthesis.I..from.threonine.","*",0,0.31,"Family",0.002760328624253
+"PWY.5177..glutaryl.CoA.degradation","*",0.03,0.31,"Family",0
+"OANTIGEN.PWY..O.antigen.building.blocks.biosynthesis..E..coli.","*",0.04,0.3,"Family",0
+"PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.","*",0.04,0.31,"Family",2.3775147662837e-16
+"PWY.7184..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Family",0
+"PWY.7208..superpathway.of.pyrimidine.nucleobases.salvage","*",0.05,0.32,"Family",0.00199560620138433
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Family",0
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Family",0
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Family",0
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Family",0.00174714177927948
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Family",0
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Family",0.00504847067875711
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Family",0
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Family",0
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Family",0.0057449450595524
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Family",0.0110816198751565
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Family",1.04533759270947e-08
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Family",9.02153627192551e-11
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Family",1.69981297309809e-09
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Family",6.35782894022613e-10
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Family",2.08291555131889e-10
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Family",0
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Family",0.0120363957583706
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Family",0
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Family",0.00954422803528872
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Family",1.30529812777787e-06
+"PWY.7392..taxadiene.biosynthesis..engineered.","",0,0.12,"Environment",0.986732146372049
+"P162.PWY..L.glutamate.degradation.V..via.hydroxyglutarate.","",0,0.06,"Environment",0.94930690518128
+"PWY.5747..2.methylcitrate.cycle.II","",0,0.14,"Environment",0.923092794416955
+"GLUTORN.PWY..L.ornithine.biosynthesis","",0,0.1,"Environment",0.855630854492409
+"PWY.5121..superpathway.of.geranylgeranyl.diphosphate.biosynthesis.II..via.MEP.","",0,0.1,"Environment",0.90617843811117
+"PWY.6588..pyruvate.fermentation.to.acetone","",0,0.1,"Environment",0.956535421601546
+"PWY0.1298..superpathway.of.pyrimidine.deoxyribonucleosides.degradation","",0,0.11,"Environment",0.942968267864694
+"PWY.7003..glycerol.degradation.to.butanol","",0,0.1,"Environment",0.941538002201893
+"PWY.6901..superpathway.of.glucose.and.xylose.degradation","",0,0.16,"Environment",0.963540360124646
+"PWY.5941..glycogen.degradation.II..eukaryotic.","",0,0.06,"Environment",0.890578116638271
+"PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II","",0,0.1,"Environment",0.870528285294843
+"PWY.6823..molybdenum.cofactor.biosynthesis","",0,0.07,"Environment",0.953849240233718
+"PWY.6590..superpathway.of.Clostridium.acetobutylicum.acidogenic.fermentation","",0,0.12,"Environment",0.984755003663324
+"ARGORNPROST.PWY..arginine..ornithine.and.proline.interconversion","",0,0.12,"Environment",0.93221228775169
+"PYRIDNUCSAL.PWY..NAD.salvage.pathway.I","",0,0.12,"Environment",0.871771460679665
+"ENTBACSYN.PWY..enterobactin.biosynthesis","",0,0.1,"Environment",0.98879541684033
+"PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis","",0,0.1,"Environment",0.984383243804837
+"PWY.1269..CMP.3.deoxy.D.manno.octulosonate.biosynthesis.I","",0,0.1,"Environment",0.901651641012051
+"PWY.1861..formaldehyde.assimilation.II..RuMP.Cycle.","",0,0.05,"Environment",0.949587379496746
+"PWY.3781..aerobic.respiration.I..cytochrome.c.","",0,0.09,"Environment",0.955861051416975
+"PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.","",0,0.06,"Environment",0.923034254677162
+"PWY.6147..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.I","",0,0.09,"Environment",0.8739759165917
+"X3.HYDROXYPHENYLACETATE.DEGRADATION.PWY..4.hydroxyphenylacetate.degradation","",0,0.12,"Environment",0.999400131244523
+"PWY.6612..superpathway.of.tetrahydrofolate.biosynthesis","",0,0.16,"Environment",0.886555748817971
+"PWY.6731..starch.degradation.III","",0,0.13,"Environment",0.986265648669392
+"PWY.6895..superpathway.of.thiamin.diphosphate.biosynthesis.II","",0,NA,"Environment",0.997018028003596
+"PWY.7328..superpathway.of.UDP.glucose.derived.O.antigen.building.blocks.biosynthesis","",0,0.07,"Environment",0.925088322418339
+"PWY0.781..aspartate.superpathway","",0,0.1,"Environment",0.889278222287403
+"PWY_REDCITCYC..TCA.cycle.VIII..helicobacter.","",0,0.11,"Environment",0.991691763979262
+"PWY_TCA..TCA.cycle.I..prokaryotic.","",0,0.11,"Environment",0.980960548492398
+"GLUCONEO.PWY..gluconeogenesis.I","",0,NA,"Environment",0.952057905256787
+"LPSSYN.PWY..superpathway.of.lipopolysaccharide.biosynthesis","",0,0.08,"Environment",0.962905390327481
+"P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.","",0,0.1,"Environment",0.937551073486749
+"P124.PWY..Bifidobacterium.shunt","",0,0.17,"Environment",0.95820368739086
+"P164.PWY..purine.nucleobases.degradation.I..anaerobic.","",0,0.05,"Environment",0.94678033567206
+"P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I","",0,0.1,"Environment",0.896636423454705
+"P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate","",0,0.06,"Environment",0.963510833935628
+"PENTOSE.P.PWY..pentose.phosphate.pathway","",0,0.14,"Environment",0.943113076798656
+"ECASYN.PWY..enterobacterial.common.antigen.biosynthesis","",0,0.1,"Environment",0.955607455409091
+"PWY.5676..acetyl.CoA.fermentation.to.butanoate.II","",0,0.06,"Environment",0.946463194825514
+"CENTFERM.PWY..pyruvate.fermentation.to.butanoate","",NA,NA,"Environment",0.984650187492887
+"PWY0.42..2.methylcitrate.cycle.I","",0,0.17,"Environment",0.928265969039527
+"THISYN.PWY..superpathway.of.thiamin.diphosphate.biosynthesis.I","",0,0.17,"Environment",0.976378039349504
+"PWY.6969..TCA.cycle.V..2.oxoglutarate.ferredoxin.oxidoreductase.","",0,0.1,"Environment",0.973043124601595
+"ALL.CHORISMATE.PWY..superpathway.of.chorismate.metabolism","",0,0.14,"Environment",0.96178213432854
+"PWY_ARG.POLYAMINE.SYN..superpathway.of.arginine.and.polyamine.biosynthesis","",0,0.13,"Environment",0.85026141439094
+"PWY.7254..TCA.cycle.VII..acetate.producers.","",0,0.08,"Environment",0.979315478523156
+"PWY0.862...5Z..dodec.5.enoate.biosynthesis","",0,0.16,"Environment",0.965084692763609
+"PWY.6629..superpathway.of.L.tryptophan.biosynthesis","",0,0.14,"Environment",0.973638517164355
+"KDO.NAGLIPASYN.PWY..superpathway.of..Kdo.2.lipid.A.biosynthesis","",0,0.11,"Environment",0.973430610054748
+"FOLSYN.PWY..superpathway.of.tetrahydrofolate.biosynthesis.and.salvage","",0,0.2,"Environment",0.887614582794485
+"PWY.5989..stearate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Environment",0.982610550192432
+"PWY0.41..allantoin.degradation.IV..anaerobic.","",0,0.12,"Environment",0.999999927164953
+"AEROBACTINSYN.PWY..aerobactin.biosynthesis","",0,0.11,"Environment",0.928191516088827
+"HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.","",0,0.06,"Environment",0.980810139150856
+"FAO.PWY..fatty.acid..beta..oxidation.I","",0,0.13,"Environment",0.999999992455221
+"PWY.5918..superpathay.of.heme.biosynthesis.from.glutamate","",0,0.15,"Environment",0.989038729623625
+"CRNFORCAT.PWY..creatinine.degradation.I","",0,0.08,"Environment",0.975769798285539
+"FASYN.INITIAL.PWY..superpathway.of.fatty.acid.biosynthesis.initiation..E..coli.","",0,0.16,"Environment",0.959964383695342
+"PWY.6263..superpathway.of.menaquinol.8.biosynthesis.II","",0,0.16,"Environment",0.940453786891122
+"PWY.6282..palmitoleate.biosynthesis.I..from..5Z..dodec.5.enoate.","",0,0.16,"Environment",0.960397076280995
+"PWY.6471..peptidoglycan.biosynthesis.IV..Enterococcus.faecium.","",0,0.13,"Environment",0.990745374821478
+"FASYN.ELONG.PWY..fatty.acid.elongation....saturated","",0,0.16,"Environment",0.955832955154226
+"METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation","",0,0.14,"Environment",0.969604072567565
+"PWY.7664..oleate.biosynthesis.IV..anaerobic.","",0,0.17,"Environment",0.956123934333085
+"PWY.7199..pyrimidine.deoxyribonucleosides.salvage","",0,0.15,"Environment",0.921403596403547
+"ARGSYN.PWY..L.arginine.biosynthesis.I..via.L.ornithine.","",0,0.13,"Environment",0.884912866333048
+"PWY.7400..L.arginine.biosynthesis.IV..archaebacteria.","",0,0.13,"Environment",0.88978864134191
+"PWY.6519..8.amino.7.oxononanoate.biosynthesis.I","",0,0.16,"Environment",0.951048654423321
+"P441.PWY..superpathway.of.N.acetylneuraminate.degradation","",0,0.16,"Environment",0.95731892465912
+"PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis","",0,0.15,"Environment",0.95987504540392
+"PWY.6891..thiazole.biosynthesis.II..Bacillus.","",0,0.14,"Environment",0.98593270841909
+"PWY.5845..superpathway.of.menaquinol.9.biosynthesis","",0,0.15,"Environment",0.957467639326372
+"PWY.5896..superpathway.of.menaquinol.10.biosynthesis","",0,0.15,"Environment",0.957467639326372
+"PWY.6892..thiazole.biosynthesis.I..E..coli.","",0,0.17,"Environment",0.962423699285527
+"PWY0.1338..polymyxin.resistance","",0,0.14,"Environment",0.959237868902883
+"P23.PWY..reductive.TCA.cycle.I","",0,0.14,"Environment",0.983681022827864
+"BIOTIN.BIOSYNTHESIS.PWY..biotin.biosynthesis.I","",0,0.17,"Environment",0.948834159797671
+"PWY.922..mevalonate.pathway.I","",0,0.16,"Environment",0.973632304846731
+"PWY_GLYCOLYSIS.E.D..superpathway.of.glycolysis.and.Entner.Doudoroff","",0,0.17,"Environment",0.963144315420588
+"PWY.6628..superpathway.of.L.phenylalanine.biosynthesis","",0,0.15,"Environment",0.919637532413995
+"PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.","",0,0.16,"Environment",0.90733924718155
+"AST.PWY..L.arginine.degradation.II..AST.pathway.","",0,0.16,"Environment",0.962167740472332
+"PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.","",0,0.14,"Environment",0.861176473805529
+"MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis","",0,0.16,"Environment",0.897403004614822
+"PWY_TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA","",0,0.16,"Environment",0.930643405563155
+"PWY.5656..mannosylglycerate.biosynthesis.I","",0,0.16,"Environment",0.955816962925036
+"PWY_GLYCOLYSIS.TCA.GLYOX.BYPASS..superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass","",0,0.15,"Environment",0.934885075327879
+"SO4ASSIM.PWY..sulfate.reduction.I..assimilatory.","",0,0.21,"Environment",0.87391063680056
+"GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation","",0,0.16,"Environment",0.935397422277826
+"HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I","",0,0.17,"Environment",0.896784106907487
+"UBISYN.PWY..superpathway.of.ubiquinol.8.biosynthesis..prokaryotic.","",0,0.17,"Environment",0.940039320887231
+"PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.","",0,0.16,"Environment",0.916548853812469
+"PWY.5971..palmitate.biosynthesis.II..bacteria.and.plants.","",0,0.16,"Environment",0.916971322919344
+"SULFATE.CYS.PWY..superpathway.of.sulfate.assimilation.and.cysteine.biosynthesis","",0,0.18,"Environment",0.883195934614608
+"HISDEG.PWY..L.histidine.degradation.I","",0,0.2,"Environment",0.851327633455276
+"GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation","",0,0.17,"Environment",0.916822676626377
+"METSYN.PWY..L.homoserine.and.L.methionine.biosynthesis","",0,0.18,"Environment",0.891261787556361
+"RIBOSYN2.PWY..flavin.biosynthesis.I..bacteria.and.plants.","",0,0.18,"Environment",0.899510608149714
+"DAPLYSINESYN.PWY..L.lysine.biosynthesis.I","",0,0.17,"Environment",0.868587126719803
+"PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis","",0,1,"Environment",0.870940076704733
+"PWY.5860..superpathway.of.demethylmenaquinol.6.biosynthesis.I","",0,0.18,"Environment",0.928356420316145
+"PWY.5850..superpathway.of.menaquinol.6.biosynthesis.I","",0,0.18,"Environment",0.92593777512105
+"GLYCOGENSYNTH.PWY..glycogen.biosynthesis.I..from.ADP.D.Glucose.","",0,0.18,"Environment",0.942036814776038
+"PWY.5173..superpathway.of.acetyl.CoA.biosynthesis","",0,0.16,"Environment",0.920220481564829
+"PWY.5675..nitrate.reduction.V..assimilatory.","",0,0.19,"Environment",0.954858617529716
+"LACTOSECAT.PWY..lactose.and.galactose.degradation.I","",0,0.2,"Environment",0.857869147829086
+"PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I","",0,0.19,"Environment",0.921467735265834
+"PWY0.1297..superpathway.of.purine.deoxyribonucleosides.degradation","",0,0.17,"Environment",0.905307475242519
+"PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis","",0,0.2,"Environment",0.92140573418103
+"PWY_GLYOXYLATE.BYPASS..glyoxylate.cycle","",0,0.19,"Environment",0.90888461096614
+"PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.","",0,0.17,"Environment",0.903665137910045
+"POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.","",0,0.19,"Environment",0.920668445031184
+"PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III","",0,0.23,"Environment",0.837710521592255
+"HSERMETANA.PWY..L.methionine.biosynthesis.III","",NA,NA,"Environment",0.885583726627583
+"PWY_NAD.BIOSYNTHESIS.II..NAD.salvage.pathway.II","",0,0.17,"Environment",0.906084372829586
+"PWY_HEME.BIOSYNTHESIS.II..heme.biosynthesis.I..aerobic.","",0,0.18,"Environment",0.929888582101937
+"PWY.5088..L.glutamate.degradation.VIII..to.propanoate.","",0,0.2,"Environment",0.926542533966915
+"PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Environment",0.86450247987477
+"HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.oxopent.4.enoate","",0,0.19,"Environment",0.86450247987477
+"POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I","",0,0.21,"Environment",0.884052948476391
+"ARGSYNBSUB.PWY..L.arginine.biosynthesis.II..acetyl.cycle.","",0,0.18,"Environment",0.783916768315001
+"PWY.7237..myo...chiro..and.scillo.inositol.degradation","",0,0.2,"Environment",0.895248541418141
+"P161.PWY..acetylene.degradation","",0,0.19,"Environment",0.866338178121254
+"PWY.7315..dTDP.N.acetylthomosamine.biosynthesis","",0,0.2,"Environment",0.889828693563339
+"PWY.7456..mannan.degradation","",0,0.21,"Environment",0.845234992781694
+"PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP","",0,0.2,"Environment",0.826601812232248
+"COLANSYN.PWY..colanic.acid.building.blocks.biosynthesis","",0,0.2,"Environment",0.928256099941192
+"PWY.6608..guanosine.nucleotides.degradation.III","",0,0.22,"Environment",0.862234967779352
+"COA.PWY..coenzyme.A.biosynthesis.I","",0,0.25,"Environment",0.853434500308829
+"PWY0.1261..anhydromuropeptides.recycling","",0,0.2,"Environment",0.885518832632653
+"PWY.6353..purine.nucleotides.degradation.II..aerobic.","",0,0.22,"Environment",0.881065187053776
+"PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation","",0,0.2,"Environment",0.844602302344503
+"SER.GLYSYN.PWY..superpathway.of.L.serine.and.glycine.biosynthesis.I","",0,0.23,"Environment",0.862205462506174
+"SALVADEHYPOX.PWY..adenosine.nucleotides.degradation.II","",0,0.22,"Environment",0.849359984424064
+"KETOGLUCONMET.PWY..ketogluconate.metabolism","",0,0.2,"Environment",0.845763844678631
+"FUC.RHAMCAT.PWY..superpathway.of.fucose.and.rhamnose.degradation","",0,0.22,"Environment",0.917524007733974
+"GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol","",0,0.2,"Environment",0.855294878129742
+"PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage","",0,0.2,"Environment",0.893443564203444
+"PWY0.1533..methylphosphonate.degradation.I","",0,0.22,"Environment",0.882201597306466
+"PWY0.1061..superpathway.of.L.alanine.biosynthesis","",0,0.22,"Environment",0.862093342261377
+"TRPSYN.PWY..L.tryptophan.biosynthesis","",0,0.21,"Environment",0.854510964602763
+"PWY.5705..allantoin.degradation.to.glyoxylate.III","",0,0.22,"Environment",0.870706493888674
+"P122.PWY..heterolactic.fermentation","",0,0.2,"Environment",0.843123968660348
+"PWY.5855..ubiquinol.7.biosynthesis..prokaryotic.","",0,0.21,"Environment",0.889606999368488
+"PWY.5856..ubiquinol.9.biosynthesis..prokaryotic.","",0,0.21,"Environment",0.889606999368488
+"PWY.5857..ubiquinol.10.biosynthesis..prokaryotic.","",0,0.21,"Environment",0.889606999368488
+"PWY.6708..ubiquinol.8.biosynthesis..prokaryotic.","",0,0.21,"Environment",0.889606999368488
+"PWY.7198..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.IV","",0,0.22,"Environment",0.807292461915364
+"PWY0.1241..ADP.L.glycero..beta..D.manno.heptose.biosynthesis","",0,0.21,"Environment",0.858561664119976
+"PWY.4984..urea.cycle","",0,0.24,"Environment",0.864957637016383
+"PWY.5384..sucrose.degradation.IV..sucrose.phosphorylase.","",0,0.24,"Environment",0.886924411167107
+"FUCCAT.PWY..fucose.degradation","",0,0.21,"Environment",0.861541363758545
+"PYRIDNUCSYN.PWY..NAD.biosynthesis.I..from.aspartate.","*",0,0.22,"Environment",0.86384149241166
+"GLYCOCAT.PWY..glycogen.degradation.I..bacterial.","*",0,0.23,"Environment",0.805915620376749
+"PWY0.1296..purine.ribonucleosides.degradation","*",0,0.23,"Environment",0.850660744765131
+"PWY.5920..superpathway.of.heme.biosynthesis.from.glycine","*",0,0.23,"Environment",0.858646707812373
+"ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.","*",0,0.24,"Environment",0.871919277801247
+"PWY.2941..L.lysine.biosynthesis.II","*",0,0.24,"Environment",0.857798836664054
+"P42.PWY..incomplete.reductive.TCA.cycle","*",0,0.23,"Environment",0.836857834583415
+"PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation","*",0,0.24,"Environment",0.851220351316077
+"ARO.PWY..chorismate.biosynthesis.I","*",0,0.22,"Environment",0.84745105815924
+"PWY0.1586..peptidoglycan.maturation..meso.diaminopimelate.containing.","*",0,0.25,"Environment",0.850357165061467
+"FERMENTATION.PWY..mixed.acid.fermentation","*",0,0.22,"Environment",0.867668141549338
+"PWY.5791..1.4.dihydroxy.2.naphthoate.biosynthesis.II..plants.","*",0,0.23,"Environment",0.887842340909506
+"PWY.5837..1.4.dihydroxy.2.naphthoate.biosynthesis.I","*",0,0.23,"Environment",0.887842340909506
+"PWY.5913..TCA.cycle.VI..obligate.autotrophs.","*",0,0.23,"Environment",0.868461978216204
+"DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II","*",0,0.24,"Environment",0.839503697472481
+"NONOXIPENT.PWY..pentose.phosphate.pathway..non.oxidative.branch.","*",0,0.25,"Environment",0.841607280362629
+"PWY.5897..superpathway.of.menaquinol.11.biosynthesis","*",0,0.23,"Environment",0.88478581896919
+"PWY.5898..superpathway.of.menaquinol.12.biosynthesis","*",0,0.23,"Environment",0.88478581896919
+"PWY.5899..superpathway.of.menaquinol.13.biosynthesis","*",0,0.23,"Environment",0.88478581896919
+"PWY.6163..chorismate.biosynthesis.from.3.dehydroquinate","*",0,0.26,"Environment",0.845449645833066
+"ASPASN.PWY..superpathway.of.L.aspartate.and.L.asparagine.biosynthesis","*",0,0.22,"Environment",0.856701860995017
+"GLUCARDEG.PWY..D.glucarate.degradation.I","*",0,0.24,"Environment",0.847746099980897
+"PWY.7234..inosine.5..phosphate.biosynthesis.III","*",0,0.25,"Environment",0.832184884873276
+"PWY.5022..4.aminobutanoate.degradation.V","*",0,0.23,"Environment",0.823690326697924
+"THRESYN.PWY..superpathway.of.L.threonine.biosynthesis","*",0,0.26,"Environment",0.820544584664279
+"PWY.6737..starch.degradation.V","*",0,0.27,"Environment",0.824123328586634
+"DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I","*",0,0.27,"Environment",0.850720074631277
+"PWY.7323..superpathway.of.GDP.mannose.derived.O.antigen.building.blocks.biosynthesis","*",0,0.25,"Environment",0.869852734769992
+"PWY.841..superpathway.of.purine.nucleotides.de.novo.biosynthesis.I","*",0,0.25,"Environment",0.816315049960687
+"PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I","*",0,0.27,"Environment",0.812839005823757
+"PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0,0.25,"Environment",0.820792751705665
+"PWY.5103..L.isoleucine.biosynthesis.III","*",0.01,0.29,"Environment",0.812504373922852
+"COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis","*",0,0.27,"Environment",0.830290452176566
+"PWY.7013..L.1.2.propanediol.degradation","*",0,0.25,"Environment",0.846564793640957
+"TRNA.CHARGING.PWY..tRNA.charging","*",0,0.25,"Environment",0.821673910228572
+"PWY0.321..phenylacetate.degradation.I..aerobic.","*",0,0.26,"Environment",0.876379966518585
+"GALACTUROCAT.PWY..D.galacturonate.degradation.I","*",0,0.26,"Environment",0.799741020054646
+"BRANCHED.CHAIN.AA.SYN.PWY..superpathway.of.branched.amino.acid.biosynthesis","*",0.01,0.29,"Environment",0.81129806500168
+"PWY.5005..biotin.biosynthesis.II","*",0,0.26,"Environment",0.727401446736699
+"PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I","*",0.01,0.28,"Environment",0.815760920273426
+"PWY.6630..superpathway.of.L.tyrosine.biosynthesis","*",0,0.26,"Environment",0.845045256795698
+"PWY.5840..superpathway.of.menaquinol.7.biosynthesis","*",0,0.25,"Environment",0.847202760255793
+"PWY.6609..adenine.and.adenosine.salvage.III","*",0,0.26,"Environment",0.829650816321913
+"PWY.6121..5.aminoimidazole.ribonucleotide.biosynthesis.I","*",0.01,0.3,"Environment",0.826172923472114
+"PPGPPMET.PWY..ppGpp.biosynthesis","*",0,0.26,"Environment",0.774076264107713
+"PWY.6122..5.aminoimidazole.ribonucleotide.biosynthesis.II","*",0.02,0.3,"Environment",0.823753929587083
+"PWY.6277..superpathway.of.5.aminoimidazole.ribonucleotide.biosynthesis","*",0.02,0.3,"Environment",0.823753929587083
+"POLYAMINSYN3.PWY..superpathway.of.polyamine.biosynthesis.II","*",0,0.27,"Environment",0.67388546928202
+"GALACTARDEG.PWY..D.galactarate.degradation.I","*",0,0.26,"Environment",0.811410019364537
+"GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation","*",0,0.26,"Environment",0.811410019364537
+"PWY.7221..guanosine.ribonucleotides.de.novo.biosynthesis","*",0,0.27,"Environment",0.826431798544025
+"PWY.5104..L.isoleucine.biosynthesis.IV","*",0,0.28,"Environment",0.791991168137643
+"PWY.6700..queuosine.biosynthesis","*",0,0.26,"Environment",0.822937363419943
+"PWY.6317..galactose.degradation.I..Leloir.pathway.","*",0,0.27,"Environment",0.836835827147175
+"ORNDEG.PWY..superpathway.of.ornithine.degradation","*",0,0.27,"Environment",0.830248108037303
+"PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III","*",0.01,0.28,"Environment",0.810908151720508
+"PWY.6897..thiamin.salvage.II","*",0,0.3,"Environment",0.797274228102471
+"ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation","*",0,0.28,"Environment",0.833357338138542
+"ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation","*",0,0.28,"Environment",0.833357338138542
+"PWY.5659..GDP.mannose.biosynthesis","*",0,0.27,"Environment",0.796516794382966
+"PWY.5686..UMP.biosynthesis","*",0,0.28,"Environment",0.819579869952123
+"PWY.7219..adenosine.ribonucleotides.de.novo.biosynthesis","*",0,0.28,"Environment",0.814441157219043
+"NONMEVIPP.PWY..methylerythritol.phosphate.pathway.I","*",0,0.28,"Environment",0.814900094469631
+"PWY.5100..pyruvate.fermentation.to.acetate.and.lactate.II","*",0,0.29,"Environment",0.761695855318605
+"PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.","*",0.01,0.27,"Environment",0.79386800945966
+"PWY0.1479..tRNA.processing","*",0,0.29,"Environment",0.704159361597912
+"PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.","*",0.02,0.29,"Environment",0.81834845108028
+"GLCMANNANAUT.PWY..superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation","*",0,0.28,"Environment",0.777832631628151
+"PWY.7446..sulfoglycolysis","*",0.01,0.28,"Environment",0.787328639552911
+"PWY.6387..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.I..meso.diaminopimelate.containing.","*",0,0.27,"Environment",0.814632415660543
+"GALACT.GLUCUROCAT.PWY..superpathway.of.hexuronide.and.hexuronate.degradation","*",0.02,0.3,"Environment",0.765219357361036
+"PWY.6386..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.II..lysine.containing.","*",0.02,0.29,"Environment",0.809914400503827
+"PWY.2942..L.lysine.biosynthesis.III","*",0,0.28,"Environment",0.815613826200493
+"PWY.6151..S.adenosyl.L.methionine.cycle.I","*",0.02,0.28,"Environment",0.8040781116706
+"PWY0.1415..superpathway.of.heme.biosynthesis.from.uroporphyrinogen.III","*",0.01,0.28,"Environment",0.85073889268196
+"GLUCUROCAT.PWY..superpathway.of..beta..D.glucuronide.and.D.glucuronate.degradation","*",0,0.31,"Environment",0.757705978598185
+"UDPNAGSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.I","*",0.02,0.27,"Environment",0.785935793972544
+"PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.","*",0,0.29,"Environment",0.79112044542887
+"PWY.5097..L.lysine.biosynthesis.VI","*",0,1,"Environment",0.809393094835844
+"PWY.724..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.II","*",0,0.29,"Environment",0.806046917324759
+"HISTSYN.PWY..L.histidine.biosynthesis","*",0.04,0.31,"Environment",0.79746830304012
+"HEMESYN2.PWY..heme.biosynthesis.II..anaerobic.","*",0.01,0.3,"Environment",0.786907855044589
+"P108.PWY..pyruvate.fermentation.to.propanoate.I","*",0.01,0.3,"Environment",0.823572015714834
+"PWY.7229..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.I","*",0.02,0.29,"Environment",0.785759322465209
+"PWY.5345..superpathway.of.L.methionine.biosynthesis..by.sulfhydrylation.","*",0.08,0.34,"Environment",0.771203710738222
+"PWY.7111..pyruvate.fermentation.to.isobutanol..engineered.","*",0.03,0.3,"Environment",0.776351956582471
+"PWY.6123..inosine.5..phosphate.biosynthesis.I","*",0.03,0.3,"Environment",0.786878651349571
+"PWY66.422..D.galactose.degradation.V..Leloir.pathway.","*",0.01,0.3,"Environment",0.805161263263932
+"PWY.5505..L.glutamate.and.L.glutamine.biosynthesis","*",0.03,0.29,"Environment",0.678404046983309
+"PWY.6126..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Environment",0.778151831121838
+"PWY.6507..4.deoxy.L.threo.hex.4.enopyranuronate.degradation","*",0,0.31,"Environment",0.735032413408028
+"PWY4FS.8..phosphatidylglycerol.biosynthesis.II..non.plastidic.","*",0,0.32,"Environment",0.798640697480761
+"PWY4FS.7..phosphatidylglycerol.biosynthesis.I..plastidic.","*",0,0.33,"Environment",0.7986061215146
+"PWY.5695..urate.biosynthesis.inosine.5..phosphate.degradation","*",0.03,0.3,"Environment",0.806312646257516
+"PWY.7220..adenosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Environment",0.772892162865449
+"PWY.7222..guanosine.deoxyribonucleotides.de.novo.biosynthesis.II","*",0.03,0.3,"Environment",0.772892162865449
+"PWY0.162..superpathway.of.pyrimidine.ribonucleotides.de.novo.biosynthesis","*",0.03,0.3,"Environment",0.763380387726281
+"VALSYN.PWY..L.valine.biosynthesis","*",0,0.31,"Environment",0.771869769060258
+"ILEUSYN.PWY..L.isoleucine.biosynthesis.I..from.threonine.","*",0,0.31,"Environment",0.771869769060258
+"PWY.5177..glutaryl.CoA.degradation","*",0.03,0.31,"Environment",0.747110000366808
+"OANTIGEN.PWY..O.antigen.building.blocks.biosynthesis..E..coli.","*",0.04,0.3,"Environment",0.770127281971556
+"PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.","*",0.04,0.31,"Environment",0.765580363683676
+"PWY.7184..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Environment",0.764115446353144
+"PWY.7208..superpathway.of.pyrimidine.nucleobases.salvage","*",0.05,0.32,"Environment",0.756473118551892
+"PWY_GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.","*",0.04,0.32,"Environment",0.756294253137758
+"PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II","*",0.05,0.32,"Environment",0.758220603883174
+"PWY.5484..glycolysis.II..from.fructose.6.phosphate.","*",0.04,0.32,"Environment",0.755855545786953
+"PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation","*",0.03,0.29,"Environment",0.748677906101985
+"PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I","*",0.05,0.32,"Environment",0.749434668495166
+"PWY.5973..cis.vaccenate.biosynthesis","*",0.03,0.33,"Environment",0.764025473712387
+"COBALSYN.PWY..adenosylcobalamin.salvage.from.cobinamide.I","*",0.05,0.33,"Environment",0.748767679648255
+"PWY.621..sucrose.degradation.III..sucrose.invertase.","*",0.05,0.34,"Environment",0.743995573998969
+"PWY.7663..gondoate.biosynthesis..anaerobic.","*",0.04,0.34,"Environment",0.755932152702618
+"RHAMCAT.PWY..L.rhamnose.degradation.I","*",0.05,0.35,"Environment",0.75825525905212
+"ANAEROFRUCAT.PWY..homolactic.fermentation","*",0.06,0.35,"Environment",0.761620760610539
+"PWY.5667..CDP.diacylglycerol.biosynthesis.I","*",0.07,0.34,"Environment",0.766741830347128
+"PWY0.1319..CDP.diacylglycerol.biosynthesis.II","*",0.07,0.34,"Environment",0.76668418581246
+"PANTO.PWY..phosphopantothenate.biosynthesis.I","*",0.07,0.34,"Environment",0.752951242018509
+"PWY.6703..preQ0.biosynthesis","**",0.08,0.35,"Environment",0.744881902167192
+"PWY.5101..L.isoleucine.biosynthesis.II","**",0.09,0.36,"Environment",0.662486744309909
+"X1CMET2.PWY..N10.formyl.tetrahydrofolate.biosynthesis","**",0.08,0.39,"Environment",0.698778323963263
+"NAGLIPASYN.PWY..lipid.IVA.biosynthesis","**",0.14,0.39,"Environment",0.685812833995922
+"PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I","**",0.11,0.41,"Environment",0.623050117650089
+"PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage","**",0.14,0.4,"Environment",0.622842905852678

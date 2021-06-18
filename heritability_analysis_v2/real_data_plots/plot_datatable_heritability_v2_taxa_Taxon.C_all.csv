@@ -1,0 +1,45 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"c__Deltaproteobacteria","",0,0.16,"Additive genetics",6.19e-08
+"c__Erysipelotrichia","",0,0.19,"Additive genetics",0.059209953
+"c__Clostridia","",0,0.23,"Additive genetics",0.080674562
+"c__Bacilli","",0,0.23,"Additive genetics",0.081019174
+"c__Methanobacteria","",0,0.21,"Additive genetics",0.081233445
+"c__Betaproteobacteria","*",0,0.29,"Additive genetics",0.128693843
+"c__Negativicutes","*",0,0.31,"Additive genetics",0.146587271
+"c__Gammaproteobacteria","*",0.03,0.31,"Additive genetics",0.158173434
+"c__Actinobacteria","*",0.08,0.31,"Additive genetics",0.196980864
+"c__Bacteroidia","*",0.05,0.36,"Additive genetics",0.203841063
+"c__Verrucomicrobiae","**",0.17,0.43,"Additive genetics",0.301827119
+"c__Deltaproteobacteria","",0,0.16,"Cohousing",0.114739866
+"c__Erysipelotrichia","",0,0.19,"Cohousing",0.046885867
+"c__Clostridia","",0,0.23,"Cohousing",0.017323457
+"c__Bacilli","",0,0.23,"Cohousing",0.118559042
+"c__Methanobacteria","",0,0.21,"Cohousing",0.040422801
+"c__Betaproteobacteria","*",0,0.29,"Cohousing",0.044103205
+"c__Negativicutes","*",0,0.31,"Cohousing",0.125775712
+"c__Gammaproteobacteria","*",0.03,0.31,"Cohousing",0.025442894
+"c__Actinobacteria","*",0.08,0.31,"Cohousing",0.147329441
+"c__Bacteroidia","*",0.05,0.36,"Cohousing",0.040330499
+"c__Verrucomicrobiae","**",0.17,0.43,"Cohousing",0.024619948
+"c__Deltaproteobacteria","",0,0.16,"Family",0.016385722
+"c__Erysipelotrichia","",0,0.19,"Family",0
+"c__Clostridia","",0,0.23,"Family",0.038613226
+"c__Bacilli","",0,0.23,"Family",0.022751767
+"c__Methanobacteria","",0,0.21,"Family",1.11e-10
+"c__Betaproteobacteria","*",0,0.29,"Family",0.055324456
+"c__Negativicutes","*",0,0.31,"Family",0.033234372
+"c__Gammaproteobacteria","*",0.03,0.31,"Family",9.62e-10
+"c__Actinobacteria","*",0.08,0.31,"Family",0
+"c__Bacteroidia","*",0.05,0.36,"Family",1.9e-10
+"c__Verrucomicrobiae","**",0.17,0.43,"Family",4.41e-14
+"c__Deltaproteobacteria","",0,0.16,"Environment",0.868874351
+"c__Erysipelotrichia","",0,0.19,"Environment",0.89390418
+"c__Clostridia","",0,0.23,"Environment",0.863388756
+"c__Bacilli","",0,0.23,"Environment",0.777670017
+"c__Methanobacteria","",0,0.21,"Environment",0.878343754
+"c__Betaproteobacteria","*",0,0.29,"Environment",0.771878496
+"c__Negativicutes","*",0,0.31,"Environment",0.694402645
+"c__Gammaproteobacteria","*",0.03,0.31,"Environment",0.816383671
+"c__Actinobacteria","*",0.08,0.31,"Environment",0.655689694
+"c__Bacteroidia","*",0.05,0.36,"Environment",0.755828437
+"c__Verrucomicrobiae","**",0.17,0.43,"Environment",0.673552933

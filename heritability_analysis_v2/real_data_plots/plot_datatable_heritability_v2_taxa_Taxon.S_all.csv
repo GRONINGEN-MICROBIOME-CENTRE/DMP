@@ -1,0 +1,545 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"s__Coprococcus_sp_ART55_1","",0,0.05,"Additive genetics",0
+"s__Dorea_unclassified","",0,0.1,"Additive genetics",0
+"s__Eubacterium_hallii","",0,0.08,"Additive genetics",0
+"s__Coprococcus_comes","",0,0.11,"Additive genetics",0
+"s__Lachnospiraceae_bacterium_5_1_63FAA","",0,0.14,"Additive genetics",0
+"s__Anaerostipes_hadrus","",0,0.09,"Additive genetics",0
+"s__Bifidobacterium_adolescentis","",0,0.11,"Additive genetics",0
+"s__Coprococcus_eutactus","",0,0.04,"Additive genetics",0
+"s__Lachnospiraceae_bacterium_3_1_46FAA","",0,0.11,"Additive genetics",0
+"s__Anaerotruncus_unclassified","",0,0.11,"Additive genetics",0
+"s__Subdoligranulum_unclassified","",0,0.13,"Additive genetics",0
+"s__Acidaminococcus_unclassified","",0,0.1,"Additive genetics",0
+"s__Eubacterium_rectale","",0,0.09,"Additive genetics",1.65e-10
+"s__Ruminococcaceae_bacterium_D16","",0,0.15,"Additive genetics",2.69e-10
+"s__Ruminococcus_obeum","",0,0.13,"Additive genetics",6.15e-10
+"s__Bacteroides_nordii","",0,0.09,"Additive genetics",1.12e-09
+"s__Roseburia_hominis","",0,0.2,"Additive genetics",1.93e-09
+"s__Clostridium_hathewayi","",0,0.07,"Additive genetics",2.21e-09
+"s__Bacteroidales_bacterium_ph8","",0,0.19,"Additive genetics",2.61e-09
+"s__Dorea_formicigenerans","",0,0.21,"Additive genetics",3.15e-09
+"s__Ruminococcus_torques","",0,0.15,"Additive genetics",3.22e-09
+"s__Streptococcus_thermophilus","",0,0.16,"Additive genetics",3.79e-09
+"s__Methanobrevibacter_unclassified","",0,0.11,"Additive genetics",6e-09
+"s__Alistipes_shahii","",0,0.14,"Additive genetics",1.13e-08
+"s__Ruminococcus_callidus","",0,0.13,"Additive genetics",2.72e-08
+"s__Prevotella_stercorea","",0,0.14,"Additive genetics",3.53e-08
+"s__Dorea_longicatena","",0,0.13,"Additive genetics",6.66e-08
+"s__Bilophila_unclassified","",0,0.17,"Additive genetics",1.96e-07
+"s__Bifidobacterium_catenulatum","",0,0.14,"Additive genetics",0.000403525
+"s__Klebsiella_unclassified","",0,0.16,"Additive genetics",0.004992861
+"s__Bacteroides_cellulosilyticus","",0,0.15,"Additive genetics",0.007308445
+"s__Coprococcus_catus","",0,0.14,"Additive genetics",0.009160557
+"s__Ruminococcus_gnavus","",0,0.16,"Additive genetics",0.009993299
+"s__Alistipes_unclassified","",0,0.16,"Additive genetics",0.010211095
+"s__Holdemania_unclassified","",0,0.17,"Additive genetics",0.012617594
+"s__Alistipes_indistinctus","",0,0.14,"Additive genetics",0.016115791
+"s__Odoribacter_splanchnicus","",0,0.14,"Additive genetics",0.016788448
+"s__Roseburia_unclassified","",0,0.17,"Additive genetics",0.02017433
+"s__Odoribacter_unclassified","",0,0.15,"Additive genetics",0.025911034
+"s__Ruminococcus_lactaris","",0,0.16,"Additive genetics",0.027883475
+"s__Alistipes_putredinis","",0,0.17,"Additive genetics",0.029642129
+"s__Bacteroides_clarus","",0,0.17,"Additive genetics",0.030700049
+"s__Adlercreutzia_equolifaciens","",0,0.18,"Additive genetics",0.03278783
+"s__Bifidobacterium_bifidum","",0,0.17,"Additive genetics",0.033115451
+"s__Coprobacter_fastidiosus","",0,0.17,"Additive genetics",0.036393848
+"s__Bacteroides_vulgatus","",0,0.19,"Additive genetics",0.038072507
+"s__Bacteroides_salyersiae","",0,0.17,"Additive genetics",0.039490566
+"s__Parabacteroides_unclassified","",0,0.19,"Additive genetics",0.039950772
+"s__Oscillibacter_unclassified","",0,0.21,"Additive genetics",0.041168572
+"s__Lachnospiraceae_bacterium_1_1_57FAA","",0,0.17,"Additive genetics",0.046533281
+"s__Gordonibacter_pamelaeae","",0,0.18,"Additive genetics",0.051001825
+"s__Anaerotruncus_colihominis","",0,0.2,"Additive genetics",0.05184397
+"s__Parabacteroides_distasonis","",0,0.2,"Additive genetics",0.052845965
+"s__Bifidobacterium_pseudocatenulatum","",0,0.19,"Additive genetics",0.054594492
+"s__Bilophila_wadsworthia","",0,0.2,"Additive genetics",0.056333825
+"s__Bifidobacterium_dentium","",0,0.18,"Additive genetics",0.056456075
+"s__Lachnospiraceae_bacterium_3_1_57FAA_CT1","",0,0.18,"Additive genetics",0.056609483
+"s__Clostridium_bartlettii","",0,0.17,"Additive genetics",0.057168884
+"s__Bacteroides_xylanisolvens","",0,0.19,"Additive genetics",0.058744039
+"s__Bacteroides_ovatus","",0,0.2,"Additive genetics",0.062075653
+"s__Rothia_mucilaginosa","",0,0.21,"Additive genetics",0.065382352
+"s__Alistipes_sp_AP11","",0,0.21,"Additive genetics",0.065767242
+"s__Bacteroides_stercoris","",0,0.2,"Additive genetics",0.06694517
+"s__Bacteroides_dorei","",0,0.19,"Additive genetics",0.067687682
+"s__Collinsella_aerofaciens","",0,0.22,"Additive genetics",0.06854765
+"s__Eubacterium_ramulus","",0,0.2,"Additive genetics",0.068986796
+"s__Veillonella_unclassified","",0,0.19,"Additive genetics",0.069190737
+"s__Veillonella_atypica","",0,0.2,"Additive genetics",0.070043561
+"s__Eubacterium_biforme","",0,0.2,"Additive genetics",0.070771113
+"s__Desulfovibrio_piger","",0,0.21,"Additive genetics",0.073381184
+"s__Bacteroides_fragilis","",0,0.22,"Additive genetics",0.073688989
+"s__Roseburia_inulinivorans","",0,0.19,"Additive genetics",0.077508755
+"s__Eubacterium_siraeum","",0,0.22,"Additive genetics",0.078733555
+"s__Bacteroides_thetaiotaomicron","",0,0.22,"Additive genetics",0.079084124
+"s__Veillonella_parvula","",0,0.21,"Additive genetics",0.081108704
+"s__Prevotella_copri","",0,0.22,"Additive genetics",0.081397995
+"s__Paraprevotella_clara","",0,0.22,"Additive genetics",0.081746385
+"s__Clostridium_asparagiforme","",0,0.23,"Additive genetics",0.082271384
+"s__Eubacterium_eligens","",0,0.22,"Additive genetics",0.082493687
+"s__Methanobrevibacter_smithii","",0,0.22,"Additive genetics",0.083617719
+"s__Clostridium_bolteae","",0,0.23,"Additive genetics",0.083809829
+"s__Barnesiella_intestinihominis","",0,0.23,"Additive genetics",0.083896949
+"s__Parasutterella_excrementihominis","",0,0.22,"Additive genetics",0.086409803
+"s__Butyrivibrio_crossotus","",0,0.25,"Additive genetics",0.088577252
+"s__Pseudoflavonifractor_capillosus","",0,0.23,"Additive genetics",0.090061911
+"s__Escherichia_unclassified","*",0,0.24,"Additive genetics",0.093094063
+"s__Bacteroides_plebeius","*",0,0.26,"Additive genetics",0.095582248
+"s__Burkholderiales_bacterium_1_1_47","*",0,0.24,"Additive genetics",0.09752499
+"s__Alistipes_onderdonkii","*",0,0.26,"Additive genetics",0.09891359
+"s__Eggerthella_lenta","*",0,0.25,"Additive genetics",0.099485301
+"s__Lactobacillus_delbrueckii","*",0,0.25,"Additive genetics",0.100546406
+"s__Desulfovibrio_desulfuricans","*",0,0.25,"Additive genetics",0.101355316
+"s__Alistipes_finegoldii","*",0,0.25,"Additive genetics",0.102767839
+"s__Roseburia_intestinalis","*",0,0.24,"Additive genetics",0.10473751
+"s__Eubacterium_ventriosum","*",0,0.24,"Additive genetics",0.106877616
+"s__Mitsuokella_unclassified","*",0,0.23,"Additive genetics",0.107655613
+"s__Parabacteroides_johnsonii","*",0,0.24,"Additive genetics",0.110737058
+"s__Megasphaera_unclassified","*",0,0.26,"Additive genetics",0.114352196
+"s__Bacteroides_intestinalis","*",0,0.26,"Additive genetics",0.114605963
+"s__Escherichia_coli","*",0,0.25,"Additive genetics",0.11594918
+"s__Catenibacterium_mitsuokai","*",0,0.25,"Additive genetics",0.116615393
+"s__Paraprevotella_xylaniphila","*",0,0.24,"Additive genetics",0.117837954
+"s__Lachnospiraceae_bacterium_7_1_58FAA","*",0,0.27,"Additive genetics",0.11844077
+"s__Clostridium_leptum","*",0,0.27,"Additive genetics",0.118892956
+"s__Peptostreptococcaceae_noname_unclassified","*",0,0.24,"Additive genetics",0.120061156
+"s__Streptococcus_salivarius","*",0,0.28,"Additive genetics",0.123282808
+"s__Streptococcus_parasanguinis","*",0,0.26,"Additive genetics",0.123951055
+"s__Erysipelotrichaceae_bacterium_21_3","*",0.04,0.26,"Additive genetics",0.124670398
+"s__Bacteroides_caccae","*",0,0.26,"Additive genetics",0.126138522
+"s__Haemophilus_parainfluenzae","*",0,0.24,"Additive genetics",0.126579944
+"s__Eggerthella_unclassified","*",0,0.28,"Additive genetics",0.128506118
+"s__Klebsiella_pneumoniae","*",0,0.28,"Additive genetics",0.128695396
+"s__Faecalibacterium_prausnitzii","*",0,0.25,"Additive genetics",0.132219504
+"s__Paraprevotella_unclassified","*",0,0.29,"Additive genetics",0.147400375
+"s__Alistipes_senegalensis","*",0,0.3,"Additive genetics",0.152961967
+"s__Holdemania_filiformis","*",0.02,0.29,"Additive genetics",0.157690964
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Additive genetics",0.165813758
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Additive genetics",0.16807024
+"s__Parabacteroides_merdae","*",0.04,0.3,"Additive genetics",0.170356668
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Additive genetics",0.170443515
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Additive genetics",0.17130314
+"s__Flavonifractor_plautii","*",0.02,0.32,"Additive genetics",0.173503727
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Additive genetics",0.175140801
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Additive genetics",0.181794328
+"s__Bacteroides_faecis","*",0.05,0.33,"Additive genetics",0.192843616
+"s__Ruminococcus_bromii","*",0.08,0.33,"Additive genetics",0.203975071
+"s__Dialister_invisus","*",0.08,0.34,"Additive genetics",0.207980225
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Additive genetics",0.212797086
+"s__Mitsuokella_multacida","*",0.07,0.35,"Additive genetics",0.218485358
+"s__Bacteroides_uniformis","*",0.08,0.36,"Additive genetics",0.219857132
+"s__Clostridium_citroniae","*",0.09,0.35,"Additive genetics",0.220584303
+"s__Bacteroides_coprocola","**",0.1,0.34,"Additive genetics",0.228361343
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Additive genetics",0.244838681
+"s__Bifidobacterium_longum","**",0.11,0.38,"Additive genetics",0.247421213
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Additive genetics",0.266308275
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Additive genetics",0.302239011
+"s__Coprococcus_sp_ART55_1","",0,0.05,"Cohousing",0.096769289
+"s__Dorea_unclassified","",0,0.1,"Cohousing",0.036343972
+"s__Eubacterium_hallii","",0,0.08,"Cohousing",0.089980357
+"s__Coprococcus_comes","",0,0.11,"Cohousing",0.040894093
+"s__Lachnospiraceae_bacterium_5_1_63FAA","",0,0.14,"Cohousing",0.107558246
+"s__Anaerostipes_hadrus","",0,0.09,"Cohousing",0.043826725
+"s__Bifidobacterium_adolescentis","",0,0.11,"Cohousing",0.164365922
+"s__Coprococcus_eutactus","",0,0.04,"Cohousing",0.191556412
+"s__Lachnospiraceae_bacterium_3_1_46FAA","",0,0.11,"Cohousing",0.16024191
+"s__Anaerotruncus_unclassified","",0,0.11,"Cohousing",0
+"s__Subdoligranulum_unclassified","",0,0.13,"Cohousing",0.0327657
+"s__Acidaminococcus_unclassified","",0,0.1,"Cohousing",0.230859121
+"s__Eubacterium_rectale","",0,0.09,"Cohousing",0.08404158
+"s__Ruminococcaceae_bacterium_D16","",0,0.15,"Cohousing",0
+"s__Ruminococcus_obeum","",0,0.13,"Cohousing",0.063527478
+"s__Bacteroides_nordii","",0,0.09,"Cohousing",0.166222462
+"s__Roseburia_hominis","",0,0.2,"Cohousing",0.060722458
+"s__Clostridium_hathewayi","",0,0.07,"Cohousing",0.068719612
+"s__Bacteroidales_bacterium_ph8","",0,0.19,"Cohousing",0.091486918
+"s__Dorea_formicigenerans","",0,0.21,"Cohousing",0.081894378
+"s__Ruminococcus_torques","",0,0.15,"Cohousing",0.007304947
+"s__Streptococcus_thermophilus","",0,0.16,"Cohousing",0.062226966
+"s__Methanobrevibacter_unclassified","",0,0.11,"Cohousing",0.000287923
+"s__Alistipes_shahii","",0,0.14,"Cohousing",0.090169328
+"s__Ruminococcus_callidus","",0,0.13,"Cohousing",0.10621843
+"s__Prevotella_stercorea","",0,0.14,"Cohousing",0.179141659
+"s__Dorea_longicatena","",0,0.13,"Cohousing",0.074020311
+"s__Bilophila_unclassified","",0,0.17,"Cohousing",0.10532647
+"s__Bifidobacterium_catenulatum","",0,0.14,"Cohousing",0.22428701
+"s__Klebsiella_unclassified","",0,0.16,"Cohousing",0.029315625
+"s__Bacteroides_cellulosilyticus","",0,0.15,"Cohousing",0.288163508
+"s__Coprococcus_catus","",0,0.14,"Cohousing",0.121048302
+"s__Ruminococcus_gnavus","",0,0.16,"Cohousing",0.042263538
+"s__Alistipes_unclassified","",0,0.16,"Cohousing",0.057443686
+"s__Holdemania_unclassified","",0,0.17,"Cohousing",0
+"s__Alistipes_indistinctus","",0,0.14,"Cohousing",0.176614932
+"s__Odoribacter_splanchnicus","",0,0.14,"Cohousing",0.076574963
+"s__Roseburia_unclassified","",0,0.17,"Cohousing",0.02034163
+"s__Odoribacter_unclassified","",0,0.15,"Cohousing",0.005455353
+"s__Ruminococcus_lactaris","",0,0.16,"Cohousing",0.102428474
+"s__Alistipes_putredinis","",0,0.17,"Cohousing",0.134634176
+"s__Bacteroides_clarus","",0,0.17,"Cohousing",0.246686494
+"s__Adlercreutzia_equolifaciens","",0,0.18,"Cohousing",0.09302398
+"s__Bifidobacterium_bifidum","",0,0.17,"Cohousing",0.04554158
+"s__Coprobacter_fastidiosus","",0,0.17,"Cohousing",0.110172457
+"s__Bacteroides_vulgatus","",0,0.19,"Cohousing",0.121874435
+"s__Bacteroides_salyersiae","",0,0.17,"Cohousing",0.29768075
+"s__Parabacteroides_unclassified","",0,0.19,"Cohousing",0.119450382
+"s__Oscillibacter_unclassified","",0,0.21,"Cohousing",0.148886237
+"s__Lachnospiraceae_bacterium_1_1_57FAA","",0,0.17,"Cohousing",0.052837357
+"s__Gordonibacter_pamelaeae","",0,0.18,"Cohousing",0.083309361
+"s__Anaerotruncus_colihominis","",0,0.2,"Cohousing",0.078199221
+"s__Parabacteroides_distasonis","",0,0.2,"Cohousing",0.188184606
+"s__Bifidobacterium_pseudocatenulatum","",0,0.19,"Cohousing",0.198685755
+"s__Bilophila_wadsworthia","",0,0.2,"Cohousing",0.18102594
+"s__Bifidobacterium_dentium","",0,0.18,"Cohousing",0.041986549
+"s__Lachnospiraceae_bacterium_3_1_57FAA_CT1","",0,0.18,"Cohousing",0.032124361
+"s__Clostridium_bartlettii","",0,0.17,"Cohousing",4.74e-10
+"s__Bacteroides_xylanisolvens","",0,0.19,"Cohousing",0.210832617
+"s__Bacteroides_ovatus","",0,0.2,"Cohousing",0.114216809
+"s__Rothia_mucilaginosa","",0,0.21,"Cohousing",0.060858162
+"s__Alistipes_sp_AP11","",0,0.21,"Cohousing",0.089950691
+"s__Bacteroides_stercoris","",0,0.2,"Cohousing",0.229278109
+"s__Bacteroides_dorei","",0,0.19,"Cohousing",0.247034482
+"s__Collinsella_aerofaciens","",0,0.22,"Cohousing",0.08557897
+"s__Eubacterium_ramulus","",0,0.2,"Cohousing",0.047260595
+"s__Veillonella_unclassified","",0,0.19,"Cohousing",0.103415534
+"s__Veillonella_atypica","",0,0.2,"Cohousing",0.042320352
+"s__Eubacterium_biforme","",0,0.2,"Cohousing",0.152598896
+"s__Desulfovibrio_piger","",0,0.21,"Cohousing",0.274334842
+"s__Bacteroides_fragilis","",0,0.22,"Cohousing",0.193959544
+"s__Roseburia_inulinivorans","",0,0.19,"Cohousing",0.008201941
+"s__Eubacterium_siraeum","",0,0.22,"Cohousing",0.017349134
+"s__Bacteroides_thetaiotaomicron","",0,0.22,"Cohousing",0.141845386
+"s__Veillonella_parvula","",0,0.21,"Cohousing",0.021942617
+"s__Prevotella_copri","",0,0.22,"Cohousing",0.202031696
+"s__Paraprevotella_clara","",0,0.22,"Cohousing",0.310853986
+"s__Clostridium_asparagiforme","",0,0.23,"Cohousing",3.67e-08
+"s__Eubacterium_eligens","",0,0.22,"Cohousing",0.061863386
+"s__Methanobrevibacter_smithii","",0,0.22,"Cohousing",0.037215416
+"s__Clostridium_bolteae","",0,0.23,"Cohousing",0.096515411
+"s__Barnesiella_intestinihominis","",0,0.23,"Cohousing",0.161608456
+"s__Parasutterella_excrementihominis","",0,0.22,"Cohousing",0.167243402
+"s__Butyrivibrio_crossotus","",0,0.25,"Cohousing",0.11596996
+"s__Pseudoflavonifractor_capillosus","",0,0.23,"Cohousing",0
+"s__Escherichia_unclassified","*",0,0.24,"Cohousing",0.03275658
+"s__Bacteroides_plebeius","*",0,0.26,"Cohousing",0.202524909
+"s__Burkholderiales_bacterium_1_1_47","*",0,0.24,"Cohousing",0.208341616
+"s__Alistipes_onderdonkii","*",0,0.26,"Cohousing",0.069741354
+"s__Eggerthella_lenta","*",0,0.25,"Cohousing",0.045645086
+"s__Lactobacillus_delbrueckii","*",0,0.25,"Cohousing",0.224735306
+"s__Desulfovibrio_desulfuricans","*",0,0.25,"Cohousing",0.076333732
+"s__Alistipes_finegoldii","*",0,0.25,"Cohousing",0.208873733
+"s__Roseburia_intestinalis","*",0,0.24,"Cohousing",1.32e-09
+"s__Eubacterium_ventriosum","*",0,0.24,"Cohousing",0.056263919
+"s__Mitsuokella_unclassified","*",0,0.23,"Cohousing",0.298836011
+"s__Parabacteroides_johnsonii","*",0,0.24,"Cohousing",0.330884065
+"s__Megasphaera_unclassified","*",0,0.26,"Cohousing",0.137093378
+"s__Bacteroides_intestinalis","*",0,0.26,"Cohousing",0.281495378
+"s__Escherichia_coli","*",0,0.25,"Cohousing",0.020363652
+"s__Catenibacterium_mitsuokai","*",0,0.25,"Cohousing",0.108416509
+"s__Paraprevotella_xylaniphila","*",0,0.24,"Cohousing",0.305435568
+"s__Lachnospiraceae_bacterium_7_1_58FAA","*",0,0.27,"Cohousing",0.011143445
+"s__Clostridium_leptum","*",0,0.27,"Cohousing",0.061132228
+"s__Peptostreptococcaceae_noname_unclassified","*",0,0.24,"Cohousing",0
+"s__Streptococcus_salivarius","*",0,0.28,"Cohousing",0.054438719
+"s__Streptococcus_parasanguinis","*",0,0.26,"Cohousing",0.120962843
+"s__Erysipelotrichaceae_bacterium_21_3","*",0.04,0.26,"Cohousing",2.98e-10
+"s__Bacteroides_caccae","*",0,0.26,"Cohousing",0.2559411
+"s__Haemophilus_parainfluenzae","*",0,0.24,"Cohousing",0.06532462
+"s__Eggerthella_unclassified","*",0,0.28,"Cohousing",0.13690147
+"s__Klebsiella_pneumoniae","*",0,0.28,"Cohousing",0.133620788
+"s__Faecalibacterium_prausnitzii","*",0,0.25,"Cohousing",0.083429796
+"s__Paraprevotella_unclassified","*",0,0.29,"Cohousing",0.292613078
+"s__Alistipes_senegalensis","*",0,0.3,"Cohousing",0.103526409
+"s__Holdemania_filiformis","*",0.02,0.29,"Cohousing",0.041840465
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Cohousing",0.103450903
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Cohousing",0.24015689
+"s__Parabacteroides_merdae","*",0.04,0.3,"Cohousing",0.206222752
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Cohousing",0.270107351
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Cohousing",0.264756183
+"s__Flavonifractor_plautii","*",0.02,0.32,"Cohousing",0.024703029
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Cohousing",1.53e-08
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Cohousing",0.203448829
+"s__Bacteroides_faecis","*",0.05,0.33,"Cohousing",0.258781827
+"s__Ruminococcus_bromii","*",0.08,0.33,"Cohousing",0.018997894
+"s__Dialister_invisus","*",0.08,0.34,"Cohousing",0.136571788
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Cohousing",0.255283219
+"s__Mitsuokella_multacida","*",0.07,0.35,"Cohousing",0.312437663
+"s__Bacteroides_uniformis","*",0.08,0.36,"Cohousing",0.05324761
+"s__Clostridium_citroniae","*",0.09,0.35,"Cohousing",0.028896767
+"s__Bacteroides_coprocola","**",0.1,0.34,"Cohousing",0.269370861
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Cohousing",0.243566947
+"s__Bifidobacterium_longum","**",0.11,0.38,"Cohousing",0.071035962
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Cohousing",0.252038729
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Cohousing",0.024743307
+"s__Coprococcus_sp_ART55_1","",0,0.05,"Family",1.19e-08
+"s__Dorea_unclassified","",0,0.1,"Family",0
+"s__Eubacterium_hallii","",0,0.08,"Family",1.18e-10
+"s__Coprococcus_comes","",0,0.11,"Family",0.023172171
+"s__Lachnospiraceae_bacterium_5_1_63FAA","",0,0.14,"Family",0
+"s__Anaerostipes_hadrus","",0,0.09,"Family",0
+"s__Bifidobacterium_adolescentis","",0,0.11,"Family",0.033594938
+"s__Coprococcus_eutactus","",0,0.04,"Family",0
+"s__Lachnospiraceae_bacterium_3_1_46FAA","",0,0.11,"Family",0
+"s__Anaerotruncus_unclassified","",0,0.11,"Family",0.004389881
+"s__Subdoligranulum_unclassified","",0,0.13,"Family",0.085485113
+"s__Acidaminococcus_unclassified","",0,0.1,"Family",0.08397303
+"s__Eubacterium_rectale","",0,0.09,"Family",0
+"s__Ruminococcaceae_bacterium_D16","",0,0.15,"Family",0.025463393
+"s__Ruminococcus_obeum","",0,0.13,"Family",0
+"s__Bacteroides_nordii","",0,0.09,"Family",0.001421138
+"s__Roseburia_hominis","",0,0.2,"Family",0
+"s__Clostridium_hathewayi","",0,0.07,"Family",3.87e-09
+"s__Bacteroidales_bacterium_ph8","",0,0.19,"Family",0.064402429
+"s__Dorea_formicigenerans","",0,0.21,"Family",0
+"s__Ruminococcus_torques","",0,0.15,"Family",0.025401485
+"s__Streptococcus_thermophilus","",0,0.16,"Family",0.028957541
+"s__Methanobrevibacter_unclassified","",0,0.11,"Family",0.005508693
+"s__Alistipes_shahii","",0,0.14,"Family",0.034877617
+"s__Ruminococcus_callidus","",0,0.13,"Family",0.009247867
+"s__Prevotella_stercorea","",0,0.14,"Family",0.009919121
+"s__Dorea_longicatena","",0,0.13,"Family",0
+"s__Bilophila_unclassified","",0,0.17,"Family",0.015921645
+"s__Bifidobacterium_catenulatum","",0,0.14,"Family",0.025204556
+"s__Klebsiella_unclassified","",0,0.16,"Family",0.013889233
+"s__Bacteroides_cellulosilyticus","",0,0.15,"Family",0.047440304
+"s__Coprococcus_catus","",0,0.14,"Family",0
+"s__Ruminococcus_gnavus","",0,0.16,"Family",0.010457209
+"s__Alistipes_unclassified","",0,0.16,"Family",0.01882896
+"s__Holdemania_unclassified","",0,0.17,"Family",0.054819276
+"s__Alistipes_indistinctus","",0,0.14,"Family",2.86e-09
+"s__Odoribacter_splanchnicus","",0,0.14,"Family",0
+"s__Roseburia_unclassified","",0,0.17,"Family",0.012073206
+"s__Odoribacter_unclassified","",0,0.15,"Family",0
+"s__Ruminococcus_lactaris","",0,0.16,"Family",0
+"s__Alistipes_putredinis","",0,0.17,"Family",3.2e-09
+"s__Bacteroides_clarus","",0,0.17,"Family",0
+"s__Adlercreutzia_equolifaciens","",0,0.18,"Family",0.033830963
+"s__Bifidobacterium_bifidum","",0,0.17,"Family",0.107543229
+"s__Coprobacter_fastidiosus","",0,0.17,"Family",1.62e-10
+"s__Bacteroides_vulgatus","",0,0.19,"Family",0.039036133
+"s__Bacteroides_salyersiae","",0,0.17,"Family",0.060335454
+"s__Parabacteroides_unclassified","",0,0.19,"Family",0.024865125
+"s__Oscillibacter_unclassified","",0,0.21,"Family",0.036020196
+"s__Lachnospiraceae_bacterium_1_1_57FAA","",0,0.17,"Family",3.18e-10
+"s__Gordonibacter_pamelaeae","",0,0.18,"Family",0.000820474
+"s__Anaerotruncus_colihominis","",0,0.2,"Family",0.021423251
+"s__Parabacteroides_distasonis","",0,0.2,"Family",0.097219776
+"s__Bifidobacterium_pseudocatenulatum","",0,0.19,"Family",0.006446374
+"s__Bilophila_wadsworthia","",0,0.2,"Family",0.012132758
+"s__Bifidobacterium_dentium","",0,0.18,"Family",0
+"s__Lachnospiraceae_bacterium_3_1_57FAA_CT1","",0,0.18,"Family",0
+"s__Clostridium_bartlettii","",0,0.17,"Family",0
+"s__Bacteroides_xylanisolvens","",0,0.19,"Family",4.78e-09
+"s__Bacteroides_ovatus","",0,0.2,"Family",0.017481505
+"s__Rothia_mucilaginosa","",0,0.21,"Family",0.041532397
+"s__Alistipes_sp_AP11","",0,0.21,"Family",0.014914205
+"s__Bacteroides_stercoris","",0,0.2,"Family",0.008789044
+"s__Bacteroides_dorei","",0,0.19,"Family",0
+"s__Collinsella_aerofaciens","",0,0.22,"Family",0.050965678
+"s__Eubacterium_ramulus","",0,0.2,"Family",0
+"s__Veillonella_unclassified","",0,0.19,"Family",0
+"s__Veillonella_atypica","",0,0.2,"Family",0.017712757
+"s__Eubacterium_biforme","",0,0.2,"Family",5.38e-09
+"s__Desulfovibrio_piger","",0,0.21,"Family",0.034967243
+"s__Bacteroides_fragilis","",0,0.22,"Family",0.02627581
+"s__Roseburia_inulinivorans","",0,0.19,"Family",7.15e-09
+"s__Eubacterium_siraeum","",0,0.22,"Family",0.066221246
+"s__Bacteroides_thetaiotaomicron","",0,0.22,"Family",0.011921001
+"s__Veillonella_parvula","",0,0.21,"Family",0.021609211
+"s__Prevotella_copri","",0,0.22,"Family",0.010297336
+"s__Paraprevotella_clara","",0,0.22,"Family",0.033176713
+"s__Clostridium_asparagiforme","",0,0.23,"Family",0.085140113
+"s__Eubacterium_eligens","",0,0.22,"Family",0.015510587
+"s__Methanobrevibacter_smithii","",0,0.22,"Family",0
+"s__Clostridium_bolteae","",0,0.23,"Family",0.003938322
+"s__Barnesiella_intestinihominis","",0,0.23,"Family",0.01370576
+"s__Parasutterella_excrementihominis","",0,0.22,"Family",0.011986293
+"s__Butyrivibrio_crossotus","",0,0.25,"Family",0.031732839
+"s__Pseudoflavonifractor_capillosus","",0,0.23,"Family",0.056100381
+"s__Escherichia_unclassified","*",0,0.24,"Family",0.01207391
+"s__Bacteroides_plebeius","*",0,0.26,"Family",0.033976035
+"s__Burkholderiales_bacterium_1_1_47","*",0,0.24,"Family",0.035650627
+"s__Alistipes_onderdonkii","*",0,0.26,"Family",0.028644968
+"s__Eggerthella_lenta","*",0,0.25,"Family",0.017494955
+"s__Lactobacillus_delbrueckii","*",0,0.25,"Family",0.008934375
+"s__Desulfovibrio_desulfuricans","*",0,0.25,"Family",0.010403959
+"s__Alistipes_finegoldii","*",0,0.25,"Family",0.015354477
+"s__Roseburia_intestinalis","*",0,0.24,"Family",0.02261311
+"s__Eubacterium_ventriosum","*",0,0.24,"Family",0.006912586
+"s__Mitsuokella_unclassified","*",0,0.23,"Family",0
+"s__Parabacteroides_johnsonii","*",0,0.24,"Family",0.009385297
+"s__Megasphaera_unclassified","*",0,0.26,"Family",0
+"s__Bacteroides_intestinalis","*",0,0.26,"Family",0.04197299
+"s__Escherichia_coli","*",0,0.25,"Family",0
+"s__Catenibacterium_mitsuokai","*",0,0.25,"Family",0
+"s__Paraprevotella_xylaniphila","*",0,0.24,"Family",0
+"s__Lachnospiraceae_bacterium_7_1_58FAA","*",0,0.27,"Family",0.045215314
+"s__Clostridium_leptum","*",0,0.27,"Family",0.021467937
+"s__Peptostreptococcaceae_noname_unclassified","*",0,0.24,"Family",0
+"s__Streptococcus_salivarius","*",0,0.28,"Family",0.030209788
+"s__Streptococcus_parasanguinis","*",0,0.26,"Family",1.9e-10
+"s__Erysipelotrichaceae_bacterium_21_3","*",0.04,0.26,"Family",0.010183757
+"s__Bacteroides_caccae","*",0,0.26,"Family",0.008756272
+"s__Haemophilus_parainfluenzae","*",0,0.24,"Family",0
+"s__Eggerthella_unclassified","*",0,0.28,"Family",0.018226751
+"s__Klebsiella_pneumoniae","*",0,0.28,"Family",0
+"s__Faecalibacterium_prausnitzii","*",0,0.25,"Family",0
+"s__Paraprevotella_unclassified","*",0,0.29,"Family",0.022629316
+"s__Alistipes_senegalensis","*",0,0.3,"Family",0.051918819
+"s__Holdemania_filiformis","*",0.02,0.29,"Family",0
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Family",0
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Family",0.011230574
+"s__Parabacteroides_merdae","*",0.04,0.3,"Family",1.68e-10
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Family",0.069517092
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Family",0.059868297
+"s__Flavonifractor_plautii","*",0.02,0.32,"Family",0.065185225
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Family",0.030599936
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Family",0.024848713
+"s__Bacteroides_faecis","*",0.05,0.33,"Family",0.014800197
+"s__Ruminococcus_bromii","*",0.08,0.33,"Family",1.11e-10
+"s__Dialister_invisus","*",0.08,0.34,"Family",1.05e-10
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Family",0.050120653
+"s__Mitsuokella_multacida","*",0.07,0.35,"Family",0
+"s__Bacteroides_uniformis","*",0.08,0.36,"Family",0
+"s__Clostridium_citroniae","*",0.09,0.35,"Family",2.98e-09
+"s__Bacteroides_coprocola","**",0.1,0.34,"Family",0
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Family",0.031027675
+"s__Bifidobacterium_longum","**",0.11,0.38,"Family",0
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Family",0
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Family",0
+"s__Coprococcus_sp_ART55_1","",0,0.05,"Environment",0.903230699
+"s__Dorea_unclassified","",0,0.1,"Environment",0.963656028
+"s__Eubacterium_hallii","",0,0.08,"Environment",0.910019643
+"s__Coprococcus_comes","",0,0.11,"Environment",0.935933736
+"s__Lachnospiraceae_bacterium_5_1_63FAA","",0,0.14,"Environment",0.892441754
+"s__Anaerostipes_hadrus","",0,0.09,"Environment",0.956173275
+"s__Bifidobacterium_adolescentis","",0,0.11,"Environment",0.802039141
+"s__Coprococcus_eutactus","",0,0.04,"Environment",0.808443588
+"s__Lachnospiraceae_bacterium_3_1_46FAA","",0,0.11,"Environment",0.83975809
+"s__Anaerotruncus_unclassified","",0,0.11,"Environment",0.995610119
+"s__Subdoligranulum_unclassified","",0,0.13,"Environment",0.881749187
+"s__Acidaminococcus_unclassified","",0,0.1,"Environment",0.685167849
+"s__Eubacterium_rectale","",0,0.09,"Environment",0.91595842
+"s__Ruminococcaceae_bacterium_D16","",0,0.15,"Environment",0.974536607
+"s__Ruminococcus_obeum","",0,0.13,"Environment",0.936472521
+"s__Bacteroides_nordii","",0,0.09,"Environment",0.832356399
+"s__Roseburia_hominis","",0,0.2,"Environment",0.93927754
+"s__Clostridium_hathewayi","",0,0.07,"Environment",0.931280381
+"s__Bacteroidales_bacterium_ph8","",0,0.19,"Environment",0.84411065
+"s__Dorea_formicigenerans","",0,0.21,"Environment",0.918105619
+"s__Ruminococcus_torques","",0,0.15,"Environment",0.967293565
+"s__Streptococcus_thermophilus","",0,0.16,"Environment",0.908815489
+"s__Methanobrevibacter_unclassified","",0,0.11,"Environment",0.994203379
+"s__Alistipes_shahii","",0,0.14,"Environment",0.874953044
+"s__Ruminococcus_callidus","",0,0.13,"Environment",0.884533676
+"s__Prevotella_stercorea","",0,0.14,"Environment",0.810939185
+"s__Dorea_longicatena","",0,0.13,"Environment",0.925979623
+"s__Bilophila_unclassified","",0,0.17,"Environment",0.87875169
+"s__Bifidobacterium_catenulatum","",0,0.14,"Environment",0.750104909
+"s__Klebsiella_unclassified","",0,0.16,"Environment",0.951802281
+"s__Bacteroides_cellulosilyticus","",0,0.15,"Environment",0.657087744
+"s__Coprococcus_catus","",0,0.14,"Environment",0.869791141
+"s__Ruminococcus_gnavus","",0,0.16,"Environment",0.937285955
+"s__Alistipes_unclassified","",0,0.16,"Environment",0.91351626
+"s__Holdemania_unclassified","",0,0.17,"Environment",0.93256313
+"s__Alistipes_indistinctus","",0,0.14,"Environment",0.807269274
+"s__Odoribacter_splanchnicus","",0,0.14,"Environment",0.906636589
+"s__Roseburia_unclassified","",0,0.17,"Environment",0.947410834
+"s__Odoribacter_unclassified","",0,0.15,"Environment",0.968633614
+"s__Ruminococcus_lactaris","",0,0.16,"Environment",0.869688051
+"s__Alistipes_putredinis","",0,0.17,"Environment",0.835723692
+"s__Bacteroides_clarus","",0,0.17,"Environment",0.722613457
+"s__Adlercreutzia_equolifaciens","",0,0.18,"Environment",0.840357228
+"s__Bifidobacterium_bifidum","",0,0.17,"Environment",0.81379974
+"s__Coprobacter_fastidiosus","",0,0.17,"Environment",0.853433695
+"s__Bacteroides_vulgatus","",0,0.19,"Environment",0.801016925
+"s__Bacteroides_salyersiae","",0,0.17,"Environment",0.60249323
+"s__Parabacteroides_unclassified","",0,0.19,"Environment",0.81573372
+"s__Oscillibacter_unclassified","",0,0.21,"Environment",0.773924994
+"s__Lachnospiraceae_bacterium_1_1_57FAA","",0,0.17,"Environment",0.900629362
+"s__Gordonibacter_pamelaeae","",0,0.18,"Environment",0.86486834
+"s__Anaerotruncus_colihominis","",0,0.2,"Environment",0.848533558
+"s__Parabacteroides_distasonis","",0,0.2,"Environment",0.661749653
+"s__Bifidobacterium_pseudocatenulatum","",0,0.19,"Environment",0.740273378
+"s__Bilophila_wadsworthia","",0,0.2,"Environment",0.750507478
+"s__Bifidobacterium_dentium","",0,0.18,"Environment",0.901557376
+"s__Lachnospiraceae_bacterium_3_1_57FAA_CT1","",0,0.18,"Environment",0.911266156
+"s__Clostridium_bartlettii","",0,0.17,"Environment",0.942831115
+"s__Bacteroides_xylanisolvens","",0,0.19,"Environment",0.730423339
+"s__Bacteroides_ovatus","",0,0.2,"Environment",0.806226033
+"s__Rothia_mucilaginosa","",0,0.21,"Environment",0.83222709
+"s__Alistipes_sp_AP11","",0,0.21,"Environment",0.829367862
+"s__Bacteroides_stercoris","",0,0.2,"Environment",0.694987678
+"s__Bacteroides_dorei","",0,0.19,"Environment",0.685277835
+"s__Collinsella_aerofaciens","",0,0.22,"Environment",0.794907702
+"s__Eubacterium_ramulus","",0,0.2,"Environment",0.883752609
+"s__Veillonella_unclassified","",0,0.19,"Environment",0.827393729
+"s__Veillonella_atypica","",0,0.2,"Environment",0.86992333
+"s__Eubacterium_biforme","",0,0.2,"Environment",0.776629985
+"s__Desulfovibrio_piger","",0,0.21,"Environment",0.617316731
+"s__Bacteroides_fragilis","",0,0.22,"Environment",0.706075657
+"s__Roseburia_inulinivorans","",0,0.19,"Environment",0.914289297
+"s__Eubacterium_siraeum","",0,0.22,"Environment",0.837696066
+"s__Bacteroides_thetaiotaomicron","",0,0.22,"Environment",0.767149489
+"s__Veillonella_parvula","",0,0.21,"Environment",0.875339469
+"s__Prevotella_copri","",0,0.22,"Environment",0.706272973
+"s__Paraprevotella_clara","",0,0.22,"Environment",0.574222916
+"s__Clostridium_asparagiforme","",0,0.23,"Environment",0.832588466
+"s__Eubacterium_eligens","",0,0.22,"Environment",0.840132339
+"s__Methanobrevibacter_smithii","",0,0.22,"Environment",0.879166865
+"s__Clostridium_bolteae","",0,0.23,"Environment",0.815736438
+"s__Barnesiella_intestinihominis","",0,0.23,"Environment",0.740788834
+"s__Parasutterella_excrementihominis","",0,0.22,"Environment",0.734360503
+"s__Butyrivibrio_crossotus","",0,0.25,"Environment",0.763719948
+"s__Pseudoflavonifractor_capillosus","",0,0.23,"Environment",0.853837708
+"s__Escherichia_unclassified","*",0,0.24,"Environment",0.862075447
+"s__Bacteroides_plebeius","*",0,0.26,"Environment",0.667916808
+"s__Burkholderiales_bacterium_1_1_47","*",0,0.24,"Environment",0.658482767
+"s__Alistipes_onderdonkii","*",0,0.26,"Environment",0.802700088
+"s__Eggerthella_lenta","*",0,0.25,"Environment",0.837374658
+"s__Lactobacillus_delbrueckii","*",0,0.25,"Environment",0.665783913
+"s__Desulfovibrio_desulfuricans","*",0,0.25,"Environment",0.811906993
+"s__Alistipes_finegoldii","*",0,0.25,"Environment",0.67300395
+"s__Roseburia_intestinalis","*",0,0.24,"Environment",0.872649379
+"s__Eubacterium_ventriosum","*",0,0.24,"Environment",0.829945879
+"s__Mitsuokella_unclassified","*",0,0.23,"Environment",0.593508376
+"s__Parabacteroides_johnsonii","*",0,0.24,"Environment",0.548993581
+"s__Megasphaera_unclassified","*",0,0.26,"Environment",0.748554427
+"s__Bacteroides_intestinalis","*",0,0.26,"Environment",0.56192567
+"s__Escherichia_coli","*",0,0.25,"Environment",0.863687168
+"s__Catenibacterium_mitsuokai","*",0,0.25,"Environment",0.774968098
+"s__Paraprevotella_xylaniphila","*",0,0.24,"Environment",0.576726478
+"s__Lachnospiraceae_bacterium_7_1_58FAA","*",0,0.27,"Environment",0.82520047
+"s__Clostridium_leptum","*",0,0.27,"Environment",0.798506879
+"s__Peptostreptococcaceae_noname_unclassified","*",0,0.24,"Environment",0.879938844
+"s__Streptococcus_salivarius","*",0,0.28,"Environment",0.792068685
+"s__Streptococcus_parasanguinis","*",0,0.26,"Environment",0.755086102
+"s__Erysipelotrichaceae_bacterium_21_3","*",0.04,0.26,"Environment",0.865145845
+"s__Bacteroides_caccae","*",0,0.26,"Environment",0.609164105
+"s__Haemophilus_parainfluenzae","*",0,0.24,"Environment",0.808095437
+"s__Eggerthella_unclassified","*",0,0.28,"Environment",0.716365661
+"s__Klebsiella_pneumoniae","*",0,0.28,"Environment",0.737683817
+"s__Faecalibacterium_prausnitzii","*",0,0.25,"Environment",0.7843507
+"s__Paraprevotella_unclassified","*",0,0.29,"Environment",0.537357231
+"s__Alistipes_senegalensis","*",0,0.3,"Environment",0.691592805
+"s__Holdemania_filiformis","*",0.02,0.29,"Environment",0.800468571
+"s__Oxalobacter_formigenes","*",0.04,0.29,"Environment",0.730735339
+"s__Sutterella_wadsworthensis","*",0.06,0.3,"Environment",0.580542296
+"s__Parabacteroides_merdae","*",0.04,0.3,"Environment",0.623420579
+"s__Bacteroides_finegoldii","*",0.03,0.3,"Environment",0.489932042
+"s__Bacteroides_massiliensis","*",0.04,0.3,"Environment",0.504072381
+"s__Flavonifractor_plautii","*",0.02,0.32,"Environment",0.736608018
+"s__Lachnospiraceae_bacterium_8_1_57FAA","*",0,0.32,"Environment",0.794259247
+"s__Bacteroides_coprophilus","*",0.03,0.33,"Environment",0.58990813
+"s__Bacteroides_faecis","*",0.05,0.33,"Environment",0.53357436
+"s__Ruminococcus_bromii","*",0.08,0.33,"Environment",0.777027035
+"s__Dialister_invisus","*",0.08,0.34,"Environment",0.655447987
+"s__Bacteroides_eggerthii","*",0.08,0.34,"Environment",0.481799041
+"s__Mitsuokella_multacida","*",0.07,0.35,"Environment",0.469076979
+"s__Bacteroides_uniformis","*",0.08,0.36,"Environment",0.726895258
+"s__Clostridium_citroniae","*",0.09,0.35,"Environment",0.750518928
+"s__Bacteroides_coprocola","**",0.1,0.34,"Environment",0.502267796
+"s__Phascolarctobacterium_succinatutens","**",0.1,0.38,"Environment",0.480566697
+"s__Bifidobacterium_longum","**",0.11,0.38,"Environment",0.681542825
+"s__Parabacteroides_goldsteinii","**",0.12,0.4,"Environment",0.481652997
+"s__Akkermansia_muciniphila","**",0.17,0.43,"Environment",0.673017682

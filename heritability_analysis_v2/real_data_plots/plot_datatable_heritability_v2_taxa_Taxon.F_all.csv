@@ -1,0 +1,121 @@
+"Taxon_Shortname","LBL","CI_ID_low","CI_ID_high","Var.Exp","Var.Exp.NR"
+"f__Rikenellaceae","",0,0.11,"Additive genetics",0
+"f__Bacteroidales_noname","",0,0.12,"Additive genetics",0
+"f__Propionibacteriaceae","",0,0.14,"Additive genetics",7.08e-10
+"f__Eubacteriaceae","",0,0.14,"Additive genetics",7.78e-10
+"f__Porphyromonadaceae","",0,0.15,"Additive genetics",2.71e-09
+"f__Desulfovibrionaceae","",0,0.16,"Additive genetics",6.2e-08
+"f__Actinomycetaceae","",0,0.13,"Additive genetics",0.015328533
+"f__Lachnospiraceae","",0,0.16,"Additive genetics",0.018245255
+"f__Oscillospiraceae","",0,0.24,"Additive genetics",0.047384964
+"f__Clostridiaceae","",0,0.2,"Additive genetics",0.04898531
+"f__Micrococcaceae","",0,0.2,"Additive genetics",0.056368286
+"f__Erysipelotrichaceae","",0,0.19,"Additive genetics",0.059209952
+"f__Streptococcaceae","",0,0.22,"Additive genetics",0.062496601
+"f__Prevotellaceae","",0,0.21,"Additive genetics",0.064522382
+"f__Ruminococcaceae","",0,0.22,"Additive genetics",0.070077203
+"f__Lactobacillaceae","",0,0.23,"Additive genetics",0.078540208
+"f__Methanobacteriaceae","",0,0.21,"Additive genetics",0.081233446
+"f__Peptostreptococcaceae","",0,0.26,"Additive genetics",0.088914966
+"f__Burkholderiales_noname","*",0,0.24,"Additive genetics",0.094632462
+"f__Veillonellaceae","*",0,0.23,"Additive genetics",0.095319999
+"f__Clostridiales_noname","*",0.04,0.29,"Additive genetics",0.108093474
+"f__Pasteurellaceae","*",0,0.23,"Additive genetics",0.122406792
+"f__Coriobacteriaceae","*",0,0.25,"Additive genetics",0.123061269
+"f__Sutterellaceae","*",0,0.31,"Additive genetics",0.148687877
+"f__Oxalobacteraceae","*",0.03,0.29,"Additive genetics",0.165603092
+"f__Enterobacteriaceae","*",0.04,0.3,"Additive genetics",0.170139675
+"f__Acidaminococcaceae","*",0.05,0.33,"Additive genetics",0.189332754
+"f__Bifidobacteriaceae","*",0.07,0.35,"Additive genetics",0.214497495
+"f__Bacteroidaceae","**",0.15,0.43,"Additive genetics",0.299470729
+"f__Verrucomicrobiaceae","**",0.17,0.43,"Additive genetics",0.301827121
+"f__Rikenellaceae","",0,0.11,"Cohousing",0.094662735
+"f__Bacteroidales_noname","",0,0.12,"Cohousing",0.091839172
+"f__Propionibacteriaceae","",0,0.14,"Cohousing",0.074121797
+"f__Eubacteriaceae","",0,0.14,"Cohousing",0.009473401
+"f__Porphyromonadaceae","",0,0.15,"Cohousing",0.041615582
+"f__Desulfovibrionaceae","",0,0.16,"Cohousing",0.114739841
+"f__Actinomycetaceae","",0,0.13,"Cohousing",1.79e-09
+"f__Lachnospiraceae","",0,0.16,"Cohousing",2.97e-10
+"f__Oscillospiraceae","",0,0.24,"Cohousing",0.150443365
+"f__Clostridiaceae","",0,0.2,"Cohousing",0.046350552
+"f__Micrococcaceae","",0,0.2,"Cohousing",0.063923133
+"f__Erysipelotrichaceae","",0,0.19,"Cohousing",0.046885867
+"f__Streptococcaceae","",0,0.22,"Cohousing",0.089849554
+"f__Prevotellaceae","",0,0.21,"Cohousing",0.188027224
+"f__Ruminococcaceae","",0,0.22,"Cohousing",0.026248927
+"f__Lactobacillaceae","",0,0.23,"Cohousing",0.12864424
+"f__Methanobacteriaceae","",0,0.21,"Cohousing",0.0404228
+"f__Peptostreptococcaceae","",0,0.26,"Cohousing",0
+"f__Burkholderiales_noname","*",0,0.24,"Cohousing",0.20691462
+"f__Veillonellaceae","*",0,0.23,"Cohousing",0.124863411
+"f__Clostridiales_noname","*",0.04,0.29,"Cohousing",0.034151537
+"f__Pasteurellaceae","*",0,0.23,"Cohousing",0.066626194
+"f__Coriobacteriaceae","*",0,0.25,"Cohousing",0.155221358
+"f__Sutterellaceae","*",0,0.31,"Cohousing",0.038409477
+"f__Oxalobacteraceae","*",0.03,0.29,"Cohousing",0.103638628
+"f__Enterobacteriaceae","*",0.04,0.3,"Cohousing",0.025358086
+"f__Acidaminococcaceae","*",0.05,0.33,"Cohousing",0.239208475
+"f__Bifidobacteriaceae","*",0.07,0.35,"Cohousing",0.156879831
+"f__Bacteroidaceae","**",0.15,0.43,"Cohousing",0.094703901
+"f__Verrucomicrobiaceae","**",0.17,0.43,"Cohousing",0.024619948
+"f__Rikenellaceae","",0,0.11,"Family",0
+"f__Bacteroidales_noname","",0,0.12,"Family",0.064306762
+"f__Propionibacteriaceae","",0,0.14,"Family",2.47e-10
+"f__Eubacteriaceae","",0,0.14,"Family",0.00923874
+"f__Porphyromonadaceae","",0,0.15,"Family",0
+"f__Desulfovibrionaceae","",0,0.16,"Family",0.016385773
+"f__Actinomycetaceae","",0,0.13,"Family",0
+"f__Lachnospiraceae","",0,0.16,"Family",0.036831394
+"f__Oscillospiraceae","",0,0.24,"Family",0.035875432
+"f__Clostridiaceae","",0,0.2,"Family",0.040214882
+"f__Micrococcaceae","",0,0.2,"Family",0.044457818
+"f__Erysipelotrichaceae","",0,0.19,"Family",0
+"f__Streptococcaceae","",0,0.22,"Family",0.021270142
+"f__Prevotellaceae","",0,0.21,"Family",0.030997282
+"f__Ruminococcaceae","",0,0.22,"Family",0.055777816
+"f__Lactobacillaceae","",0,0.23,"Family",0.037241955
+"f__Methanobacteriaceae","",0,0.21,"Family",1.11e-10
+"f__Peptostreptococcaceae","",0,0.26,"Family",0
+"f__Burkholderiales_noname","*",0,0.24,"Family",0.035412673
+"f__Veillonellaceae","*",0,0.23,"Family",0
+"f__Clostridiales_noname","*",0.04,0.29,"Family",0.037864843
+"f__Pasteurellaceae","*",0,0.23,"Family",3.63e-10
+"f__Coriobacteriaceae","*",0,0.25,"Family",0.010320311
+"f__Sutterellaceae","*",0,0.31,"Family",0.052161703
+"f__Oxalobacteraceae","*",0.03,0.29,"Family",7.79e-11
+"f__Enterobacteriaceae","*",0.04,0.3,"Family",0
+"f__Acidaminococcaceae","*",0.05,0.33,"Family",0.04352701
+"f__Bifidobacteriaceae","*",0.07,0.35,"Family",0
+"f__Bacteroidaceae","**",0.15,0.43,"Family",1.26e-08
+"f__Verrucomicrobiaceae","**",0.17,0.43,"Family",4.25e-14
+"f__Rikenellaceae","",0,0.11,"Environment",0.905337265
+"f__Bacteroidales_noname","",0,0.12,"Environment",0.843854067
+"f__Propionibacteriaceae","",0,0.14,"Environment",0.925878202
+"f__Eubacteriaceae","",0,0.14,"Environment",0.981287859
+"f__Porphyromonadaceae","",0,0.15,"Environment",0.958384416
+"f__Desulfovibrionaceae","",0,0.16,"Environment",0.868874324
+"f__Actinomycetaceae","",0,0.13,"Environment",0.984671465
+"f__Lachnospiraceae","",0,0.16,"Environment",0.944923351
+"f__Oscillospiraceae","",0,0.24,"Environment",0.766296238
+"f__Clostridiaceae","",0,0.2,"Environment",0.864449256
+"f__Micrococcaceae","",0,0.2,"Environment",0.835250763
+"f__Erysipelotrichaceae","",0,0.19,"Environment",0.893904181
+"f__Streptococcaceae","",0,0.22,"Environment",0.826383702
+"f__Prevotellaceae","",0,0.21,"Environment",0.716453112
+"f__Ruminococcaceae","",0,0.22,"Environment",0.847896054
+"f__Lactobacillaceae","",0,0.23,"Environment",0.755573597
+"f__Methanobacteriaceae","",0,0.21,"Environment",0.878343754
+"f__Peptostreptococcaceae","",0,0.26,"Environment",0.911085034
+"f__Burkholderiales_noname","*",0,0.24,"Environment",0.663040245
+"f__Veillonellaceae","*",0,0.23,"Environment",0.77981659
+"f__Clostridiales_noname","*",0.04,0.29,"Environment",0.819890145
+"f__Pasteurellaceae","*",0,0.23,"Environment",0.810967014
+"f__Coriobacteriaceae","*",0,0.25,"Environment",0.711397063
+"f__Sutterellaceae","*",0,0.31,"Environment",0.760740944
+"f__Oxalobacteraceae","*",0.03,0.29,"Environment",0.73075828
+"f__Enterobacteriaceae","*",0.04,0.3,"Environment",0.804502239
+"f__Acidaminococcaceae","*",0.05,0.33,"Environment",0.527931761
+"f__Bifidobacteriaceae","*",0.07,0.35,"Environment",0.628622674
+"f__Bacteroidaceae","**",0.15,0.43,"Environment",0.605825358
+"f__Verrucomicrobiaceae","**",0.17,0.43,"Environment",0.673552931
