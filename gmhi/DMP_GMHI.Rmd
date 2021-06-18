@@ -22,8 +22,8 @@ library(ggpubr)
 run_gmhi_classifier <- function(input_data = input_data) {
   
   data <- t(input_data) # taxa need to be on rows
-  Healthy <- data[,colnames(data) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 1,]$sampleid]
-  Nonhealthy <- data[,colnames(data) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 0,]$sampleid]
+  Healthy <- data[,colnames(data) %in% data[data$MED.DISEASES.None.No.Diseases %in% 1,]$sampleid]
+  Nonhealthy <- data[,colnames(data) %in% data[data$MED.DISEASES.None.No.Diseases %in% 0,]$sampleid]
   
   n_samples_H <- ncol(Healthy)
   n_samples_NH <- ncol(Nonhealthy)
