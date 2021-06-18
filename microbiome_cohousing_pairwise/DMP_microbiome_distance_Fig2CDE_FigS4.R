@@ -45,7 +45,9 @@ for (tpv in toPlotVar) {
   t <- testOneFeature(dataIn=dfToPlot,feature = tpv,responseVar = "RELATIONSHIP.0",display = '',
                       saveFolder = F,doPlots = T,doSave = F,retPlot = T,cutoff = 0.005,ylim = c(0.0,1.2))
   # save plot dataframe
-  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_cohab_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  write.table(dfToPlot,paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_cohab_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  # save stats
+  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_cohab_',tpv,'_stattests.csv'),sep=',',row.names = F)
   # make plot
   g <- t[[2]] + xlab("Relationship") + ggtitle('') + ylab(toPlotYs[c]) + theme_classic() +
      scale_color_manual(values = cbPalette) + theme(legend.position="none") + theme(text = element_text(size=txtSize)) + 
@@ -67,9 +69,10 @@ for (tpv in toPlotVar) {
   c <- c + 1
   t <- testOneFeature(dataIn=dfToPlot,feature = tpv,responseVar = "RELATIONSHIP.0",display = '',ylim = c(0.0,1),
                       saveFolder = F,doPlots = T,doSave = F,retPlot = T,cutoff = 0.005)
-  
   # save plot dataframe
-  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_noncohab_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  write.table(dfToPlot,paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_noncohab_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  # save statistics
+  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_0_noncohab_',tpv,'_stattests.csv'),sep=',',row.names = F)
   # make plot
   g <- t[[2]] + xlab("Relationship (cohabiting pairs)") + ggtitle('') + ylab(toPlotYs[c]) + theme_classic() +
      scale_color_manual(values = cbPalette) + theme(legend.position="none") + theme(text = element_text(size=txtSize)) + ylim(c(0.0,1.0))
@@ -92,7 +95,9 @@ for (tpv in toPlotVar) {
   t <- testOneFeature(dataIn=dfToPlot,feature = tpv,responseVar = "RELATIONSHIP.0",display='',
                       saveFolder = F,doPlots = T,doSave = F,retPlot = T,cutoff = 0.05,ylim = c(0.0,1.25))
   # save plot dataframe
-  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_1stDeg_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  write.table(dfToPlot,paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_1stDeg_',tpv,'_datatable.csv'),sep=',',row.names = F)
+  # save statistics
+  write.table(t[[1]],paste0('microbiome_cohousing_pairwise/plots/microbiome_similarity_relationship_1stDeg_',tpv,'_stattests.csv'),sep=',',row.names = F)
   # make plot
   g <- t[[2]] + xlab("Relationship (cohabiting vs non-cohabitating pairs)") + 
     ggtitle('') + ylab(toPlotYs[c]) + theme_classic() + scale_color_manual(values = cbPalette2) + theme(legend.position="none") + theme(text = element_text(size=txtSize)) + 
