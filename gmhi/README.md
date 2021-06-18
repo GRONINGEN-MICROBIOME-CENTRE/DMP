@@ -1,6 +1,6 @@
 ## GMHI analysis
 
-This folder contains scripts used to calculate Gut Microbiome Health Index (GMHI) on the DMP data. GMHI was introduced in study by Gupta et al. (Nature Comm. 2020; https://www.nature.com/articles/s41467-020-18476-8 & https://github.com/jaeyunsung/GMHI_2020)
+This folder contains code used to calculate Gut Microbiome Health Index (GMHI) on the DMP data. GMHI was introduced in study by Gupta et al. (Nature Comm. 2020; https://www.nature.com/articles/s41467-020-18476-8 & https://github.com/jaeyunsung/GMHI_2020)
 
 Briefly, the GMHI classifier is first applied on the discovery cohort to find the parameters which optimizes the balanced accuracy, i.e. the prevalence fold change (_theta<sub>f</sub>_) and the prevalence difference (_theta<sub>d</sub>_). Then the same classifier is run on the validation cohort, and from those results, the balanced accuracy corresponding to the optimized parameters (i.e. _theta<sub>f</sub>_ and _theta<sub>d</sub>_) found on the discovery cohort is extracted.
 
