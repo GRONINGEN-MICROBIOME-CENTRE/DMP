@@ -21,13 +21,13 @@ library(ggpubr)
 ```{r}
 run_gmhi_classifier <- function(input_data = input_data) {
   
-  training <- t(input_data) # taxa need to be on rows
-  Healthy <- training[,colnames(training) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 1,]$sampleid]
-  Nonhealthy <- training[,colnames(training) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 0,]$sampleid]
+  data <- t(input_data) # taxa need to be on rows
+  Healthy <- data[,colnames(data) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 1,]$sampleid]
+  Nonhealthy <- data[,colnames(data) %in% dat[dat$MED.DISEASES.None.No.Diseases %in% 0,]$sampleid]
   
   n_samples_H <- ncol(Healthy)
   n_samples_NH <- ncol(Nonhealthy)
-  n_samples_tot <- ncol(training)
+  n_samples_tot <- ncol(data)
   n_samples_H+n_samples_NH==n_samples_tot
   
   # PH: species prevalence among healthy
@@ -38,7 +38,7 @@ run_gmhi_classifier <- function(input_data = input_data) {
   PH_diff <- (PH-PNH)
   PH_fold <- (PH/PNH)
   PNH_fold <- (PNH/PH)
-  all_matrix<-data.frame(cbind(training,PH_diff,PH_fold,PNH_fold))
+  all_matrix<-data.frame(cbind(data,PH_diff,PH_fold,PNH_fold))
   
   range(PH_diff)
   range(PH_fold)
@@ -125,7 +125,7 @@ run_gmhi_classifier <- function(input_data = input_data) {
   accuracy_table <- data.frame(accuracy_table) %>% 
     arrange(desc(Balanced.accuracy))
   
-  write.csv(accuracy_table, paste0("Balanced_accuracy_", deparse(substitute(training_set)), ".csv"), row.names=F)
+  write.csv(accuracy_table, "balanced_accuracy.csv", row.names=F)
   
   return(accuracy_table)
 }
