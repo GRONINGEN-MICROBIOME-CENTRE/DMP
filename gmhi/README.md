@@ -7,7 +7,7 @@ Briefly, the GMHI classifier is first applied on the discovery cohort to find th
 **The .RMarkdown file contains:**
 
 **ANALYSIS 1:** Run the GMHI classifier to predict disease status ("healthy" vs "unhealthy") based on our samples. We used a 90-10 training-testing split to generate a discovery (training data) and validation (testing data) cohort.
-* _Testing step 1a:_ Calculate GMHI using the optimized parameters found in the training step for each stool metagenome in the validation cohort to investigate whether the distributions of GMHI differ between "healthy" and "unhealthy" disease status
-* _Testing step 1b:_ Find the balance accuracy in the validation cohort that corresponds to the optimized _theta<sub>f</sub>_ and _theta<sub>d</sub>_ found in the training step  
+* **_Testing step 1a:_** Calculate GMHI using the optimized parameters found in the training step for each stool metagenome in the validation cohort to investigate whether the distributions of GMHI differ between "healthy" and "unhealthy" disease status
+* **_Testing step 1b:_** Find the balance accuracy in the validation cohort that corresponds to the optimized _theta<sub>f</sub>_ and _theta<sub>d</sub>_ found in the training step  
 
 **ANALYSIS 2:** Run the GMHI classifier on all samples for which we have species-level information using the optimized parameters found in Gupta et al. (2020).
