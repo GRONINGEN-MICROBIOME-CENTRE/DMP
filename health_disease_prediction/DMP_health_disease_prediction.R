@@ -9,6 +9,8 @@ library(glmnet)
 library(pROC)
 library(vegan)
 library(doSNOW)
+library(corrplot)
+library(foreach)
 
 ## function do_clr_extrnalWeighting
 #
@@ -66,143 +68,195 @@ taxa_transformed = taxa_transformed[,colSums(taxa>0)>nrow(taxa) * 0.05]
 pathways_transformed = do_clr_externalWeighting(pathways,pathways)
 pathways_transformed = pathways_transformed[,colSums(pathways>0)>nrow(pathways) * 0.05]
 
-## split data into training and test sets
+## split data into training and test sets in cross-validation setup
 print(' >> prepping training and test sets')
 set.seed(12348)
+randomized_samples = sample(1:nrow(taxa_transformed))
+batches = split(randomized_samples,cut(seq_along(randomized_samples),5,labels = F))
+
 data.pred = data.frame(covar,shannon = shannon.div,taxa_transformed,pathways_transformed)
-train.set = sample(1:nrow(data.pred),size = round(0.9 * nrow(data.pred)))
-train.x = as.matrix(data.pred[train.set,])
-test.x = as.matrix(data.pred[-train.set,])
 
-# clinical parameters (age, sex, BMI)
-clin.train.x = train.x;clin.train.x[,(Ncovar+1):ncol(clin.train.x)] = 0
-clin.test.x = test.x;clin.test.x[,(Ncovar+1):ncol(clin.test.x)] = 0
+# training/test sets, predictors
+train_X = lapply(batches, function(x) data.pred[-x,])
+test_X = lapply(batches, function(x) data.pred[x,])
 
-# microbiome factors (taxa and pathways)
-microb.train.x = train.x;microb.train.x[,1:Ncovar] = 0
-microb.test.x = test.x;microb.test.x[,1:Ncovar] = 0
+#training/test sets, with microbiome data nullified, used in calculation of AUCs             
+train_X.clin = lapply(train_X, function(x) {x[,4:ncol(x)] = 0;x})
+test_X.clin = lapply(test_X, function(x) {x[,4:ncol(x)] = 0;x})
 
-# outcome
-train.y = pheno_disease[train.set,]
-test.y = pheno_disease[-train.set,]
+#training/test sets, with antropometric data nullified, used in calculation of AUCs                
+train_X.microb = lapply(train_X, function(x) {x[,1:3] = 0;x})
+test_X.microb = lapply(test_X, function(x) {x[,1:3] = 0;x})
 
-## use cross-validated glmnet for training and parameter selection
+#training/test sets, outcomes
+train_Y = lapply(batches, function(x) pheno_disease[-x,])
+test_Y = lapply(batches, function(x) pheno_disease[x,])
+                
+
+
+## Build prediction models
 # =================================================================
 
-print(' >> training model for health (no diseases)')
-# (prediction of health == no diseases)
-# ==============================================
-model.health = cv.glmnet(x=train.x,
-                         y = train.y[,"MED.DISEASES.None.No.Diseases"],
-                         nfold = 10,
-                         alpha = 0.5,
-                         penalty.factor = c(0,0,0,rep(1,ncol(train.x)-3)),
-                         family = "binomial")
+all_prediction_models = list()
 
-print('   >> testing the model')
-# use models to predict results on training and test sets
-train.prediction.full.min = predict(model.health,newx = train.x,s= "lambda.min")
-train.prediction.full.1se = predict(model.health,newx = train.x,s= "lambda.1se")
-  
-test.prediction.full.min = predict(model.health,newx = test.x,s= "lambda.min")
-test.prediction.full.1se = predict(model.health,newx = test.x,s= "lambda.1se")
-
-train.prediction.clin.min = predict(model.health,newx = clin.train.x,s= "lambda.min")
-train.prediction.clin.1se = predict(model.health,newx = clin.train.x,s= "lambda.1se")
-
-test.prediction.clin.min = predict(model.health,newx = clin.test.x,s= "lambda.min")
-test.prediction.clin.1se = predict(model.health,newx = clin.test.x,s= "lambda.1se")
-
-train.prediction.microb.min = predict(model.health,newx = microb.train.x,s= "lambda.min")
-train.prediction.microb.1se = predict(model.health,newx = microb.train.x,s= "lambda.1se")
-
-test.prediction.microb.min = predict(model.health,newx = microb.test.x,s= "lambda.min")
-test.prediction.microb.1se = predict(model.health,newx = microb.test.x,s= "lambda.1se")
-
-# create result tables
-# > training set
-predictions.train = cbind(train.prediction.microb.min,
-                    train.prediction.microb.1se,
-                    train.prediction.clin.min,
-                    train.prediction.clin.1se,
-                    train.prediction.full.min,
-                    train.prediction.full.1se)
-# > test set
-predictions.test = cbind(test.prediction.microb.min,
-                    test.prediction.microb.1se,
-                    test.prediction.clin.min,
-                    test.prediction.clin.1se,
-                    test.prediction.full.min,
-                    test.prediction.full.1se
-                    )
-write.table(predictions.test,'health_disease_prediction/Mockdata.out/predictions.test.csv',sep=',')
-write.table(predictions.train,'health_disease_prediction/Mockdata.out/predictions.train.csv',sep=',')
-
-print ('   >> calculating AUCs ')
-
-# calculate AUCs for no-disease (healthy) phenotype
-aucs.train = apply(predictions.train,2,
-      function(x){auc(train.y[,"MED.DISEASES.None.No.Diseases"],x)})
-aucs.test = apply(predictions.test,2,
-                   function(x){auc(test.y[,"MED.DISEASES.None.No.Diseases"],x)})
-
-names(aucs.train) = c("microbes.min","microbes.1se","clin.min","clin.1se","full.min","full.1se")
-names(aucs.test) = c("microbes.min","microbes.1se","clin.min","clin.1se","full.min","full.1se")
-write.table(aucs.train,'health_disease_prediction/Mockdata.out/nodisease_preds_aucs.train.csv',sep=',')
-write.table(aucs.test,'health_disease_prediction/Mockdata.out/nodisease_preds_aucs.test.csv',sep=',')
-
-##calculate AUCs for prediction of diseases, parallel implementation
-cl = makeCluster(8)
-registerDoSNOW(cl)
-disease_pred_models = foreach(i = 1:Ndisease) %dopar% {
-  complete.x = train.x[!is.na(train.y[,i]),]
-  complete.y = train.y[!is.na(train.y[,i]),]
-  cv1 = glmnet::cv.glmnet(complete.x,complete.y[,i],alpha = 0.5,nfolds = 5, family = "binomial")
+for( i in 1:5) {
+  for(j in 1:ncol(pheno_disease)){
+    current_X = train_X[[i]]
+    current_Y = train_Y[[i]]
+    current_y = current_Y[,j]
+  all_prediction_models[["pred.batch",i,".pheno.", j]] = cv.glmnet(as.matrix(complete.X),complete.Y,alpha = 0.5,nfolds = 10,family = "binomial")
+  }
 }
 
-disease_preds_microbes_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;s[,1:Ncovar] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
-disease_preds_clin_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;s[,(Ncovar+1):ncol(train.x)] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
-disease_preds_full_train = do.call(cbind,lapply(disease_pred_models,function(x){s =train.x;predict(x,newx = s,s = "lambda.min")[,1]}))
+## calculate training and test set predictions
+                
+# train predictions
+train.predictions.completeModel = list()
+for (i in 1:5){
+  train.predictions.completeModel[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+     predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+             newx = as.matrix(train_X[[i]]),s="lambda.min")[,1]
+  }
+}
+ 
+train.predictions.clin = list()
+for (i in 1:5){
+  train.predictions.clin[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+            newx = as.matrix(train_X.clin[[i]]),s="lambda.min")[,1]
+  }
+}
 
-disease_preds_microbes_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;s[,1:Ncovar] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
-disease_preds_clin_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;s[,(Ncovar+1):ncol(train.x)] = 0;predict(x,newx = s,s = "lambda.min")[,1]}))
-disease_preds_full_test = do.call(cbind,lapply(disease_pred_models,function(x){s =test.x;predict(x,newx = s,s = "lambda.min")[,1]}))
+train.predictions.microb = list()
+for (i in 1:5){
+  train.predictions.microb[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+            newx = as.matrix(train_X.microb[[i]]),s="lambda.min")[,1]
+  }
+}   
 
-disease_aucs = foreach(i = 1:Ndisease,.combine = rbind)%do%{
-  data.frame(train.microbes = auc(train.y[,i],disease_preds_microbes_train[,i]),
-             train.clin = auc(train.y[,i],disease_preds_clin_train[,i]),
-             train.full = auc(train.y[,i],disease_preds_full_train[,i]),
-             test.microbes = auc(test.y[,i],disease_preds_microbes_test[,i]),
-             test.clin = auc(test.y[,i],disease_preds_clin_test[,i]),
-             test.full = auc(test.y[,i],disease_preds_full_test[,i])
-  )
-             
-};rownames(disease_aucs) = colnames(pheno_disease)[1:Ndisease]
-write.table(disease_aucs,'health_disease_prediction/Mockdata.out/disease_aucs.csv',sep=',')
 
-aucs_byHealth_lambdaMin = foreach(i = 1:Ndisease,.combine = rbind)%do%{
-  data.frame(train.microbes = auc(train.y[,i],predictions.train[,1]),
-             train.clin = auc(train.y[,i],predictions.train[,3]),
-             train.full = auc(train.y[,i],predictions.train[,5]),
-             test.microbes = auc(test.y[,i],predictions.test[,1]),
-             test.clin = auc(test.y[,i],predictions.test[,3]),
-             test.full = auc(test.y[,i],predictions.test[,5])
-  )
-  
-};rownames(aucs_byHealth_lambdaMin) = colnames(pheno_disease)[1:Ndisease]
-write.table(aucs_byHealth_lambdaMin,'health_disease_prediction/Mockdata.out/aucs_byHealth_lambdaMin.csv',sep=',')
+# test predictions
+test.predictions.completeModel = list()
+for (i in 1:5){
+  test.predictions.completeModel[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+            newx = as.matrix(test_X[[i]]),s="lambda.min")[,1]
+  }
+}
 
-aucs_byHealth_lambda1se = foreach(i = 1:Ndisease,.combine = rbind)%do%{
-  data.frame(train.microbes = auc(train.y[,i],predictions.train[,2]),
-             train.clin = auc(train.y[,i],predictions.train[,4]),
-             train.full = auc(train.y[,i],predictions.train[,6]),
-             test.microbes = auc(test.y[,i],predictions.test[,2]),
-             test.clin = auc(test.y[,i],predictions.test[,4]),
-             test.full = auc(test.y[,i],predictions.test[,6])
-  )
-  
-};rownames(aucs_byHealth_lambda1se) = colnames(pheno_disease)[1:Ndisease]
-write.table(aucs_byHealth_lambda1se,'health_disease_prediction/Mockdata.out/aucs_byHealth_lambda1se.csv',sep=',')
+test.predictions.clin = list()
+for (i in 1:5){
+  test.predictions.clin[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+            newx = as.matrix(test_X.clin[[i]]),s="lambda.min")[,1]
+  }
+}
+
+test.predictions.microb = list()
+for (i in 1:5){
+  test.predictions.microb[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+            newx = as.matrix(test_X.microb[[i]]),s="lambda.min")[,1]
+  }
+}   
+## calculate AUCs ----------------------------------------------------------
+
+auc.train.completeModel = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(train_Y[[i]][,j],train.predictions.completeModel[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+auc.test.completeModel = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(test_Y[[i]][,j],test.predictions.completeModel[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+
+#clinical prediction
+auc.train.clin = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(train_Y[[i]][,j],train.predictions.clin[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+auc.test.clin = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(test_Y[[i]][,j],test.predictions.clin[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+
+#microbial prediction
+auc.train.microb = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(train_Y[[i]][,j],train.predictions.microb[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+auc.test.microb = foreach(i = 1:5,.combine = rbind)%:%
+  foreach(j = 1:37,.combine = cbind) %do%{
+    auc(roc(test_Y[[i]][,j],test.predictions.microb[[i]][,j],direction = "<",levels = c(1,2)))
+  }
+
+## Making signature correlation plot
+# =================================================================
+
+#merge all predictions together
+all_diseases.test= Reduce(rbind,test_Y)
+all_diseases.train= Reduce(rbind,train_Y)
+
+all_predictions.train.microb = Reduce(rbind,train.predictions.microb)
+all_predictions.train.clin = Reduce(rbind,train.predictions.clin)
+all_predictions.train.completeModel = Reduce(rbind,train.predictions.completeModel)
+all_predictions.test.microb = Reduce(rbind,test.predictions.microb)
+all_predictions.test.clin = Reduce(rbind,test.predictions.clin)
+all_predictions.test.completeModel = Reduce(rbind,test.predictions.completeModel)
+
+# plot --------------------------------------------------------------------
+
+CorMat.forPlot = cor(pheno_disease,use = "pairwise.complete.obs")
+CorMat.forPlot[lower.tri(CorMat.forPlot)] = cor(all_predictions.test.microb,use = "pairwise.complete.obs")[lower.tri(CorMat.forPlot)]
+
+col1<-colorRampPalette(c( "#9B2226", "#AE2021","#BB3E03","#CA6702","#FFFFFF",
+                          "#90e0ef", "#0077b6","#023e8a","#001219"))
+
+rownames(CorMat.forPlot) = c("1.Blood.Anemia",
+                             "2.Blood.Thrombosis",
+                             "3.Cancer.Any",
+                             "4.Cardiovascular.Arrythmia.MedDiagnosed",
+                             "5.Cardiovascular.Colesterol.high",
+                             "6.Cardiovascular.Heart.Attack",
+                             "7.Cardiovascular.Heart.Failure.Disorder",
+                             "8.Cardiovascular.Heartrate.complains",
+                             "9.Cardiovascular.Hypertension",
+                             "10.Endocrine.DiabetesT2",
+                             "11.Gastrointestinal.Stomach.Ulcer",
+                             "12.Hepatologic.Gallstones",
+                             "13.Mental.Any",
+                             "14.Mental.Burn.Out",
+                             "15.Mental.Depression",
+                             "16.Mental.Other.anxiety",
+                             "17.Mental.Panic.disorder",
+                             "18.Neurological.Dizziness.Falling",
+                             "19.Neurological.Mental.Fibromyalgia",
+                             "20.Neurological.Migraine",
+                             "21.Other.Autoimmune.Rheumatoid.Artritis",
+                             "22.Other.Chronic.cystitis",
+                             "23.Other.Chronic.Inflammation.Throatnose",
+                             "24.Other.Chronic.Muscle.Weakness",
+                             "25.Other.Fractures",
+                             "26.Other.Incontinence",
+                             "27.Other.Kidney.Stones",
+                             "28.Other.Osteoarthritis",
+                             "29.Other.Osteoporosis",
+                             "30.Other.RSI",
+                             "31.Pulmonary.Autoimmune.Asthma",
+                             "32.Pulmonary.COPD",
+                             "33.Skin.Autoimmune.Atopic.dermatitis",
+                             "34.Skin.Autoimmune.Psoriasis",
+                             "35.Skin.Autoimmune.Severe.acne",
+                             "36.Gastrointestinal.Rome3_IBS.Any",
+                             "37.None.NoDiseases"
+)
+colnames(CorMat.forPlot) = 1:37
+pdf(file = "26mayCor.pdf",width = 9,height = 9)
+corrplot(CorMat.forPlot,method = "square",col = col1(20),tl.cex = 0.85,cl.cex = 0.85)
+dev.off()
+
+
 
 print (' >> DONE! << ')
 
