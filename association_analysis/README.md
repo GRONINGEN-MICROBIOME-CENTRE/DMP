@@ -11,8 +11,9 @@ The folder contains scripts used to calculate associations between microbial fea
 
 ### Dependancies:
 
-- R libraries: *plyr, pheatmap, ggplot2, coin, vegan, foreach, data.table*
+- R libraries: *plyr, pheatmap, ggplot2, coin, vegan, foreach, data.table, ggtree*
 - these libs usually install correctly using: *install.packages(c('plyr','pheatmap', 'coin','ggplot2','pheatmap','vegan','foreach','data.table'))*
+- *ggtree* package is part of bioconductor and can be installed using *BiocManager::install("ggtree")*; *BiocManager* can be installed from CRAN using *install.packages("BiocManager")*.
 - DMP Associations summary statistics and phenotype grouping (distributed in *data* folder) - these files are used to re-produce DMP Figures 3/b, 4/a and Supplementary Figures S7 - S10
 - Mock data (distributed in ../Mock_data) - these files are used for code testing / demonstration of association analysis (performed by DMP_runAssociations.R). 
 
