@@ -23,6 +23,7 @@ The folder contains scripts used to calculate associations between microbial fea
 - R_sessionInfo_DMP_association_analysis_plots.txt : writedown of R environment used for testing of DMP_association_analysis_plots_esizes.R
 - DMP_Mockdata_runAssociations.R : script that performs microbiome-phenotype association analysis on *Mock data*. 
 - DMP_ScriptsAssociationWithCorrections.R : functions implementing microbiome-phenotype association analysis performed in the DMP project. For demonstration / code testing purposes, analysis is implemented on *Mock data* distributed with this github repo. NOTE: this file contains functions implementating the analysis and is not intended for direct execution - *DMP_Mockdata_runAssociations.R* is wrapped around these scripts that performs the analysis
-- *data* : summary statistics of DMP taxa-phenotype associations analysis (DAG3_v27d_supplementary_tables_S3B.txt), phenotype grouping file (phenotype_groups.csv), these files are used by *DMP_association_analysis_plots_esizes.R*
-- *plots* : plots produced by *DMP_association_analysis_plots_esizes.R*
+- DMP_Fig3a.R : script that generates graphic elements used to construct DMP Figures 3/A and S5.
+- *data* : summary statistics of DMP taxa-phenotype associations analysis and phenotype grouping files these files are used by *DMP_association_analysis_plots_esizes.R* and *DMP_Fig3a.R*
+- *plots* : plots produced by *DMP_association_analysis_plots_esizes.R* and *DMP_Fig3a.R*
 - *MockData.output* : expected results of *DMP_Mockdata_runAssociations.R*
