@@ -11,8 +11,8 @@ The folder contains scripts used to train and test models for prediction of heal
 
 ### Dependancies:
 
-- R libraries: *glmnet, pROC, doSNOW, vegan, foreach*
-- these libs usually install correctly using: *install.packages(c(glmnet, pROC, doSNOW, vegan, foreach))*
+- R libraries: *glmnet, pROC, doSNOW, vegan, foreach, corrplot*
+- these libs usually install correctly using: *install.packages(c(glmnet, pROC, doSNOW, vegan, foreach, corrplot))*
 - Mock data (distributed in ../Mock_data) - these files are used for code testing / demonstration of association analysis (performed by DMP_health_disease_prediction.R). 
 
 ### Files:

@@ -1,7 +1,12 @@
 # ==================================================
-# By: Weersma Group, UMCG (2020)
+# By: A.Kurilshikov, R.Gacesa, UMCG (2021)
 # DMP project, training and testing of
 # models for prediction of health and diseases
+#
+# NOTE: 
+# - code is implemented on Mock data, 
+# real DMP data can be obtained from EGA and Lifelines, 
+# please see the DMP manuscript for details
 # ==================================================
 
 ## libraries and functions
@@ -45,7 +50,8 @@ do_clr_externalWeighting = function(interest_matrix, core_matrix){
 
 print(' >> starting microbiome-disease prediction')
 # setwd: should be the root of github repo (DMP folder)
-# example: setwd('D:/Vbox/dag/DMP') 
+# example: 
+#setwd('C:/Users/Ranko/Documents/ub_shared/dag/gits/git_23_06/DMP') 
 setwd('.')
 
 print(' >> loading data ...')
@@ -93,105 +99,125 @@ train_Y = lapply(batches, function(x) pheno_disease[-x,])
 test_Y = lapply(batches, function(x) pheno_disease[x,])
                 
 
-
 ## Build prediction models
 # =================================================================
-
 all_prediction_models = list()
-
-for( i in 1:5) {
+print(' >> training models')
+for(i in 1:5) {
+  print(paste0('   > X-val set ',i,' ...'))
   for(j in 1:ncol(pheno_disease)){
+    print(paste0('    > Disease ',j,' ...'))
     current_X = train_X[[i]]
     current_Y = train_Y[[i]]
     current_y = current_Y[,j]
-  all_prediction_models[["pred.batch",i,".pheno.", j]] = cv.glmnet(as.matrix(complete.X),complete.Y,alpha = 0.5,nfolds = 10,family = "binomial")
+    #all_prediction_models[["pred.batch",i,".pheno.", j]] = cv.glmnet(as.matrix(complete.X),complete.Y,alpha = 0.5,nfolds = 10,family = "binomial")
+    all_prediction_models[[paste0("pred.batch",i,".pheno.", j)]] = cv.glmnet(x = as.matrix(current_X),
+                                                                     y = current_y,
+                                                                     alpha = 0.5,nfolds = 10,family = "binomial")
   }
 }
 
-## calculate training and test set predictions
-                
-# train predictions
+## calculate training set and test set predictions
+# =========================================                
+# predictions on training set, complete model (microbiome + clinical parameters)
 train.predictions.completeModel = list()
 for (i in 1:5){
   train.predictions.completeModel[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-     predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
-             newx = as.matrix(train_X[[i]]),s="lambda.min")[,1]
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #          newx = as.matrix(train_X[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
+            newx = as.matrix(train_X[[i]]),s="lambda.min")[,1]
+    
+    
   }
 }
- 
+# predictions on training set, clinical model (age, sex, BMI only) 
 train.predictions.clin = list()
 for (i in 1:5){
   train.predictions.clin[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #         newx = as.matrix(train_X.clin[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
             newx = as.matrix(train_X.clin[[i]]),s="lambda.min")[,1]
   }
 }
-
+# predictions on training set, microbiome only model 
 train.predictions.microb = list()
 for (i in 1:5){
   train.predictions.microb[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #         newx = as.matrix(train_X.microb[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
             newx = as.matrix(train_X.microb[[i]]),s="lambda.min")[,1]
+    
   }
 }   
 
-
-# test predictions
+# predictions on test set
+# =================================================
+# > complete model
 test.predictions.completeModel = list()
 for (i in 1:5){
   test.predictions.completeModel[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #         newx = as.matrix(test_X[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
             newx = as.matrix(test_X[[i]]),s="lambda.min")[,1]
   }
 }
-
+# clinical characteristics model
 test.predictions.clin = list()
 for (i in 1:5){
   test.predictions.clin[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #         newx = as.matrix(test_X.clin[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
             newx = as.matrix(test_X.clin[[i]]),s="lambda.min")[,1]
   }
 }
-
+# microbiome model
 test.predictions.microb = list()
 for (i in 1:5){
   test.predictions.microb[[i]] = foreach (j = 1:37,.combine = cbind)%do%{
-    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    # predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j,".RData")]],
+    #         newx = as.matrix(test_X.microb[[i]]),s="lambda.min")[,1]
+    predict(all_prediction_models[[paste0("pred.batch",i,".pheno.",j)]],
             newx = as.matrix(test_X.microb[[i]]),s="lambda.min")[,1]
   }
 }   
-## calculate AUCs ----------------------------------------------------------
 
+## calculate AUCs 
+# =================================================
 auc.train.completeModel = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(train_Y[[i]][,j],train.predictions.completeModel[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(train_Y[[i]][,j],train.predictions.completeModel[[i]][,j],direction = "<",levels = c(0,1)))
   }
 auc.test.completeModel = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(test_Y[[i]][,j],test.predictions.completeModel[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(test_Y[[i]][,j],test.predictions.completeModel[[i]][,j],direction = "<",levels = c(0,1)))
   }
 
 #clinical prediction
 auc.train.clin = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(train_Y[[i]][,j],train.predictions.clin[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(train_Y[[i]][,j],train.predictions.clin[[i]][,j],direction = "<",levels = c(0,1)))
   }
 auc.test.clin = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(test_Y[[i]][,j],test.predictions.clin[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(test_Y[[i]][,j],test.predictions.clin[[i]][,j],direction = "<",levels = c(0,1)))
   }
 
 #microbial prediction
 auc.train.microb = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(train_Y[[i]][,j],train.predictions.microb[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(train_Y[[i]][,j],train.predictions.microb[[i]][,j],direction = "<",levels = c(0,1)))
   }
 auc.test.microb = foreach(i = 1:5,.combine = rbind)%:%
   foreach(j = 1:37,.combine = cbind) %do%{
-    auc(roc(test_Y[[i]][,j],test.predictions.microb[[i]][,j],direction = "<",levels = c(1,2)))
+    auc(roc(test_Y[[i]][,j],test.predictions.microb[[i]][,j],direction = "<",levels = c(0,1)))
   }
 
-## Making signature correlation plot
+## Make signature correlation plot
 # =================================================================
 
 #merge all predictions together
@@ -205,7 +231,7 @@ all_predictions.test.microb = Reduce(rbind,test.predictions.microb)
 all_predictions.test.clin = Reduce(rbind,test.predictions.clin)
 all_predictions.test.completeModel = Reduce(rbind,test.predictions.completeModel)
 
-# plot --------------------------------------------------------------------
+# plot 
 
 CorMat.forPlot = cor(pheno_disease,use = "pairwise.complete.obs")
 CorMat.forPlot[lower.tri(CorMat.forPlot)] = cor(all_predictions.test.microb,use = "pairwise.complete.obs")[lower.tri(CorMat.forPlot)]
@@ -252,12 +278,7 @@ rownames(CorMat.forPlot) = c("1.Blood.Anemia",
                              "37.None.NoDiseases"
 )
 colnames(CorMat.forPlot) = 1:37
-pdf(file = "26mayCor.pdf",width = 9,height = 9)
-corrplot(CorMat.forPlot,method = "square",col = col1(20),tl.cex = 0.85,cl.cex = 0.85)
+pdf(file = "health_disease_prediction/Mockdata_Fig4b.pdf",width = 9,height = 9)
+corrplot(CorMat.forPlot,method = "square",col = col1(20),tl.cex = 0.85,cl.cex = 0.85,tl.col = "black")
 dev.off()
 
-
-
-print (' >> DONE! << ')
-
-#sessionInfo()

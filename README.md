@@ -106,13 +106,12 @@ We calculated the recently developed Gut Microbiome Health Index (GMHI) for DMP 
 - Figure 1/C: reproducing this figure requires phenotype data avaliable through Lifelines and microbiome data deposited at EGA. For code demonstration we provide: *microbiome_description/DMP_microbiome_FigS2A_1C_EGAdata_MockPhenotypes.R* which will correctly reproduce ordination plot and fit it with *Mock data* phenotypes, and *DMP_microbiome_FigS2A_1C_Mockdata_MockPhenotypes.R* for implementation using mock microbome data and mock phenotypes which does not require downloading data from EGA.
 - Supplementary Fig. S2/A : run *microbiome_description/DMP_microbiome_FigS2A_1C_EGAdata_MockPhenotypes.R* to fully reproduce the figure or *DMP_microbiome_FigS2A_1C_Mockdata_MockPhenotypes.R* for demonstration code which does not require downloading any extra data.
 - Figure 2 and Fig S4: run *heritability_analysis_v2/DMP_heritability_v10_realdata_plotresults.R* to re-produce Figure 2/A-B, *microbiome_cohousing_pairwise/DMP_microbiome_distance_Fig2CDE_FigS4.R* to re-produce Figure 2/C-E and Fig. S4. Note: these codes plot results, see *heritability_analysis_v2* for codes that construct heritability models and implementation on mock data for demonstration purposes (full data can be obtained from EGA and Lifelines biobank)
-- Figure 3/a and Supplementary Fig. S5 : <work in progress, coming soon>
+- Figure 3/a and Fig S5: run *association_analysis/DMP_Fig3a.R* to generate elements used to construct Fig 3/a and Fig S5
 - Figure 3/b : *association_analysis/DMP_association_analysis_plots_esizes.R* produces the plot from summary statistics of association analysis (distrubuted in this github repo and with DMP manuscript supplements). Association analysis requires DMP phenotypes and microbiome data (avaliable through EGA & Lifelines), 
 - Figure 3/c : *microbiome_variance/DMP_variance_explained_plots_Fig3C.R* . Codes that perform variance explained analysis requires phenotype data (avaliable from Lifelines), demonstration codes implemented on mock data are: *microbiome_variance/Mockdata_DMP_adonis_taxa.R*, *microbiome_variance/Mockdata_DMP_adonis_pwys.R*
 - Figure 4/a : *association_analysis/DMP_association_analysis_plots_esizes.R* produces the plot
-- Figure 4/b : <work in progress, coming soon>
+- Figure 4/b : *health_disease_prediction/DMP_Fig4b.R* generates the plot from summary statistics included in this github repo, *health_disease_prediction/DMP_health_disease_prediction.R* generates predictive models and plots the results using mock data
 - Supplementary Fig S3 : *microbiome_clustering/ClusterAnalysis_FigS3_EGAdata.R* performs clustering of microbiome (Fig S3/a-b requires microbiome data to be downloaded from EGA, Fig S3/c requires DMP phenotypes available from Lifelines). *microbiome_clustering/ClusterAnalysis_FigS3_MockData.R* is a demonstration code that performs analysis (Fig S3/a-c) on mock data bundled with this repo.
 - Supplementary Fig S4 : run *microbiome_cohousing_pairwise/DMP_microbiome_distance_Fig2CDE_FigS4.R*
-- Supplementary Fig S5 : <work in progress, coming soon>
-- Supplementary Fig S6 : <work in progress, coming soon>
-- Supplementary Fig S7-S10 : *association_analysis/DMP_association_analysis_plots_esizes.R* produces the plot
+- Supplementary Fig S6 : run *gmhi/DMP_GMHI.Rmd* 
+- Supplementary Fig S7-S10 : *association_analysis/DMP_association_analysis_plots_esizes.R* generates these plots
