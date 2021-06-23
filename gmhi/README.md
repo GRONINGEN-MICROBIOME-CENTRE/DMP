@@ -4,6 +4,11 @@ This folder contains code used to calculate Gut Microbiome Health Index (GMHI) o
 
 Briefly, the GMHI classifier is first applied on the discovery cohort to find the parameters which optimizes the balanced accuracy, i.e. the prevalence fold change (_theta<sub>f</sub>_) and the prevalence difference (_theta<sub>d</sub>_). Then the same classifier is run on the validation cohort, and from those results, the balanced accuracy corresponding to the optimized parameters (i.e. _theta<sub>f</sub>_ and _theta<sub>d</sub>_) found on the discovery cohort is extracted.
 
+**Dependencies**
+- R-markdown, R studio (not strictly required but recommended)
+- R packages tidyverse, ggpubr
+- *install.packages(c("rmarkdown","tidyverse","ggpubr"))* is usually sufficient to install these dependencies
+
 **The .RMarkdown file contains:**
 
 **ANALYSIS 1:** Run the GMHI classifier to predict disease status ("healthy" vs "unhealthy") based on our samples. We used a 90-10 training-testing split to generate a discovery (training data) and validation (testing data) cohort.
